@@ -1,0 +1,63 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE|default:" en" }}">
+<head>
+    <meta charset="UTF-8">
+
+    {% block title %}
+    <title>Magpie</title>
+    {% endblock %}
+
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <link href="/static/WebApp/css/style.css" media="all" rel="stylesheet"/>
+    <script src="/static/WebApp/js/jquery.js"></script>
+    <script src="/static/WebApp/js/script.js"></script>
+    <link rel="shortcut icon" href="{{ request.session.fav_icon }}"/>
+    <style>
+        .magpieHeader, .footerInner, .menuIcons, .btn {
+        background-color: {{ request.session.theme_color }};
+        }
+        .btn, .footerInner {
+        color: {{ request.session.font_color }};
+        }
+        #logo {
+        content: url({{ request.session.logo }});
+        }
+
+    </style>
+</head>
+
+<body>
+<section class="magpieCover clearfix">
+    {% if request.is_mobile == False and request.is_phone == False %}
+        {% include "WebApp/header.html" %}
+    {% endif %}
+    <section class="commonWrap clearfix">
+        <section class="magpieContainer clearfix">
+            {% block flash_messages %}
+            {% if messages %}
+            <ul class="messages container">
+                {% for message in messages %}
+                <li
+                {% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
+                {{ message }}
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endblock %}
+            <div class="magContainerWrap">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </section>
+        {% if request.is_mobile == False and request.is_phone == False %}
+            {% include "WebApp/footer.html" %}
+        {% endif %}
+    </section>
+</section>
+{% block scripts %} {% endblock %}
+</body>
+</html>

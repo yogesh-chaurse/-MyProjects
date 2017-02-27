@@ -1,0 +1,65 @@
+{% extends "CMS/layout.html" %}
+
+{% block content %}
+    <div class="magContainerCover">
+        <h1>Login</h1>
+        <form class="loginContainer" id="login" action="" method="post">
+            {% csrf_token %}
+                <div class="dataField firstChild">
+                    <label>{{ form.email.label }}</label>
+
+                    <div class="infoData">
+                        {{ form.email }}
+                        {% if form.email.errors %}
+                        <div class="error">{{form.email.errors}}</div>
+                        {% endif %}
+                        <div id="email-description"></div>
+                    </div>
+                </div>
+
+                <div class="dataField">
+                    <label>{{ form.password.label }}</label>
+
+                    <div class="infoData">
+                        {{ form.password }}
+                        {% if form.password.errors %}
+                        <div class="error">{{form.password.errors}}</div>
+                        {% endif %}
+                        <div id="password-description"></div>
+                    </div>
+                </div>
+                <div class="btnLinkWrap dataField">
+                        <button type="submit" class="btn">Submit</button>
+                </div>
+        </form>
+    </div>
+
+<script src="/static/CMS/js/jquery-validate.js"></script>
+<script>
+$('#login').validate({
+        onKeyup:true,
+        onChange:true,
+        onBlur:true,
+        onSubmit:true,
+        eachValidField : function() {
+            $(this).closest('.inpField').removeClass('has-error').addClass('has-success');
+
+        },
+        eachInvalidField : function() {
+            $(this).closest('.inpField').removeClass('has-success').addClass('has-error');
+        },
+        description :{
+            email:{
+                required:'<div class="error">Enter email Id</div>',
+                pattern:'<div class="error">Enter valid email Id</div>',
+            },
+            password:{
+                required:'<div class="error">Enter password</div>',
+            },
+
+        }
+    });
+</script>
+{% endblock %}
+
+  

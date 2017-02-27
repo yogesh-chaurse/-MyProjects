@@ -1,0 +1,1159 @@
+/* Font Face */
+@font-face{
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/helvetin.eot');
+	src: url('../fonts/helvetin.eot?iefix') format('eot'),
+	     url('../fonts/helvetin.ttf') format('truetype'),
+	     url('../fonts/helvetin.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'Helvetica';
+	src: url('../fonts/helvetic.eot');
+	src: url('../fonts/helvetic.eot?iefix') format('eot'),
+	     url('../fonts/helvetic.ttf') format('truetype'),
+	     url('../fonts/helvetic.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'HelveticaNeue Bold';
+	src: url('../fonts/helveticBold.eot');
+	src: url('../fonts/helveticBold.eot?iefix') format('eot'),
+	     url('../fonts/helveticBold.ttf') format('truetype'),
+	     url('../fonts/helveticBold.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'Helvetica Bold';
+	src: url('../fonts/HelveticaWorld-Bold.eot');
+	src: url('../fonts/HelveticaWorld-Bold.eot?iefix') format('eot'),
+	     url('../fonts/HelveticaWorld-Bold.ttf') format('truetype'),
+	     url('../fonts/HelveticaWorld-Bold.svg#webfont') format('svg');
+}
+
+/* Font Face End */
+body{
+	margin:0;
+	padding: 0;
+	color: #888;
+	background-color: #fff;
+	font-size: 14px;
+	font-family: 'Helvetica Neue';
+}
+
+html,body,.magpieCover{
+	height: 100%;
+}
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after, .clearfix:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+a{
+	outline: none;
+	text-decoration: none;
+	color: #555;
+}
+a:focus, a:hover{
+	color: #02a9d8;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0 0 20px 0;
+	padding: 0;
+}
+h1 {
+	font-size: 30px;
+	padding-bottom: 30px;
+	font-family: 'HelveticaNeue Bold', sans-serif;
+	margin-bottom: 0;
+	color: #555;
+}
+img{
+	max-width: 100%;
+	vertical-align: middle;
+	height: auto;
+}
+ul li{
+	list-style-type: none;
+}
+.dataTable{
+	width: 100%;
+	box-sizing: border-box;
+    clear: both;
+    display: table;
+    border: 1px solid #ebebeb;
+}
+.dataRow, .dataHead{
+	display: table-row;
+}
+.dataCell{
+	padding: 10px 20px;
+	display: table-cell;
+}
+.dataHead .dataCell{
+	padding: 15px 20px;
+	color: #555;
+	font-family: 'Helvetica Bold', sans-serif;
+	display: table-cell;
+	border-bottom: 1px solid #ebebeb;
+}
+.dataRow:nth-child(2n+1){
+	background-color: rgba(37, 37, 184, 0.1);
+}
+
+input[type="text"], textarea, input[type="password"], input[type="number"], input[type="email"], input, select {
+	color: #555;
+	font-size: 16px;
+	border: 1px solid #ebebeb;
+	background-color: #fff;
+	line-height: 20px;
+	border-radius: 5px;
+	font-family: 'Helvetica Neue', sans-serif;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 9px 10px;
+}
+::-webkit-input-placeholder {
+ 	color:#898989;
+}
+::-moz-placeholder {
+	color:#898989;
+}
+:-ms-input-placeholder {
+	color:#898989;
+ }
+input:-moz-placeholder {
+ 	color:#898989;
+}
+textarea {
+	min-height: 100px;
+}
+button, input[type="submit"],input[type="button"]{
+	box-shadow: none;
+	border: 0 none;
+	min-width: 110px;
+	text-align: center;
+	cursor: pointer;
+}
+.messages{
+    margin:0 auto 40px auto;
+    padding: 0;
+    width: 460px;
+    text-align: center;
+
+}
+.messages li{
+	list-style-type: none;
+}
+.messages .error , .messages .success{
+	background-color: #f2dede;
+    border-color: #f2dede;
+    padding: 10px;
+    color: #d9534f;
+    border-radius: 5px;
+}
+.messages .success{
+	background-color: #69a80e;
+	color: #fff;
+}
+ul.errorlist {
+	margin: 0;
+	padding: 0;
+}
+.errorlist li, .error{
+	color: red;
+	display: block;
+	font-size: 12px;
+	margin: 0 0 3px;
+	padding-top: 4px;
+}
+.grayBtn{
+	background-color: #dcdcdc;
+	border: 1px solid #cbcbcb;
+	color: #222222;
+	padding: 5px 10px;
+	border-radius: 5px;
+	line-height: 15px;
+	font-family: 'Helvetica', san-serif, Arial;
+	font-size: 12px;
+}
+.grayBtn:hover{
+	color: #222222;
+	background-color: #d9d3d3;
+}
+.btn {
+	background-color: #02a9d8;
+	color: #fff;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 18px;
+	display: inline-block;
+	border-radius: 5px;
+}
+.btn:hover, .btn:focus{
+	color: #fff;
+	background-color: #0883a6;
+}
+.buttonWrapper{
+	padding: 30px 0 38px 0;
+	border-top: 1px solid #e8e8e8;
+	text-align: center;
+}
+label, h5 {
+	font-size: 16px;
+	color: #555555;
+	font-weight: normal;
+	margin-bottom: 16px;
+	display: inline-block;
+	line-height: 20px;
+}
+.tooltipWrap{
+	margin-left: 9px;
+}
+.themeOptionLeft {
+    width: 155px;
+}
+.tooltip{
+	background-color: #555555;
+    border-radius: 50%;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    width: 13px;
+    margin-top: 7px;
+}
+.tooltipText {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 10px;
+    position: absolute;
+    right: -117px;
+    top: -48px;
+    width: 90px;
+    display: none;
+    z-index:99;
+}
+.splashTooltip .tooltipText{
+    top:-54px;
+}
+.tooltipText:after, .tooltipText:before {
+	content: "";
+	display: block;
+	height:0;
+	width: 0;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent #fff transparent transparent;
+	position: absolute;
+	left: -10px;
+	top: 50%;
+	margin-top: -5px;
+}
+ .tooltipText:before {
+ 	border-color: transparent #ddd transparent transparent;
+ 	left: -11px;
+ }
+.tooltip:hover{
+	color: #fff;
+}
+.tooltipWrap:hover > .tooltipText{
+	display: block;
+}
+.themeComBtn{
+    width: 68px;
+    text-align: center;
+}
+/* header css start*/
+.magpieFooterWrap,.headerInner, .magContainerWrap{
+	width: 960px;
+	margin: 0 auto;
+}
+.magpieHeader{
+	color: #fff;
+	background-color: #02a9d8;
+	position: relative;
+}
+.menuOpecWrap{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.magheaderWrap{
+	padding: 8px 0;
+	text-align: center;
+}
+.dropdown {
+	position: fixed;
+	left: -290px;
+	top: 0;
+	width: 250px;
+	height: 100%;
+	z-index: 9999;
+	background-color: #fff;
+	-moz-box-shadow: 1px -2px 4px 0 #D1D1D1;
+	-webkit-box-shadow: 1px -2px 4px 0 #D1D1D1;
+	box-shadow: 1px -2px 4px 0 #D1D1D1;
+	background-color: #fff;
+}
+ .dropdownToggle {
+ 	text-indent: -9999px;
+	display: block;
+	height: 19px;
+	left: 20px;
+	margin-top: -8px;
+	position: absolute;
+	top: 50%;
+	width: 30px;
+	background: transparent url("../images/bg_magpie.png") -16px -17px no-repeat;
+}
+.dropdownClose{
+	display: block;
+    height: 25px;
+    left: 20px;
+    padding: 10px 20px;
+    text-indent: -9999px;
+	background: #02a9d8 url("../images/bg_magpie.png") 5px -77px no-repeat;
+}
+.linkDropdown {
+	margin:0;
+	padding: 0;
+}
+.linkDropdown li{
+	line-height: 20px;
+	border-top: 1px solid #f4f4f4;
+	list-style-type: none;
+}
+.linkDropdown li a{
+	padding: 10px 20px;
+	display: block;
+	color: #888888;
+}
+.linkDropdown li a:hover{
+	color: #02a9d8;
+	text-decoration: none;
+}
+/* header css end*/
+
+/* Container Css */
+.dataField, .formWrapper {
+	margin-top: 44px;
+}
+.dataField.firstChild, .termsCondBlock.firstChild, .firstChild {
+	margin-top: 0px;
+}
+.commonWrap{
+	position: relative;
+}
+.magpieContainer{
+	padding: 40px 0;
+}
+.magContainer , .magContainerWrap{
+	height: 100%;
+}
+.magContainerWrap{
+	margin-bottom: 40px;
+	position: relative;
+}
+.magContainerCover{
+  max-width: 460px;
+  margin: 0 auto;
+  width: 100%;
+}
+.linkCancel {
+	text-decoration: underline;
+	margin-top: 18px;
+	display: inline-block;
+}
+/* Login Screen css start */ 
+.loginFields{
+	padding: 20px;
+	background: #ecf0f1;
+	border-radius: 5px;
+}
+.btnLinkWrap{
+	text-align: center;
+	font-size: 16px;
+}
+/* Login Screen css start end*/
+
+/*Dashboard Screen css strat */
+	.dashboardScreen{
+		background: transparent;
+		font-size: 40px;
+		text-align: center;
+	}
+/*Dashboard Screen css end */
+
+/* Business user Listing Css Start*/
+.colorBox{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	margin-left: 5px;
+	background-color: #d62c1a;
+}
+.pagination{
+	text-align: center;
+	display: block;
+	margin: 0;
+	padding: 15px;
+}
+ .pagination > li{
+ 	display: inline-block;
+ 	margin: 0 3px;
+ }
+.pagination a{
+  	display: block;
+  	padding: 5px 10px;
+  	border: 1px solid #ddd;
+ }
+ .pagination a:hover,.pagination li.active a{
+ 	background-color: #02a9d8;
+ 	color: #fff;
+ }
+ .nextLink a, .previousLink a{
+ 	padding: 0;
+ 	border: 0 none;
+ }
+  .nextLink a:hover, .previousLink a:hover{
+  	background-color: transparent;
+  	color: #02a9d8;
+  	text-decoration: underline;
+  }
+.btnAdd{
+	padding: 5px 10px;
+	font-size: 12px;
+}
+.searchForm{
+    float: right;
+}
+#searchInput{
+    width: 200px;
+}
+.searchForm .searchBtnBP{
+    margin: 0 10px 0 10px;
+    float:none;
+}
+.searchForm .searchBtnInst{
+    margin: 0 10px 0 10px;
+    float:none;
+}
+.activeSort {
+    color: #02a9d8;
+}
+.resetLink{
+    margin: 0 10px 0 0;
+}
+
+/* Theme customisation */
+	.leftSidebar{
+		float: left;
+		max-width: 216px;
+		width: 100%;
+		border-radius: 5px;
+		border: 2px solid #ebebeb;
+	}
+	.themeOptionLeft{
+		float: left;
+	}
+	#logo-description, #splash_screen-description{
+	    clear: both;
+	    float: none;
+	}
+	.optionList{
+		padding: 8px 0;
+		margin: 0;
+	}
+	.optionList > li{
+		padding: 12px 18px;
+		border-top:1px solid #f4f4f4;
+	}
+	.optionList li:first-child{
+		border: none;
+	}
+	.optionList h5{
+		color: #888888;
+		font-size: 15px;
+		margin-bottom: 12px;
+		font-family: 'HelveticaNeue Bold', san-serif, Arial;
+	}
+	.leftSidebar .inpFile{
+		width: 145px;
+		height: 15px;
+		line-height: 16px;
+	}
+	.leftSidebar .inpFile:before{
+		height: 25px;
+		width: 25px;
+		background-position: -14px -236px;
+	}
+	#picker{
+		width: 80px;
+		border: none;
+		box-shadow: none;
+		margin-left: 15px;
+		color: #666;
+		float: right;
+		height: 23px;
+		line-height: 23px;
+		padding: 0;
+	}
+	.radiowrap{
+		margin: 0;
+		padding: 0;
+		line-height: 26px;
+	}
+	.radiowrap li{
+		float: left;
+		margin-right: 20px;
+	}
+	.radiowrap label{
+		margin: 0;
+		font-size: 14px;
+		font-weight: normal;
+		color: #666;
+		background: transparent url("../images/bg_magpie.png") -19px -1643px no-repeat;
+	}
+	.radiowrap label.checked{
+		background-position: -19px -1715px;
+	}
+	.editLink{
+		color: #222222;
+		font-size: 12px;
+		line-height: 26px;
+		font-family: 'Helvetica', san-serif, Arial;
+	}
+	.themeOptionRight{
+		float: right;
+	}
+	.rightSidebar{
+		float: right;
+		max-width: 700px;
+		width: 100%;
+		padding: 25px 0 30px 0;
+		border-radius: 5px;
+		border: 2px solid #ebebeb;
+	}
+	.block{
+		background-color: #fff;
+	}
+	.screens{
+		max-width: 640px;
+		width: 100%;
+		margin: 48px auto 0 auto;
+		border: 1px solid #dddddd;
+		-webkit-box-shadow: 0 0 8px -1px #E2E2E2;
+		-moz-box-shadow: 0 0 8px -1px #E2E2E2;
+		box-shadow: 0 0 8px -1px #E2E2E2;
+	}
+	.screenHeader{
+		background-color: #02a9d8;
+		padding: 8px 20px;
+		text-align: center;
+		position: relative;
+	}
+	.responsiveMenu{
+		text-indent: -9999px;
+		display: block;
+		background: transparent url("../images/bg_magpie.png")  -6px -900px no-repeat;
+		height: 28px;
+		width: 30px;
+		padding-top: 4px;
+		position: absolute;
+		top: 50%;
+		margin-top: -14px;
+		left: 0;
+	}
+	.attachFileWrap{
+		position: relative;
+		word-break: break-word;
+	}
+/* Theme Header Css Start*/
+	.appOptions{
+		border-bottom: 1px solid #f4f4f4;
+		margin: 0;
+		padding: 0;
+	}
+	.appOptions li{
+		float: left;
+	}
+	.appOptions a{
+		color: #02a9d8;
+		font-size: 18px;
+		min-width: 112px;
+		padding-bottom: 14px;
+		display: block;
+		border-bottom: 1px solid  transparent;
+		text-align: center;
+		outline: none;
+		line-height: 17px;
+	}
+	.appOptions a:hover, .appOptions a.active{
+		text-decoration: none;
+		border-bottom: 1px solid  #02a9d8;
+		color: #222222;
+		position: relative;
+	}
+	 .appOptions a.active{
+	 	font-family: 'Helvetica Bold', san-serif, Arial;
+	 }
+	.appOptions a.active:after, .appOptions a.active:before{
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: -21px;
+		left: 50%;
+		margin-left: -10px;
+		border-width: 10px;
+		border-style: solid;
+		border-color: #02a9d8 transparent transparent transparent;
+	}
+	.appOptions a.active:after{
+		border-color: #fff transparent transparent transparent;
+		bottom: -20px;
+	}
+	img.logoImg{
+	    max-width: 68px;
+	    max-height: 19px;
+	}
+/* Theme Header Css End*/
+
+/* Theme Dashboard Css Start*/
+	.dashboardOpetionUl{
+		margin: 0 auto;
+    	width: 580px;
+    	padding: 25px 0 35px 0;
+	}
+	.magpieMenu{
+		min-height: 114px;
+		min-width: 120px;
+		float: left;
+		position: relative;
+	}
+	.themeCusDashboard .magpieMenu{
+		border: 1px solid #eeeeee;
+		border-radius: 5px;
+		margin: 10px;
+	}
+	.magpieOptionsWrap{
+		text-align: center;
+		margin: 18px 10px;
+	}
+	.menuIcons, .mobileMenuIcon{
+		background-color: #02a9d8;
+		border-radius:50%;
+		height: 68px;
+		width: 68px;
+		position: relative;
+		margin: 0 auto;
+	}
+	.menuIcons .iconWrap, .mobileMenuIcon .iconWrap{
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+	.menuIcons .iconWrap.active{
+		background: transparent url("../images/bg_magpie.png")  -15px -1574px no-repeat;
+	}
+	.menuIcons .icon, .mobileMenuIcon .icon{
+		text-indent: -9999px;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -26px 0 0 -28px;
+		background: transparent url("../images/bg_magpie.png") no-repeat;
+		outline: none;
+	}
+	.menuIcons .personalInfoImg{
+		background-position: 2px -298px;
+	}
+	.menuIcons .cardDocImg{
+		background-position: 1px -370px;
+	}
+	.menuIcons .lostWalletImg{
+		background-position: 1px -444px;
+	}
+	.menuIcons .insuranceImg{
+		background-position: 2px -516px;
+	}
+	.menuIcons .accTrackerImg{
+		background-position: 1px -593px;
+	}
+	.menuIcons .personalSaftyImg{
+		background-position: 1px -667px;
+	}
+	.menuIcons .antivirusImg{
+		background-position: 2px -738px;
+	}
+	.menuIcons .trackRImg{
+		background-position: 2px -812px;
+	}
+	.menuLabel{
+		margin-top: 10px;
+		display: inline-block;
+		font-size: 12px;
+		color: #898989;
+		line-height: 16px;
+	}
+	input[type="radio"] {
+		opacity: 0;
+		height: auto;
+		width: auto;
+		margin: 0;
+	}
+/* Theme Dashboard Css End*/
+
+/* Mobile Screen */
+	.mobileAppHeader{
+		background-color: #02a9d8;
+    	padding: 5px;
+    	text-align: center;
+	}
+	.mobScreenHeaderInner{
+		position: relative;
+	}
+	#mobileAppScreen{
+		width: 260px;
+	}
+	.mobileAppHeader img {
+		vertical-align: top;
+	}
+	.mobileResponsiveMenu{
+		background-position: -20px -900px;
+	}
+	#mobileAppScreen .magpieMenu{
+		min-width: 80px;
+		min-height: 101px;
+	}
+	.mobileDashboard{
+		padding: 0;
+		width: 240px;
+		margin: 0 auto;
+	}
+	.mobileDashboard .magpieOptionsWrap{
+		margin: 22px 5px 0 5px;
+	}
+	.mobileMenuIcon, .mobileMenuIcon .icon{
+		height: 42px;
+		width: 42px;
+	}
+	.mobBlueBtn:hover{
+		background-color: #02A9D8;
+	}
+	.mobButtonWrapper{
+		padding: 22px 0;
+	}
+	.mobileMenuIcon .icon{
+		margin: -21px 0  0 -21px;
+	}
+	.mobileMenuIcon .personalInfoImg{
+		background-position: -5px -968px;
+	}
+	.mobileMenuIcon .cardDocImg{
+		background-position: -6px -1040px;
+	}
+	.mobileMenuIcon .lostWalletImg{
+		background-position: -5px -1113px;
+	}
+	.mobileMenuIcon .insuranceImg{
+		background-position: -5px -1186px;
+	}
+	.mobileMenuIcon .smartMoneyImg{
+		background-position: -5px -1263px;
+	}
+	.mobileMenuIcon .personalSaftyImg{
+		background-position: -6px -1486px;
+	}
+	.mobileMenuIcon .antivirusImg{
+		background-position: -6px -1337px;
+	}
+	.mobileMenuIcon .trackRImg{
+		background-position: -5px -1411px;
+	}
+	#mobileAppScreen .menuLabel{
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.mobButtonWrapper{
+		text-align: center;
+	}
+
+/* Add Theme css*/
+padding-left: 0;
+}
+.color-box{
+	box-shadow: none;
+}
+.font-color,  .theme-color {
+	float:left;
+	width: 23px;
+	height: 23px;
+	border: 1px solid #ebebeb;
+	float: left;
+	outline: none;
+}
+.ColorHelpText{
+	float: left;
+	line-height: 23px;
+	margin-right: 10px;
+}
+#id_font_color {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.radioBoxes label{
+	margin-bottom: 5px;
+}
+.addThemeForm  .optionStatus{
+	padding-top: 0;
+}
+.addThemeForm input[type="checkbox"]{
+	margin-left: 15px;
+}
+ .addThemeForm .btnLinkWrap{
+ 	margin-top: 35px;
+ }
+input[type="file" i], input[type="file" i]::-webkit-file-upload-button{
+	cursor: pointer !important;
+}
+.inpFile{
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	background-color: #fff;
+	width: 100%;
+	border:1px solid #dddddd;
+	border-radius: 5px;
+	padding: 5px;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.inpFile:before {
+	background:  #F1F1F1 url("../images/bg_magpie.png") no-repeat  -12px -232px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #DDDDDD;
+    border-top-right-radius: 5px;
+    color: #FFFFFF;
+    content: "";
+    cursor: pointer;
+    font-size: 12px;
+    height: 35px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 30px;
+}
+input[type="file"]{
+	position: absolute;
+	left: -999999px;
+	cursor: pointer;
+}
+.buttonWrap{
+	margin-top: 20px;
+}
+ .helpText{
+ 	margin-top: 8px;
+	display: inline-block;
+	font-size: 12px;
+	color: #898989;
+ }
+ #splashScreen{
+ 	width: 260px;
+ 	position: relative;
+ 	border: none;
+ 	margin-bottom: 25px;
+ }
+ .splashAppHeader{
+ 	position: absolute;
+ 	left:0;
+ 	top: 0;
+ 	padding: 0 2%;
+ 	width: 96%;
+ }
+
+ .splashWrap{
+    height:487px;
+ }
+.splashWrap img{
+    height: 100%;
+}
+.numberInpDiv .numberInpData {
+	width: 48%;
+	display:inline-block;
+ }
+ .titleWrap{
+    margin-bottom: 20px;
+ }
+h5.editTitle{
+    float: left;
+    margin-bottom: 0;
+}
+.editOption{
+    float: right;
+    line-height: 20px;
+}
+/* Institution Listing */
+.pageTitle{
+	float: left;
+}
+.topBtn{
+	float: right;
+}
+.editOptions{
+	margin: 0;
+	padding: 0;
+}
+.editOptions li{
+	float: left;
+	margin: 0 5px;
+}
+.editOptions .editLink{
+	text-indent: -9999px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: transparent url(../images/bg_magpie.png) -19px -1789px no-repeat;
+}
+.editOptions .deleteLink{
+	background-position: -19px -1862px;
+}
+.editOptions .viewLink{
+	background-position: -19px -1937px;
+}
+.contactNum{
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.partnerListMsg{
+    text-align: center;
+    position: relative;
+}
+.partnerListMsg .dataCell{
+  position: absolute;
+  left: 50%;
+  width: 960px;
+  margin-left: -480px;
+  padding: 40px 0;
+  border: 1px solid #ebebeb;
+}
+.partnerListMsg .dataCell{
+    border-top: 0 none;
+}
+
+/* Institution Detail */
+.institutionDetail h5{
+	font-family: 'HelveticaNeue Bold', sans-serif;
+	margin-bottom: 10px;
+}
+.institutionDetail .dataField{
+	color: #898989;
+}
+.institutionLanguage{
+	padding: 0;
+	margin: 0;
+}
+.institutionLanguage li{
+	margin-top: 10px;
+}
+.institutionLanguage li.firstChild{
+	margin: 0;
+}
+.helpLink{
+	color: #02a9d8;
+}
+.helpLink:hover{
+	text-decoration: underline;
+}
+.btnNo{
+	margin-left: 10px;
+}
+#loader{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -128px;
+}
+.fetchBtn{
+    margin-bottom: 20px;
+}
+/* Footer css start */
+.magpieFooter{
+	padding-top: 40px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+}
+.footerInner{
+	background-color: #02a9d8;
+	color: #fff;
+	padding: 10px 0;
+}
+.magpieFooter p{
+	margin: 0;
+}
+.magpieFooterWrap{
+	text-align: center;
+}
+
+/* Footer css end */
+
+.upArrow {
+    background-image: url("../images/upArrow.png");
+    background-repeat:  no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+    background-size: 100% auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.upArrow.activeSort {
+    background-image: url("../images/upArrowActive.png");
+}
+
+.downArrow {
+    background-image: url("../images/downArrow.png");
+    background-repeat:  no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+    background-size: 100% auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.downArrow.activeSort {
+    background-image: url("../images/downArrowActive.png");
+}
+
+/* Filter dropdown css */
+.InstitutionList h1{
+    padding-bottom: 0;
+}
+.magContainerWrap .filterWrap{
+    width: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+.ui-multiselect-menu .topBtn{
+    float: none;
+    width: 95%;
+    margin: 5px 5px;
+}
+.magContainerWrap .ui-state-default,
+.magContainerWrap .ui-state-hover{
+      width: 220px !important;
+      color: #555555;
+      background: none;
+      padding: 9px 10px;
+      border: 1px solid #cccccc;
+      font-weight: normal;
+      font-size: 16px;
+      position: relative;
+}
+.selectWrap {
+    float: left;
+    margin-right: 15px;
+}
+.magContainerWrap .filterWrap.fullFilter {
+    float: none;
+}
+
+.filterWrap .searchForm {
+    float: left;
+}
+.filterWrap .resetLink {
+    margin-top: 15px;
+}
+.ui-multiselect-menu.ui-widget-content{
+    background: #FFFFFF
+}
+.ui-corner-all{
+    border-radius: 0;
+}
+.ui-multiselect-menu .ui-widget-header{
+  border: 1px solid #4EC3E4;
+  background: #02a9d8;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.ui-multiselect.ui-state-default .ui-icon{
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid #02a9d8;
+      background-image: none;
+      position: absolute;
+      top: 50%;
+      right: 4%;
+      margin-top: -3px;
+}
+.ui-state-default.ui-state-active .ui-icon{
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #02a9d8;
+    border-top: none;
+}
+.ui-multiselect-menu .ui-widget-header a{
+    color: #FFFFFF;
+}
+.ui-multiselect-menu .ui-multiselect-header a:hover{
+    text-decoration: none;
+}
+.ui-multiselect-menu .ui-multiselect-checkboxes label {
+    font-size: 14px;
+    border:none;
+    padding: 3px 5px;
+}
+.ui-multiselect-menu .ui-multiselect-checkboxes label input{
+  position: relative;
+  top: 1px;
+  float: right;
+  display: inline-block;
+  width: auto;
+  outline: none;
+}
+
+.ui-multiselect-checkboxes .ui-state-hover,
+.ui-widget-content .ui-multiselect-checkboxes .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: none;
+  background: #CCEEF7;
+  font-weight: normal;
+  color: #555555;
+  border-radius: 0;
+  margin: 0;
+  padding: 3px 5px;
+}
+
+.ui-multiselect-checkboxes label{
+margin-bottom: 0;
+}

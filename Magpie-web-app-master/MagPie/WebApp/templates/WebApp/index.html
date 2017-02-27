@@ -1,0 +1,49 @@
+{% extends "WebApp/layout.html" %}
+{% block content %}
+<h1 class="noBorder pibLogo">Personal Info Bank</h1>
+<div class="formWrapper termsCondInfo contentPage pibPage">
+    <div class="termsCondBlock firstChild">
+        <div>
+            <p>Keep your information secure</p>
+        </div>
+        <div>
+            <p>Decide what to share, and with whom</p>
+        </div>
+        <div>
+            <p class="autoPara">Automatically update your information from one place</p>
+        </div>
+        <form class="form-horizontal formWrapper" id="login" action="" method="post">
+            {% csrf_token %}
+
+            <div class="dataField">
+                <div class="infoData">
+                    {{ form.email }}
+                    {% if form.email.errors %}
+                    <div class="error clearfix">{{form.email.errors}}</div>
+                    {% endif %}
+                    <div id="email-description"></div>
+                </div>
+            </div>
+
+            <div class="dataField">
+                <div class="infoData">
+                    {{ form.password }}
+                    {% if form.password.errors %}
+                    <div class="error">{{form.password.errors}}</div>
+                    {% endif %}
+                    <div id="password-description"></div>
+                </div>
+            </div>
+            <div class="btnLink dataField">
+                <div>
+                    <button type="submit" class="btn " data-href="dashboard.html">Login
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="/static/WebApp/js/jquery-validate.js"></script>
+<script type="text/javascript" src="{% url 'django.views.i18n.javascript_catalog' %}"></script>
+<script src="/static/WebApp/js/validations/login.js"></script>
+{% endblock %}

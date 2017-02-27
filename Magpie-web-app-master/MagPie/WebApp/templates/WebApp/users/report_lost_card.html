@@ -1,0 +1,63 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+<div class="webAppForm clearfix">
+    <form class="form-horizontal formWrapper col-lg-4" id="lostCardsForm" action="" method="post">
+        <h3>{% trans "Report Lost Card" %}</h3>
+        {% csrf_token %}
+        <fieldset class="loginFields">
+            <label>{{ form.cards.label }}</label>
+            {% for card in form.cards %}
+            <div class="form-group checkboxList inpField">
+                {{ card.label }}
+                {{ card }}
+            </div>
+            {% endfor %}
+            {{ form.cards.errors }}
+
+            <div class="form-group clear">
+                <div class="inpField">
+                    {{ form.lost_stolen }}
+                    {% if form.lost_stolen.errors %}
+                            <div class="error">{{form.lost_stolen.errors}}</div>
+                            {% endif %}
+                    <div id="id_lost_stolen-description"></div>
+                </div>
+            </div>
+
+            <div class="form-group clear">
+                    <label>{{ form.date_time.label }}</label>
+                    <div class="inpField">
+                        {{ form.date_time }}
+                        {% if form.date_time.errors %}
+                                <div class="error">{{form.date_time.errors}}</div>
+                                {% endif %}
+                        <div id="id_date_time-description"></div>
+                    </div>
+            </div>
+
+            <div class="form-group">
+                <label>{{ form.describe_event.label }}</label>
+                <div class="inpField">{{ form.describe_event }}</div>
+            </div>
+            {% include "WebApp/users/contact_info.html" %}
+            <div class="btnLinkWrap btnLink clear">
+                <span href="tel:0123456789" class="label label-info">{% trans "Call Help Center : 0123456789" %}</span>
+                <div class="buttonWrap">
+                    <button type=submit" class="btn btn-primary btnSubmit" data-href="dashboard.html" id="submitBtn">{% trans "Submit" %}
+                    </button>
+                    <a href="{% url 'dashboard' %}" class="btn btn-primary btnCancel">{% trans "Cancel" %}</a>
+                </div>
+
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/static/css/bootstrap-datetimepicker.css"/>
+<script src="/static/WebApp/js/jquery-validate.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="{% url 'django.views.i18n.javascript_catalog' %}"></script>
+<script src="/static/WebApp/js/validations/report_lost_card.js"></script>
+{% endblock %}

@@ -1,0 +1,1053 @@
+/* Font Face */
+@font-face{
+	font-family: 'PT Sans Regular';
+	src: url('PTS55F-webfont.eot');
+	src: url('PTS55F-webfont.eot?iefix') format('eot'),
+	     url('PTS55F-webfont.woff') format('woff'),
+	     url('PTS55F-webfont.ttf') format('truetype'),
+	     url('PTS55F-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+	font-family: 'PT Sans Bold';
+	src: url('PTS75F-webfont.eot');
+	src: url('PTS75F-webfont.eot?iefix') format('eot'),
+	     url('PTS75F-webfont.woff') format('woff'),
+	     url('PTS75F-webfont.ttf') format('truetype'),
+	     url('PTS75F-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Font Face End */
+
+body{
+	font-family: 'PT Sans Regular', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	position: relative;
+	color: #555;
+}
+.clearfix {
+  clear: both;
+}
+.clearfix:after, .clearfix:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+a{
+	color: #02a9d8;
+	text-decoration: none;
+}
+a:focus, a:hover{
+	text-decoration: none;
+	color: #02a9d8;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0 0 20px 0;
+	padding: 0;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 30px;
+	font-family: 'PT Sans Bold', sans-serif;
+	margin-bottom: 0;
+	color: #555;
+}
+h3{
+	font-family: 'PT Sans Bold', sans-serif;
+	font-size: 18px;
+	margin: 0 0 5px 0;
+	color: #555;
+	line-height: 20px;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+.noBorder{
+	border: 0 none;
+	padding: 0;
+}
+.messages{
+    margin:0 auto 40px auto;
+    padding: 0;
+    width: 460px;
+    text-align: center;
+}
+.messages li{
+	list-style-type: none;
+}
+.messages .error , .messages .success{
+	background-color: #f2dede;
+    border-color: #f2dede;
+    padding: 10px;
+    color: #d9534f;
+    border-radius: 5px;
+}
+.messages .success{
+	background-color: #69a80e;
+	color: #fff;
+}
+.alert-success, .success{
+    background-color: #69a80e;
+    border-color: #69a80e;
+    color: #ffffff;
+    padding: 10px;
+}
+ul.errorlist {
+	margin: 0;
+	padding: 0;
+}
+.errorlist li, .error{
+	color: red;
+	display: block;
+	font-size: 12px;
+	margin: 0 0 3px;
+	padding-top: 4px;
+}
+input[type="file" i], input[type="file" i]::-webkit-file-upload-button{
+	cursor: pointer !important;
+}
+label, h5{
+	font-size: 16px;
+	color: #555555;
+	font-family: 'PT Sans Regular', sans-serif;
+	font-weight: normal;
+	margin-bottom: 16px;
+	display: inline-block;
+	line-height: 20px;
+}
+h5{
+	margin: 0;
+	display: block;
+}
+p{
+	margin: 0 0 10px 0;
+}
+input[type="text"], textarea, input[type="password"], input[type="number"], input[type="email"], input, select{
+	color: #000;
+	font-size: 16px;
+	border: 1px solid #ebebeb;
+	background-color: #fff;
+	line-height: 20px;
+	border-radius: 5px;
+	font-family: 'PT Sans Regular', sans-serif;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 9px 10px;
+}
+::-webkit-input-placeholder {
+   color: #898989;
+}
+:-moz-placeholder {
+   color: #898989;
+}
+::-moz-placeholder {
+   color: #898989;
+}
+:-ms-input-placeholder {
+   color: #898989;
+}
+input[type="button"], input[type="submit"], .btn, button{
+	box-shadow: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+input[readonly], textarea[readonly] {
+    background-color: #E2E2E2;
+    color: #555555;
+}
+select{
+	opacity: 0;
+	display: block;
+	margin-top:-40px;
+	cursor: pointer;
+}
+textarea{
+	min-height: 100px;
+}
+input[type="radio"]{
+	opacity: 0;
+	height: auto;
+	width: auto;
+}
+#id_method_of_contact  label{
+	display: inline;
+}
+#id_method_of_contact  label{
+	background: transparent url("../images/sprite.png") -19px -703px no-repeat;
+}
+#id_method_of_contact  label.checked{
+	background: transparent url("../images/sprite.png") -19px -767px no-repeat;
+}
+.btn{
+	background-color: #02a9d8;
+	color: #fff;
+	padding: 10px 5px;
+	min-width: 130px;
+	font-size: 16px;
+	line-height: 18px;
+	display: inline-block;
+}
+.btn:hover,.btn:focus, .btn:active {
+	background-color: #0394bd;
+	color: #fff;
+}
+ol{
+	margin: 0;
+}
+ol li{
+	margin-top: 5px;
+}
+.btnLink{
+	text-align: center;
+	font-size: 16px;
+}
+.linkCancel, .editLink{
+	text-decoration: underline;
+	margin-top: 18px;
+	display: inline-block;
+}
+.linkCancel:hover, .edit:hover{
+	text-decoration: underline;
+}
+/* header css start*/
+	.magpieHeader{
+		color: #fff;
+		background-color: #02a9d8;
+		position: relative;
+	}
+	.headerInner{
+		position: relative;
+	}
+	.magheaderWrap{
+		padding: 8px 0;
+		text-align: center;
+	}
+	.magpieLogo{
+		display: inline-block;
+	}
+	#logo{
+	    height: 30px;
+	    max-width: 109px;
+	}
+	.dropdown {
+		position: absolute;
+		width: 200px;
+		right: 0;
+		top: 50%;
+		margin-top: -30px;
+	}
+	.headerNav {
+		position: relative;
+	}
+	.linkDropdown{
+		padding: 5px 0;
+		margin:  0;
+		border-top: 1px solid #ebebeb;
+	}
+	.firstLinkDropdown{
+		border-top: 0 none;
+		padding-top: 23px;
+	}
+	.menuSlide {
+		position: fixed;
+		left: -290px;
+		top: 0;
+		width: 210px;
+		height: 100%;
+		z-index: 9999;
+		background-color: #fff;
+		-moz-box-shadow: 1px -2px 4px 0 rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 1px -2px 4px 0 rgba(0, 0, 0, 0.3);
+		box-shadow: 1px -2px 4px 0 rgba(0, 0, 0, 0.3);
+		padding: 25px 20px;
+	}
+	.linkDropdown li{
+		margin: 15px 0;
+		list-style-type: none;
+		line-height: 16px;
+	}
+	.linkDropdown a{
+		font-size: 16px;
+		color: #555555;
+	}
+	.linkDropdown li a:hover, .linkDropdown li a:focus {
+		text-decoration: none;
+		color: #02a9d8;
+	}
+	.bgIcon{
+		text-indent: -9999px;
+		display: block;
+	}
+	.responsiveMenu{
+		background: transparent url("../images/sprite.png")  -15px -16px no-repeat;
+		height: 19px;
+		left: 20px;
+		margin-top: -8px;
+		position: absolute;
+		top: 50%;
+		width: 30px;
+	}
+	.linkClose{
+		width: 18px;
+		height: 16px;
+		background: transparent url("../images/sprite.png") -18px -80px no-repeat;
+	}
+	.menuOpecWrap{
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 9;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+/* header css end*/
+	.commonWrap{
+		position: relative;
+	}
+	.magpieContainer{
+		padding: 60px 0;
+	}
+	.formWrapper{
+		width: 100%;
+	}
+	.btnLinkWrap{
+		text-align: center;
+	}
+	.btnCancel{
+		margin-left: 20px;
+	}
+	.magContainerWrap, .magpieFooterWrap{
+		max-width: 960px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.magContainerWrap{
+		margin-bottom: 60px;
+	}
+/* Dashboard CSS */
+	.dashboardOpetionUl{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	.magpieMenu{
+		min-height: 200px;
+		min-width: 200px;
+		border: 2px solid #ebebeb;
+		border-radius: 5px;
+		float: left;
+		margin: 0 20px 40px 20px;
+		position: relative;
+	}
+	.magpieOptionsWrap{
+		text-align: center;
+		margin: 34px 10px 10px 10px;
+	}
+	.menuIcons{
+		background-color: #02a9d8;
+		border-radius: 50% 50% 50% 50%;
+		height: 100px;
+		width: 100px;
+		position: relative;
+		margin: 0 auto;
+	}
+	.menuIcons a{
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+	.menuIcons span{
+		text-indent: -9999px;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -26px 0 0 -28px;
+		background: transparent url("../images/sprite.png") no-repeat;
+		outline: none;
+	}
+	.menuIcons .insuranceImg{
+		background-position: 1px -183px;
+	}
+	.menuIcons .parentalCtrImg{
+		background-position: 2px -123px;
+	}
+	.menuIcons .intSecurityImg{
+		background-position: 3px -246px;
+	}
+	.menuLabel{
+		margin-top: 15px;
+		display: inline-block;
+		font-size: 18px;
+		color: #898989;
+	}
+
+/* PersonalInformation */
+	.personalInfo .infoData{
+		color: #898989;
+		font-size: 16px;
+		display: block;
+		line-height: 18px;
+		margin-top: 8px;
+	}
+	.magpieWrapper{
+		width: 460px;
+		margin: 0 auto;
+	}
+	.dataField, .formWrapper{
+		margin-top: 44px;
+	}
+	.dataField.firstChild, .termsCondBlock.firstChild{
+		margin-top: 0px;
+	}
+	.dataField:first-child{
+		margin-top: 0;
+	}
+/* Old Code */
+	.editLink{
+		margin: 10px 0;
+	}
+	.attachFileWrap{
+		height: auto;
+	}
+	/* Upload Button */
+	input[type="button" i], input[type="submit" i],
+	input[type="reset" i], input[type="file" i]::-webkit-file-upload-button,
+	input[type="file" i]::-moz-file-upload-button{
+		cursor: pointer !important;
+	}
+	.buttonWrap{
+		margin-top: 20px;
+	}
+	.noteMsg, .claim_msg, .moreInfo{
+		margin-top: 8px;
+		display: inline-block;
+		font-size: 12px;
+		color: #898989;
+	}
+	.noteMsg{
+		display: block;
+	}
+	.moreInfo{
+		margin: 5px 0 0 15px;
+	}
+	.moreInfo a{
+		color: #555;
+		text-decoration: underline;
+		margin-left: 5px;
+		display: inline-block;
+	}
+	.moreInfo a:hover{
+		color: #02a9d8;
+	}
+/* Insurance CSS */
+	.selectWrap {
+		position: relative;
+		width: 300px;
+		height: 38px;
+		line-height: 38px;
+		border: 1px solid #ebebeb;
+		width: 100%;
+		border-radius: 5px;
+		font-size: 16px;
+		background: transparent url('../images/sprite.png') 100% -823px no-repeat;
+		text-indent: 10px;
+		color: #898989;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	#id_claim_description{
+		color: #acacac;
+	}
+	#id_method_of_contact{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		overflow: hidden;
+	}
+	#id_method_of_contact li{
+		float: left;
+		margin-right: 35px;
+	}
+	#id_method_of_contact label{
+		margin: 0
+	}
+	.checkboxes > label{
+		margin-bottom: 5px;
+	}
+	.quesIco{
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		background-color: #555555;
+		color: #fff;
+		font-size: 10px;
+		display: inline-block;
+		text-align: center;
+		line-height: 12px;
+	}
+	.conformWrap{
+		font-size: 16px;
+	}
+	.conformBtn{
+		margin-top: 34px;
+	}
+/* Upload Button */
+.inpFileWrap{
+	margin-top: -40px;
+	width: 100px;
+	overflow: hidden;
+}
+.inpFile{
+  	display: inline-block;
+    line-height: 40px;
+    margin-left: 10px;
+    position: relative;
+    color: #acacac;
+    font-size: 16px;
+}
+.btnBrowse {
+    cursor: pointer;
+    font-size: 16px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    min-width: 100px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0;
+    display: inline-block;
+}
+.file_upload{
+	position: relative;
+	overflow-x: hidden;
+}
+#attach_file {
+    cursor: pointer;
+    height: 41px;
+    left: -256px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: auto;
+}
+.buttonWrap{
+	margin-top: 20px;
+}
+
+/* Subscription Information CSS */
+.subscriptionInfo .dataField{
+	margin-top: 20px;
+	width: 160px;
+}
+
+.subscriptionInfo  .infoData{
+	margin-top: 5px;
+	display: block;
+	color: #898989;
+}
+.subscriptionInfo h5 , .contentPage  h5{
+	font-family: 'PT Sans Bold', sans-serif;
+	margin-bottom: 5px;
+}
+.subscriptionField  .infoData, .subscriptionInfo .dataField:first-child{
+	margin-top: 0
+}
+.subscriptionField .startDate{
+	margin-top: 5px;
+}
+.dateInfo{
+	float: right;
+}
+.leftBtn{
+	margin-left: 10px;
+}
+/* Terms and Conditions */
+.termsCondBlock{
+	margin-top: 14px;
+	color: #898989;
+}
+.contentPage{
+	margin: 50px auto 0 auto;
+	width: 620px;
+}
+
+/* Popup CSS Start*/
+.popup{
+	position: fixed;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+.popup h3{
+	display: block;
+	clear: both;
+	margin: 0;
+	padding: 0 0 24px 0;
+}
+.popupOverlay{
+	background-color: #fff;
+	width: 540px;
+	padding: 20px 30px;
+	border-radius: 5px;
+	max-height: 460px;
+	height: 100%;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin: -230px 0 0 -270px ;
+	overflow: hidden;
+}
+.popupOverlay .formWrapper{
+	width: 100%;
+	height: 360px;
+	overflow-y: auto;
+	margin: 0;
+}
+.closeLink{
+	text-indent: -9999px;
+	display: block;
+	width: 17px;
+	height: 15px;
+	float: right;
+	margin-bottom: 18px;
+	outline: none;
+	background: transparent url("../images/sprite.png") -18px -80px no-repeat;
+}
+/*Popup Css End */
+.termsCondBlock{
+	margin-top: 30px;
+}
+.termsCondBlock h3{
+	padding-bottom:10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0;
+}
+.termsCondBlock h4{
+	color: #676464;
+	margin:0 0 5px 0;
+}
+.textWrap{
+	margin-top: 20px;
+}
+.termsCondBlock ol{
+	margin-bottom: 20px;
+}
+.termsCondBlock ul{
+	padding-left: 30px;
+}
+.termsCondBlock a:hover{
+	text-decoration: underline;
+}
+/* Footer css start */
+.magpieFooter{
+	padding-top: 60px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+}
+.footerInner{
+	background-color: #02a9d8;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+.magpieFooter p{
+	margin: 0;
+}
+
+/* Footer css end */
+
+
+/* am css for login */
+a.registerBtn{
+    padding:10px 0;
+    width: 120px;
+    margin:10px auto;
+    text-decoration:none;
+    font-size: 16px;
+}
+a.registerBtn:hover{
+    text-decoration:none;
+}
+.formWrapper a{
+    text-decoration:none;
+}
+
+.connectForm .dataField > label{
+    font-size:11px;
+    color: #acacac;
+    margin-bottom: 5px;
+
+}
+.connectForm .infoFilled, .connectForm .infoEmpty{
+    position: relative;
+}
+/*.connectForm .infoFilled:before, .connectForm .infoEmpty:before{
+    display:inline-block;
+    content: "";
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border: 1px solid #555;
+    bottom: 17px;
+    left: 0;
+    border-radius: 50%;
+}*/
+.connectForm .infoFilled:before{
+    background: url('../images/checked.png');
+    bottom: 17px;
+}
+label.noInfo{
+    color: #acacac;
+    font-style:italic;
+}
+.personalInfoHead{
+    text-align: center;
+    margin-bottom:15px;
+}
+.personalInfoHead img{
+    margin-right:15px;
+}
+.termsCondBlock a.termsLink{
+    display:inline;
+}
+.connectForm h5{
+    font-size:15px;
+    color:#898989;
+    margin-top:35px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+}
+/*custom checkbox styling */
+.custumCheck {
+    display:inline-block;
+    content: "";
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    bottom: 17px;
+    left: 0;
+    border-radius: 50%;
+      margin-bottom: 0;
+  color: transparent;
+}
+.custumCheck input[type=checkbox] {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.custumCheck input[type="checkbox"] + span
+{
+  display: inline-block;
+  content: " ";
+  width: 14px;
+  height: 14px;
+  margin: -1px 0 0;
+  border: solid 1px #cccccc;
+  background: #ffffff;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.custumCheck input[type="checkbox"]:checked + span {
+    background: url('../images/checked.png');
+    background-repeat:no-repeat;
+}
+.headImages{
+  display:inline-block;
+  height:78px;
+  width:78px;
+  border:1px solid #eee;
+  vertical-align:top;
+}
+.headImages:first-child{
+margin-right:10px;
+}
+.headImages .personalInf{
+  display:block;
+  height:65px;
+  width:65px;
+  margin:7px auto;
+  background-color: #02a9d8;
+  border-radius:50%;
+  background-image:url('../images/personalInfo@3px.png');
+  background-size:45%;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.headImages .magpieLogo{
+  display:block;
+  height:65px;
+  width:65px;
+  background-size:90%;
+  margin:7px auto;
+  background-image:url('../images/logo@3px.png');
+  background-position:center;
+  background-repeat:no-repeat;
+}
+a.linkCancel, a.linkCancel:active{
+ text-decoration:none;
+}
+.pibLogo {
+  background: url('../images/pibLogo.png') no-repeat left center;
+  font-size: 24px;
+  color: #acacac;
+  width: 170px;
+  padding-left: 65px;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10px 0 10px 65px;
+  line-height: 28px;
+  font-family: ralewayregular;
+  margin-bottom: 40px;
+}
+.pibPage {
+  font-family: ralewayregular;
+  text-align: center;
+  max-width: 250px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 18px;
+}
+.pibPage input[type="text"],
+ .pibPage textarea,.pibPage  input[type="password"],
+  .pibPage input[type="number"],.pibPage input[type="email"],
+   .pibPage input, select {
+  font-family: ralewayregular;
+  font-size: 14px;
+}
+.pibPage p {
+  margin-bottom: 16px;
+}
+.pibPage .dataField {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.pibPage input[type="text"]::-webkit-input-placeholder,
+.pibPage input[type="email"]::-webkit-input-placeholder,
+.pibPage input[type="password"]::-webkit-input-placeholder {
+    color:#707070;
+}
+.pibPage input[type="text"]:-moz-placeholder,
+.pibPage input[type="password"]:-moz-placeholder,
+.pibPage input[type="email"]:-moz-placeholder {
+   color:#707070;
+   opacity:  1;
+}
+.pibPage input[type="text"]::-moz-placeholder,
+.pibPage input[type="password"]::-moz-placeholder,
+.pibPage input[type="email"]::-moz-placeholder{
+   color:#707070;
+   opacity:  1;
+}
+pibPage input[type="text"]:-ms-input-placeholder,
+.pibPage input[type="password"]:-ms-input-placeholder,
+.pibPage input[type="email"]:-ms-input-placeholder{
+   color:#707070;
+}
+.pibPage input {
+   border: 1px solid #d7d7d7;
+   color:#000000;
+}
+.pibPage .btnLink.dataField {
+    margin-top: 40px;
+}
+.pibPage .btnLink .btn {
+    background: #23c568;
+    font-size: 18px;
+    color: #fff;
+    width: 210px;
+    height: 46px;
+    line-height: 46px;
+    padding: 0;
+    font-family: ralewayregular;
+}
+.secondStep .btnLink .formWrapper{
+    margin-top: 0;
+}
+.secondStep .btnLink p,.secondStep .btnLink a {
+    margin: 5px 0 0;
+}
+.secondStep .btnLink a,.thirdStep .btnLink a{
+    color: #23c568;
+    font-size: 14px;
+}
+.thirdStep .btnLink a.connectbtn {
+    color: #fff;
+}
+.secondStep .btn {
+    margin-bottom: 20px;
+}
+.textOnly {
+    color: #acacac;
+    font-family: ralewayregular;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 15%;
+    font-weight: normal;
+}
+.thirdStep .connectForm {
+    text-align: left;
+}
+.thirdStep .headImages {
+    width: 92px;
+    height: 92px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+.headImages .pibIcon {
+    background: url('../images/pibLogo.png') no-repeat center;
+    margin-top: 14px;
+}
+.linkIcon {
+    display: inline-block;
+    width: 20px;
+    height: 8px;
+    margin-top: 42px;
+    background: url('../images/linkIcon.png') no-repeat center;
+    margin-right: 10px;
+}
+.thirdStep .termsCondBlock ul {
+  padding-left: 20px;
+}
+.thirdStep .connectForm .dataField {
+    padding: 0;
+}
+.thirdStep {
+    text-align: center;
+}
+.thirdStep > a.cancelBtn {
+    display: inline-block;
+    color: #707070;
+    text-decoration:underline;
+}
+.autoPara {
+    padding: 0 10%;
+}
+.faqLink{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.footerUl {
+    padding: 0;
+    font-family: ralewayregular;
+}
+.footerUl li{
+    float: left;
+    width: 42%;
+    text-align: left;
+    list-style: none;
+    margin-right: 2%;
+    position: relative
+}
+.footerUl li:first-child:before {
+    content:"";
+    font-size:12px;
+    vertical-align:middle;
+    line-height:20px;
+}
+.footerUl li:before {
+    content: "·";
+    font-size: 20px;
+    vertical-align: bottom;
+    line-height: 20px;
+    left: 1px;
+    position: absolute;
+    top: -3px;
+}
+.footerUl li:first-child a {
+    text-align: right;
+}
+.footerUl .cancelBtn, .footerUl .linkCancel {
+    display: block;
+    margin: 0;
+    color: #222;
+    font-size: 11px;
+    text-decoration: underline;
+    text-align: center;
+        width: 100%;
+}
+@media screen and (max-width: 620px){
+	.contentPage{
+		width: 480px;
+		padding: 0 10px;
+		-ms-word-break: break-word;
+     	word-break: break-word;
+     	margin-top: 20px;
+	}
+	.magContainerWrap {
+		margin-bottom: 20px;
+	}
+	.termsCondBlock a{
+		display: block;
+	}
+	.termsCondBlock h3{
+		font-size: 16px;
+	}
+	.termsCondBlock h4{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.contentPage{
+		width: 300px;
+	}
+	.connectForm .dataField{
+        margin-top:0;
+        border-bottom:1px solid #ebebeb;
+        padding-top:10px;
+        padding-left:25px;
+    }
+    .connectFormWrap{
+        width:95%;
+        padding-left:5%;
+    }
+    .connectbtn{
+        padding: 10px 0;
+        width: 140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cancelBtn{
+        margin:20px auto;
+        width:100px;
+    }
+    .connectFormWrap .btnLink{
+        border-bottom: 0;
+    }
+}

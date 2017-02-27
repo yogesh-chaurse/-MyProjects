@@ -1,0 +1,34 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+{% load webdesign %}
+
+{% block content %}
+<div class="magpieWrapper clearfix">
+    <h1>{% trans "Activate Your Bundle Services" %}</h1>
+    <div class="formWrapper">
+        <div class="termsCondBlock firstChild">
+            <p>{% lorem %}</p>
+        </div>
+        <form class="form-horizontal formWrapper" id="activateBundleServices" action="" method="post">
+            {% csrf_token %}
+            <div class="dataField">
+                <div class="infoData">
+                    {{ form.email }}
+                    {% if form.email.errors %}
+                    <div class="error clearfix">{{form.email.errors}}</div>
+                    {% endif %}
+                    <div id="email-description"></div>
+                </div>
+            </div>
+            <div class="btnLink dataField">
+                <div>
+                    <button type="submit" class="btn " data-href="dashboard.html">{% trans "Submit" %}</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="/static/WebApp/js/jquery-validate.js"></script>
+<script type="text/javascript" src="{% url 'django.views.i18n.javascript_catalog' %}"></script>
+<script src="/static/WebApp/js/validations/activate_bundle_service.js"></script>
+{% endblock %}

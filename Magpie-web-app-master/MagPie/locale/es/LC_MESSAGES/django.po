@@ -1,0 +1,1296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-11 17:16+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: MagPie/settings.py:97 WebApp/forms.py:561
+msgid "English"
+msgstr "English"
+
+#: MagPie/settings.py:98 WebApp/forms.py:561
+msgid "Spanish"
+msgstr "Spanish (Español)"
+
+#: MagPie/settings.py:99 WebApp/forms.py:561
+msgid "Chinese"
+msgstr "Chinese (汉语)"
+
+#: WebApp/forms.py:11 WebApp/forms.py:15 WebApp/forms.py:212
+#: WebApp/forms.py:233 WebApp/forms.py:394 WebApp/forms.py:539
+#: WebApp/forms.py:545 WebApp/forms.py:589
+#: WebApp/templates/WebApp/help.html:17
+#: WebApp/templates/WebApp/users/personal_info.html:65
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: WebApp/forms.py:27 WebApp/forms.py:31
+msgid "Password"
+msgstr "contraseña"
+
+#: WebApp/forms.py:47 WebApp/templates/WebApp/users/personal_info.html:9
+msgid "First Name"
+msgstr "Nombre De Pila"
+
+#: WebApp/forms.py:52
+msgid "John"
+msgstr "Juan"
+
+#: WebApp/forms.py:61
+msgid "Please enter first name"
+msgstr "Por favor ingrese primer nombre"
+
+#: WebApp/forms.py:65 WebApp/templates/WebApp/users/personal_info.html:14
+msgid "Last Name"
+msgstr "apellido"
+
+#: WebApp/forms.py:70
+msgid "Doe"
+msgstr "coneja"
+
+#: WebApp/forms.py:79
+msgid "Please enter last name"
+msgstr "Por favor, ingrese el apellido"
+
+#: WebApp/forms.py:83
+msgid "Address line 1"
+msgstr "Dirección Línea 1"
+
+#: WebApp/forms.py:89 WebApp/forms.py:305
+msgid "1234 Commercial Dr."
+msgstr "1234 Commercial Dr."
+
+#: WebApp/forms.py:98 WebApp/forms.py:314
+msgid "Please enter address line 1"
+msgstr "Por favor, introduzca la línea de dirección 1"
+
+#: WebApp/forms.py:102
+msgid "Address line 2 (Optional)"
+msgstr "Dirección. Linea 2 (opcional)"
+
+#: WebApp/forms.py:108 WebApp/forms.py:324
+msgid "Apartment 45"
+msgstr "Apartamento 45"
+
+#: WebApp/forms.py:117
+msgid "Address line 3 (Optional)"
+msgstr "Dirección línea 3 (Opcional)"
+
+#: WebApp/forms.py:123 WebApp/forms.py:336
+msgid "Main City, PM"
+msgstr "Ciudad principal, PM"
+
+#: WebApp/forms.py:132 WebApp/templates/WebApp/users/personal_info.html:45
+msgid "City"
+msgstr "ciudad"
+
+#: WebApp/forms.py:138 WebApp/forms.py:348
+msgid "Main City"
+msgstr "Main City"
+
+#: WebApp/forms.py:148
+msgid "Please enter city"
+msgstr "Por favor introduzca la ciudad"
+
+#: WebApp/forms.py:152 WebApp/templates/WebApp/users/personal_info.html:55
+msgid "Country"
+msgstr "país"
+
+#: WebApp/forms.py:158 WebApp/forms.py:365
+msgid "PM"
+msgstr ""
+
+#: WebApp/forms.py:168
+msgid "Please enter country"
+msgstr "Por favor ingrese país"
+
+#: WebApp/forms.py:172
+msgid "Postcode"
+msgstr "código postal"
+
+#: WebApp/forms.py:177 WebApp/forms.py:381
+msgid "44223"
+msgstr ""
+
+#: WebApp/forms.py:186 WebApp/forms.py:390 WebApp/forms.py:535
+msgid "Please enter postcode"
+msgstr "Por favor ingrese el código postal"
+
+#: WebApp/forms.py:190 WebApp/templates/WebApp/users/personal_info.html:60
+msgid "Phone Number"
+msgstr "Número De Teléfono"
+
+#: WebApp/forms.py:195
+msgid "1 343 222 2222"
+msgstr ""
+
+#: WebApp/forms.py:206
+msgid "Please enter phone number"
+msgstr "Por favor, ingrese el número telefónico"
+
+#: WebApp/forms.py:207 WebApp/forms.py:208
+msgid "Please enter valid phone number"
+msgstr "Por favor, introduzca el número de teléfono válido"
+
+#: WebApp/forms.py:217 WebApp/forms.py:399
+msgid "email@mydomain.com"
+msgstr ""
+
+#: WebApp/forms.py:228 WebApp/forms.py:605
+msgid "Please enter email id"
+msgstr "Por favor ingrese correo electrónico de identificación"
+
+#: WebApp/forms.py:233
+msgid "Phone"
+msgstr "teléfono"
+
+#: WebApp/forms.py:253
+msgid "What type of claim would you like to file?"
+msgstr "¿Qué tipo de reclamación le gustaría presentar?"
+
+#: WebApp/forms.py:258
+msgid "Select Claim Type"
+msgstr "Seleccione Tipo Reclamación"
+
+#: WebApp/forms.py:267
+msgid "Please Select Claim type"
+msgstr "Seleccione Tipo Reclamación"
+
+#: WebApp/forms.py:279
+msgid "Claim Description"
+msgstr "Reclamación Descripción"
+
+#: WebApp/forms.py:284
+msgid "Enter claim description"
+msgstr "Introduzca Descripción reclamación"
+
+#: WebApp/forms.py:290
+msgid "Please attach a proof of purchase"
+msgstr "Por favor, adjunte un comprobante de compra"
+
+#: WebApp/forms.py:299
+msgid "Please verify your address line 1 *"
+msgstr "Verifique por favor su línea de dirección 1 *"
+
+#: WebApp/forms.py:318
+msgid "Verify address line 2"
+msgstr "Verifique la línea de dirección 2"
+
+#: WebApp/forms.py:330
+msgid "Verify address line 3"
+msgstr "Verifique la línea de dirección 3"
+
+#: WebApp/forms.py:342
+msgid "Verify city *"
+msgstr "Verifique la ciudad *"
+
+#: WebApp/forms.py:359
+msgid "Verify country *"
+msgstr "Verifique país *"
+
+#: WebApp/forms.py:376 WebApp/forms.py:520
+msgid "Verify Postcode *"
+msgstr "Verificar Código postal *"
+
+#: WebApp/forms.py:410 WebApp/forms.py:556
+msgid "Please enter valid email id"
+msgstr "Por favor ingrese correo electrónico de identificación válida"
+
+#: WebApp/forms.py:415
+msgid "Lost"
+msgstr "perdido"
+
+#: WebApp/forms.py:415
+msgid "Stolen"
+msgstr "robado"
+
+#: WebApp/forms.py:449
+msgid "Cards *"
+msgstr "Tarjetas *"
+
+#: WebApp/forms.py:466
+msgid "Please select at least one"
+msgstr "Por favor, seleccione al menos un"
+
+#: WebApp/forms.py:470
+msgid "Select Date & Time *"
+msgstr "Seleccione Fecha y hora *"
+
+#: WebApp/forms.py:475
+msgid "Date & Time"
+msgstr "Fecha y hora"
+
+#: WebApp/forms.py:486
+msgid "Please select the date and time"
+msgstr "Por favor seleccione la fecha y la hora"
+
+#: WebApp/forms.py:490 WebApp/forms.py:495
+msgid "Describe The Event"
+msgstr "Describir el evento"
+
+#: WebApp/forms.py:501
+msgid "Verify Address *"
+msgstr "Confirme su dirección *"
+
+#: WebApp/forms.py:510
+msgid "Verify Address"
+msgstr "Dirección Verify"
+
+#: WebApp/forms.py:516
+msgid "Please enter address"
+msgstr "Por favor, introduzca la dirección"
+
+#: WebApp/forms.py:525
+msgid "Verify Postcode"
+msgstr "verificar Código Postal"
+
+#: WebApp/forms.py:569
+msgid "Select Language *"
+msgstr "Selecciona Idioma *"
+
+#: WebApp/forms.py:573
+msgid "Select Language"
+msgstr "Selecciona Idioma de la"
+
+#: WebApp/forms.py:575 WebApp/forms.py:582
+msgid "Please select a language"
+msgstr "Elija un idioma"
+
+#: WebApp/forms.py:579
+msgid "en"
+msgstr ""
+
+#: WebApp/forms.py:594
+msgid "johndoe@doecorp.com"
+msgstr ""
+
+#: WebApp/forms.py:617
+msgid "Please input your 8 digit PIN"
+msgstr "Por favor ingresa tu Código de Acceso de 8 dígitos"
+
+#: WebApp/forms.py:626
+#, fuzzy
+msgid "Please enter the PIN"
+msgstr "Por favor introduzca la ciudad"
+
+#: WebApp/views.py:30
+msgid "You are logged in successfully!"
+msgstr "Usted está en el sistema con éxito!"
+
+#: WebApp/views.py:69
+msgid "Invalid email id or password"
+msgstr "Identificación del correo electrónico o contraseña no válidos"
+
+#: WebApp/views.py:133
+msgid "Your information has been updated with Port."
+msgstr "Su información ha sido actualizado con el puerto."
+
+#: WebApp/views.py:189
+msgid "Please add image with size less than 2MB"
+msgstr "Por favor, añada imagen con un tamaño inferior a 2 MB"
+
+#: WebApp/views.py:212 WebApp/views.py:216 WebApp/views.py:422
+#: WebApp/views.py:426
+msgid "Something went wrong !!!!"
+msgstr "Algo salió mal !!!!"
+
+#: WebApp/views.py:291
+msgid "Your language setting has been changed."
+msgstr "Su configuración de idioma se ha cambiado."
+
+#: WebApp/views.py:294
+msgid "There is some problem."
+msgstr "Hay un poco de problema."
+
+#: WebApp/views.py:419
+msgid "The request is submitted successfully."
+msgstr "La petición se ha enviado correctamente."
+
+#: WebApp/views.py:479
+msgid "This PIN has already been used."
+msgstr "Este Código ya se ha utilizado anteriormente."
+
+#: WebApp/views.py:481
+msgid "Invalid 8 digit PIN, please try again!"
+msgstr "Código de 8 dígitos inválido, por favor intenta de nuevo"
+
+#: WebApp/views.py:483 WebApp/views.py:485
+msgid "Error in Magpie user activation"
+msgstr "Error en la Activación del Usuario Magpie"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:6
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:5
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:5
+#: WebApp/templates/WebApp/bitdefender_total_security.html:6
+msgid "Do you want to activate this service ? "
+msgstr "¿Quieres activar este servicio?"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:8
+msgid "Bitdefender Antivirus 2015"
+msgstr "Bitdefender Antivirus 2015"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:12
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:9
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:9
+#: WebApp/templates/WebApp/bitdefender_total_security.html:12
+msgid "Install and Forget."
+msgstr "Instalar y olvidar."
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:14
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:10
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:10
+#: WebApp/templates/WebApp/bitdefender_total_security.html:14
+msgid ""
+"Bitdefender’s OneClick Autopilot automatically makes the best security "
+"decisions for you."
+msgstr ""
+"De Bitdefender Autopilot OneClick hace automáticamente las mejores "
+"decisiones de seguridad para usted."
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:17
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:13
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:13
+#: WebApp/templates/WebApp/bitdefender_total_security.html:17
+msgid "Smart Profiles."
+msgstr "Perfiles inteligentes."
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:25
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:17
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:17
+#: WebApp/templates/WebApp/bitdefender_total_security.html:24
+#: WebApp/templates/WebApp/users/insurance_claim.html:85
+msgid "Single-Click Tune-Up &amp; Clean-Up. "
+msgstr "Un solo clic Tune-Up & amp; Limpiar."
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:27
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:18
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:18
+#: WebApp/templates/WebApp/bitdefender_total_security.html:26
+#: WebApp/templates/WebApp/users/insurance_claim.html:86
+msgid "OneClick Optimizer speeds up your system and frees up disk space."
+msgstr "OneClick Optimizer acelera su sistema y libera espacio en disco."
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:30
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:21
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:21
+#: WebApp/templates/WebApp/bitdefender_total_security.html:29
+#: WebApp/templates/WebApp/users/insurance_claim.html:89
+msgid "One-Step Online Payments. "
+msgstr "One-Step pagos en línea."
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:32
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:22
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:22
+#: WebApp/templates/WebApp/bitdefender_total_security.html:31
+#: WebApp/templates/WebApp/users/insurance_claim.html:90
+msgid ""
+"Wallet simplifies purchases by securely autofilling your credit card details."
+msgstr ""
+"Monedero simplifica las compras de forma segura el autorrelleno en su "
+"tarjeta de crédito."
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:38
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:26
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:26
+#: WebApp/templates/WebApp/bitdefender_total_security.html:37
+msgid "Yes"
+msgstr "sí"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:39
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:27
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:27
+#: WebApp/templates/WebApp/bitdefender_total_security.html:38
+msgid "No"
+msgstr "no"
+
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:7
+msgid "Bitdefender Internet Security 2015"
+msgstr "Bitdefender Internet Security 2015"
+
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:14
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:14
+#: WebApp/templates/WebApp/bitdefender_total_security.html:19
+#: WebApp/templates/WebApp/users/insurance_claim.html:82
+msgid ""
+"Bitdefender Total Security 2015 automatically detects when you Work, Play or "
+"Watch movies, and prevents other apps from slowing you down."
+msgstr ""
+"Bitdefender Total Security 2015 detecta automáticamente cuando se trabaja, "
+"jugar o ver películas, y evita que otras aplicaciones de causarle demoras."
+
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:7
+msgid "Bitdefender Parental Control 2015"
+msgstr "Bitdefender Control Parental 2015"
+
+#: WebApp/templates/WebApp/bitdefender_total_security.html:8
+msgid ""
+"Even the best anti-malware software is worthless, if it’s hard to use. "
+"Bitdefender Total Security 2015 engages security with a single click."
+msgstr ""
+"Incluso el mejor software anti-malware no tiene ningún valor, si es difícil "
+"de usar. Bitdefender Total Security 2015 se dedica de seguridad con un solo "
+"clic."
+
+#: WebApp/templates/WebApp/ethos.html:5 WebApp/templates/WebApp/header.html:24
+msgid "Ethos"
+msgstr "carácter distintivo"
+
+#: WebApp/templates/WebApp/ethos.html:8
+msgid "At Magpie, we are passionate about making life easy."
+msgstr "En Urraca, nos apasiona hacer la vida más fácil."
+
+#: WebApp/templates/WebApp/ethos.html:9
+msgid ""
+"We bring everyday life services straight to the palm of your hand, via your "
+"phone."
+msgstr ""
+"Brindamos servicios de la vida de todos los días directamente a la palma de "
+"la mano, a través de su teléfono."
+
+#: WebApp/templates/WebApp/ethos.html:10
+msgid ""
+"We believe in using the power of digital technology to live our lives "
+"efficiently."
+msgstr ""
+"Creemos en el uso del poder de la tecnología digital para vivir nuestras "
+"vidas de manera eficiente."
+
+#: WebApp/templates/WebApp/ethos.html:11
+msgid ""
+"Magpie services are ‘best of breed’, meaning we search the globe for the "
+"best apps and services of their kind that make everyday life easy. If we "
+"can’t find one good enough, we make one ourselves."
+msgstr ""
+"Servicios Urraca son 'lo mejor del mercado', es decir, buscamos el mundo por "
+"las mejores aplicaciones y servicios de su tipo que hacen la vida diaria más "
+"fácil. Si no podemos encontrar uno lo suficientemente bueno, hacemos uno "
+"nosotros mismos."
+
+#: WebApp/templates/WebApp/ethos.html:12
+msgid ""
+"We believe in a connected world, where individuals and organisations share "
+"the information they need at the click of a button."
+msgstr ""
+"Creemos en un mundo conectado, donde los individuos y las organizaciones "
+"compartan la información que necesitan con el clic de un botón."
+
+#: WebApp/templates/WebApp/ethos.html:13
+msgid ""
+"We’ve sourced smart tech, replaced paper with screens and given you new "
+"digital ways to get in touch (and you can call us) – this is our vision of "
+"the connected world."
+msgstr ""
+"Hemos origen tecnología inteligente, papel reemplazado con pantallas y "
+"dieron nuevas formas digitales de ponerse en contacto (y usted nos puede "
+"llamar) - esta es nuestra visión del mundo conectado."
+
+#: WebApp/templates/WebApp/ethos.html:14
+msgid ""
+"A connected world is a world where businesses fit around each individual, "
+"their information and their preferences for sharing it."
+msgstr ""
+"Un mundo conectado es un mundo donde las empresas se ajustan alrededor de "
+"cada individuo, su información y sus preferencias para compartirlo."
+
+#: WebApp/templates/WebApp/ethos.html:15
+msgid ""
+"We believe in the value of personal information and the way forward for "
+"consumers and businesses alike is to give back control to the owner – you."
+msgstr ""
+"Creemos en el valor de la información personal y el camino a seguir para los "
+"consumidores como para las empresas es de devolver el control al propietario "
+"- usted."
+
+#: WebApp/templates/WebApp/ethos.html:16
+msgid ""
+"At Magpie, we know that personal information is required for both basic and "
+"good customer experience."
+msgstr ""
+"En Urraca, sabemos que se requiere información personal, tanto para la "
+"experiencia básica y buen cliente."
+
+#: WebApp/templates/WebApp/ethos.html:17
+msgid ""
+"We know that consumers want personalised service and we know that the only "
+"way to do this is by using personal information. But we also know that too "
+"many organisations have access to personal information they don’t need – "
+"just look at your inbox and see who you receive emails from if you need "
+"proof."
+msgstr ""
+"Sabemos que los consumidores quieren un servicio personalizado y sabemos que "
+"la única manera de hacer esto es mediante el uso de información personal. "
+"Pero también sabemos que muchas organizaciones tienen acceso a la "
+"información personal que no es necesario - sólo mira a su bandeja de entrada "
+"y averigua cuáles usted recibe correos electrónicos de si usted necesita "
+"pruebas."
+
+#: WebApp/templates/WebApp/ethos.html:18
+msgid ""
+"We want a world where we – consumers – can choose which organisations have "
+"access to our personal information, what they access and how long they "
+"access it for. We want a world where we – organisations – spend time talking "
+"to customers who want to hear from us without bothering the ones who don’t."
+msgstr ""
+"Queremos un mundo en el que - los consumidores - podemos elegir qué "
+"organizaciones tienen acceso a nuestra información personal, lo que el "
+"acceso y el tiempo que el acceso para. Queremos un mundo en el que - "
+"organizaciones - pasamos tiempo hablando con los clientes que quieren saber "
+"de nosotros sin molestar a los que no lo hacen."
+
+#: WebApp/templates/WebApp/ethos.html:19
+msgid ""
+"This is our Ethos and we have the culture and technology to deliver it. It’s "
+"smart technology on your terms."
+msgstr ""
+"Esta es nuestra Ethos y tenemos la cultura y la tecnología para entregarlo. "
+"Es la tecnología inteligente en sus términos."
+
+#: WebApp/templates/WebApp/footer.html:7
+msgid "Magpie Intl - All rights reserved."
+msgstr "Urraca Intl - Todos los derechos reservados."
+
+#: WebApp/templates/WebApp/header.html:19
+#: WebApp/templates/WebApp/users/edit_personal_info.html:6
+#: WebApp/templates/WebApp/users/personal_info.html:6
+msgid "My Account"
+msgstr "Mi Cuenta"
+
+#: WebApp/templates/WebApp/header.html:20
+msgid "Subscription Information"
+msgstr "Info sobre la suscripción"
+
+#: WebApp/templates/WebApp/header.html:21
+msgid "Settings"
+msgstr "Ajustes"
+
+#: WebApp/templates/WebApp/header.html:25
+#: WebApp/templates/WebApp/terms_and_conditions.html:5
+msgid "Privacy Policy"
+msgstr "política De Privacidad"
+
+#: WebApp/templates/WebApp/header.html:26
+msgid "Help"
+msgstr "ayuda"
+
+#: WebApp/templates/WebApp/header.html:27
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: WebApp/templates/WebApp/header.html:32
+msgid "Leave Feedback"
+msgstr "Deja Un Comentario"
+
+#: WebApp/templates/WebApp/header.html:38
+msgid "Menu"
+msgstr "menú"
+
+#: WebApp/templates/WebApp/help.html:6
+msgid "Need Help? Call or Email us at:"
+msgstr "¿Necesitas ayuda? Llámenos o envíenos un correo electrónico a:"
+
+#: WebApp/templates/WebApp/help.html:11
+msgid "Contact Number"
+msgstr "Teléfono de contacto"
+
+#: WebApp/templates/WebApp/subscription_info.html:6
+msgid "Billing Details "
+msgstr "Detalles de facturación"
+
+#: WebApp/templates/WebApp/subscription_info.html:9
+msgid "Subscription Period"
+msgstr "Período de suscripción"
+
+#: WebApp/templates/WebApp/subscription_info.html:12
+msgid "Start:"
+msgstr "Inicio:"
+
+#: WebApp/templates/WebApp/subscription_info.html:18
+msgid "End:"
+msgstr "fin"
+
+#: WebApp/templates/WebApp/subscription_info.html:24
+msgid "Billing Amount"
+msgstr "facturación Monto"
+
+#: WebApp/templates/WebApp/subscription_info.html:28
+msgid "Auto Renew Status "
+msgstr "Auto Renew Estado"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:7
+msgid "Back"
+msgstr "espalda"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:11
+msgid "1 Introduction"
+msgstr "1 Introducción"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:13
+#, fuzzy
+msgid ""
+"Magpie (“we”, “us”, “our”) is a Life Management Services (‘LMS’) "
+"organisation providing digital solutions that make life easier. The Magpie "
+"model is centred on putting you in control of your personal information. "
+"Magpie knows that you care how information about you is stored, used and "
+"shared, as such Magpie’s company ethos is “Privacy by design”. Information "
+"that you provide directly or that is generated through your usage of Magpie "
+"products and services, will be stored securely and you will be in control of "
+"this data. You can decide with whom you share your data and for how long."
+msgstr ""
+"Urraca ('nosotros', 'nos', 'nuestro') es una Life Management Services "
+"('LMS') organización que proporciona soluciones digitales que hacen la vida "
+"más fácil. El modelo de la urraca se centra en que le pone en control de su "
+"información personal. Urraca sabe que usted se preocupa de cómo se almacena "
+"la información sobre usted, utilizada y compartida, como empresa ética de "
+"tales Magpie es 'privacidad por diseño'. La información que proporciona "
+"directa o generados a través de su uso de productos y servicios Urraca se "
+"almacena de forma segura y usted tendrá el control de sus datos, y usted "
+"decide con quien compartir sus datos."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:14
+#, fuzzy
+msgid ""
+"This notice describes our privacy policy, in relation to the information "
+"that we collect, what we do with that information and how you can manage and "
+"control the use of the information. By downloading this application (“Life "
+"Manager App”) you are accepting the practices described within this privacy "
+"notice."
+msgstr ""
+"Este aviso describe nuestra política de privacidad, en relación con la "
+"información que recopilamos, lo que hacemos con ella y cómo le podemos "
+"gestionar y controlar el uso de su información. Al descargar esta aplicación "
+"('App Life') usted está aceptando las prácticas descritas en este aviso de "
+"privacidad."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:18
+#, fuzzy
+msgid "2 The information that we collect"
+msgstr "2 La información que recopilamos"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:20
+msgid "2.1 When you subscribe to Magpie services"
+msgstr "2.1 Cuando se suscribe a servicios Urraca"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:21
+msgid ""
+"In order to subscribe to our services you will be required to submit the "
+"following basic information;"
+msgstr ""
+"Para suscribirse a nuestros servicios se le exigirá que presente la "
+"siguiente información básica;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:23
+#, fuzzy
+msgid "Your Name; "
+msgstr "Nombre;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:25
+#, fuzzy
+msgid "Your Postal Address;"
+msgstr "Dirección Postal;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:27
+#, fuzzy
+msgid "Your Mobile Telephone Number;"
+msgstr "Número celular;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:29
+#, fuzzy
+msgid "Your E-Mail Address;"
+msgstr "Dirección E-Mail;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:31
+#, fuzzy
+msgid "Your Card payment details."
+msgstr "Detalles pago con tarjeta."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:33
+#, fuzzy
+msgid ""
+"Information about the smartphone, tablet or other device or any computer you "
+"may use to download a copy of the Life Manager App."
+msgstr ""
+"Información sobre el smartphone, tablet u otro dispositivo o cualquier "
+"equipo puede usar para descargar una copia de la App Vida."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:35
+#, fuzzy
+msgid ""
+"This information will be used by Magpie to administer your membership and "
+"ensure suitability of the service."
+msgstr ""
+"Esta información será utilizada por la urraca para administrar su membresía, "
+"y garantizar la idoneidad del servicio."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:37
+#, fuzzy
+msgid ""
+"As part of your subscription you will receive access to a Personal "
+"Information Bank (“PIB”). This PIB is personal to you, it is at your sole "
+"discretion what information you choose to deposit in your PIB, and with whom "
+"you choose to share it."
+msgstr ""
+"Como parte de su suscripción, tendrá acceso a un Banco de Información "
+"Personal ('BIP') proporcionado por el puerto, un proveedor tercera parte. "
+"Esta PIB es personal para usted, está a su entera discreción la información "
+"que usted elija para depositar en su PIB, y con quién desea compartirla. "
+"Para obtener más información, visite"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:40
+#, fuzzy
+msgid "2.2 What other information does Magpie gather"
+msgstr "2.2 ¿Qué otra información no Reúna Urraca"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:41
+msgid ""
+"Some services will require access to additional information in order for "
+"them to function correctly and for you to benefit from these services, these "
+"may include:"
+msgstr ""
+"Algunos servicios requieren acceso a información adicional a fin de que "
+"funcionen correctamente y para que pueda beneficiarse de estos servicios, "
+"éstos pueden incluir:"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:43
+msgid "Card loss and registration services;"
+msgstr "Los servicios de pérdida de la tarjeta y de registro;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:45
+msgid "Important document storage;"
+msgstr "almacenamiento de documentos importantes;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:47
+#, fuzzy
+msgid "Bank Account aggregation services."
+msgstr "Los servicios de agregación de cuentas;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:49
+#, fuzzy
+msgid "Insurance Services"
+msgstr "Servicios de seguros."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:52
+#, fuzzy
+msgid ""
+"The above will require additional information to be collected from you "
+"either via our call centres, or via the Life Manager App (available on IOS, "
+"Android and Desktop) directly, this may include:"
+msgstr ""
+"Lo anterior requerirá información adicional que debe obtenerse de usted, ya "
+"sea a través de nuestros centros de atención telefónica o por medio de la "
+"App Life (disponible en iOS, Android y escritorio) directamente, esto puede "
+"incluir:"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:54
+msgid ""
+"Additional contact information e.g. Date of Birth, home phone number or "
+"secondary email address;"
+msgstr ""
+"Información adicional de contacto, por ejemplo, Fecha de nacimiento, número "
+"de teléfono de su casa o la dirección de correo electrónico secundaria;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:56
+msgid "Additional information required to process an insurance claim;"
+msgstr "La información adicional requerido para procesar un reclamo de seguro;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:58
+msgid "A list of payment cards, required for loss reporting an re-ordering;"
+msgstr ""
+"Una lista de tarjetas de pago, requeridos para la pérdida de informar de un "
+"reordenamiento;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:60
+msgid ""
+"Photo scans of important documents (stored in your PIB) for replacement "
+"purposes;"
+msgstr ""
+"Los escaneos de fotos de documentos importantes (almacenados en su PIB) para "
+"fines de sustitución;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:62
+#, fuzzy
+msgid "Details of insurance claims made via the Life Manager App;"
+msgstr ""
+"Los detalles de las reclamaciones de seguros realizados a través de la App "
+"Vida;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:64
+msgid "Mobile phone registration details such as IMEI and proof of purchase."
+msgstr ""
+"Mobile detalles de registro del teléfono, como el IMEI y el comprobante de "
+"compra."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:68
+msgid "2.3 Usage data"
+msgstr "Los datos de 2.3 Uso"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:70
+#, fuzzy
+msgid ""
+"Magpie uses Google Analytics and Heatdata, which track your usage of the "
+"Life Manager App."
+msgstr ""
+"Urraca utiliza Google Analytics y Heatdata, que el seguimiento de su uso de "
+"la App Vida."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:72
+#, fuzzy
+msgid ""
+"We use Google Analytics and Heatdata to collect information about your "
+"activity on the Life Manager App. We collect information in an anonymous "
+"form about your usage of the Life Manager App, including the number of times "
+"you use it and the functions of the Life Manager App that you use. Google "
+"Analytics send anonymous non-personally identifiable data to remote servers "
+"where the data is aggregated and presented back to us as analytical data "
+"about the use of the Life Manager App by our subscribers. We use the "
+"information to compile reports and to help us improve the Life Manager App. "
+"So for example we may know how many people use a certain function within the "
+"Life Manager App, but we would not know if you were one of those people."
+msgstr ""
+"Utilizamos Google Analytics y Heatdata para recopilar información sobre su "
+"actividad en la App Vida. Recopilamos información de forma anónima acerca de "
+"su uso de la App vida, incluyendo el número de veces que lo usas y las "
+"funciones de la App Vida que utiliza. Google Analytics y Heatdata enviar "
+"datos de identificación no personal anónimos a servidores remotos donde se "
+"agregan los datos y presenta de nuevo a nosotros como datos analíticos sobre "
+"el uso de la App vida por nuestros suscriptores. Utilizamos la información "
+"para elaborar informes y para ayudarnos a mejorar la App Vida."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:74
+msgid ""
+"For more information about the information gathered using Google Analytics, "
+"please visit:"
+msgstr ""
+"Para obtener más información acerca de la información recopilada a través de "
+"Google Analytics, por favor visite:"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:76
+msgid "and"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:78
+#: WebApp/templates/WebApp/terms_and_conditions.html:80
+msgid ""
+"The information we collect cannot be used by anyone else who has access to "
+"your mobile device to find out anything about you. The tracking we perform "
+"does not in any way compromise the security of your device."
+msgstr ""
+"La información que recopilamos no puede ser utilizado por cualquier persona "
+"que tenga acceso a su dispositivo móvil para saber nada de ti. El "
+"seguimiento que realizamos no corren peligro ni la seguridad de su "
+"dispositivo."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:82
+msgid ""
+"We are unable to use the information collected about your usage to identify "
+"you personally."
+msgstr ""
+"No podemos utilizar la información recopilada sobre su uso para "
+"identificarle personalmente."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:86
+msgid "3 How we use the information we collect"
+msgstr "3 ¿Cómo utilizamos la información que recopilamos"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:88
+#, fuzzy
+msgid ""
+"We may use the information we collect, including your personal information:"
+msgstr ""
+"Podemos utilizar la información que recopilamos, incluyendo su información "
+"personal para:"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:90
+msgid "To manage your subscription;"
+msgstr "Administrar su suscripción;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:92
+msgid "To provide you with the services and features of your subscription;"
+msgstr "Para proporcionarle los servicios y características de su suscripción;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:94
+msgid "To collect payments when due;"
+msgstr "Recoger los pagos al vencimiento;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:96
+#, fuzzy
+msgid "To maintain internal records;"
+msgstr "Mantener registros internos;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:98
+msgid ""
+"To communicate with you by e-mail, telephone or post if you have purchased a "
+"Subscription from Magpie, either regarding the purchase or other matters "
+"regarding transactions between you and Magpie or your customer relationship "
+"with Magpie;"
+msgstr ""
+"Para comunicarse con usted por correo electrónico, teléfono o correo si ha "
+"adquirido una suscripción de Urraca, ya sea en cuanto a la compra u otras "
+"cuestiones relativas a las transacciones entre usted y la urraca o su "
+"relación de cliente con Urraca;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:100
+#, fuzzy
+msgid "To conduct statistical analysis;"
+msgstr "Realizar el análisis estadístico;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:102
+#, fuzzy
+msgid "To prevent fraud;"
+msgstr "Evitar el fraude;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:104
+#, fuzzy
+msgid ""
+"To improve your experience with the services and products provided as part "
+"of the Subscription;"
+msgstr ""
+"Mejore su experiencia con los servicios y productos proporcionados como "
+"parte de la suscripción;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:106
+#, fuzzy
+msgid "To ensure the technical functioning of the services and products;"
+msgstr "Asegurar el funcionamiento técnico de los servicios y productos;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:108
+#, fuzzy
+msgid ""
+"To enforce this Privacy Policy and the Terms and Conditions of Use including "
+"to protect the rights, property or safety of Magpie, users or any other "
+"person and the copyright-protected content of the Service."
+msgstr ""
+"Hacer cumplir esta Política de Privacidad y los Términos y Condiciones de "
+"Uso incluyendo a proteger los derechos, propiedad o seguridad de la urraca, "
+"los usuarios o cualquier otra persona y el contenido protegido por copyright "
+"del Servicio."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:113
+msgid "4 Who do we share information with"
+msgstr "4 ¿Con quién compartimos la información con"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:115
+msgid "4.1 Your Personal Information"
+msgstr "4.1 Su Información Personal"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:117
+msgid ""
+"Your personal information will only be made available to Magpie’s authorised "
+"service provider’s and third party suppliers which perform certain services "
+"on Magpie’s behalf e.g. providing IT support and maintenance, providing "
+"hosting services, providing customer service, providing payment processing "
+"services and providing features of the subscription. These service providers "
+"may have access to personal information needed to perform their functions on "
+"Magpie’s behalf but are not permitted to share or to use such information "
+"for any other purpose. "
+msgstr ""
+"Su información personal sólo será puesto a disposición de terceros "
+"proveedores que realizan determinados servicios en nombre ejemplo de la "
+"urraca del proveedor de servicios autorizado de Urraca y proporcionar "
+"soporte de TI y mantenimiento, proporcionando servicios de alojamiento, "
+"ofreciendo servicio al cliente, la prestación de servicios de procesamiento "
+"de pagos y proporcionar características de la suscripción. Estos proveedores "
+"de servicios pueden tener acceso a la información personal necesaria para "
+"realizar sus funciones en nombre de la urraca, pero no se les permite "
+"compartir o utilizar dicha información para cualquier otro propósito."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:119
+msgid ""
+"Magpie will not share your personal information without your permission to "
+"any other third party."
+msgstr ""
+"Urraca no compartirá su información personal sin su permiso a cualquier otro "
+"tercero."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:121
+msgid "4.2 De-identified usage information"
+msgstr "4.2 información de uso identificado-De"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:123
+#, fuzzy
+msgid ""
+"Magpie may share de-identified, aggregated usage information, collated as "
+"per section 2.3 with third parties, for market insight and statistical "
+"analysis purposes."
+msgstr ""
+"Urraca puede compartir de identificado-información de uso agregada cotejada "
+"indicada en la sección 2.3 con terceros, con fines de análisis estadístico "
+"visión de mercado y."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:127
+msgid "5 Accessing and updating user information"
+msgstr "5 Acceso y actualización de la información del usuario"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:129
+#, fuzzy
+msgid ""
+"You can access and amend your information via your Life Manager App or via "
+"your PIB."
+msgstr ""
+"Puede acceder y modificar su información a través de su App vida oa través "
+"de su PIB proporcionado vía el PUERTO. Para obtener más información, visite"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:133
+msgid "6 Data security"
+msgstr "6 seguridad de datos"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:135
+#, fuzzy
+msgid "6.1 Security of your information"
+msgstr "Info sobre la suscripción"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:137
+msgid ""
+"Magpie works hard to protect the security of your information during "
+"transmission by using Secure Sockets Layer (SSL) software, which encrypts "
+"information you input."
+msgstr ""
+"Urraca trabaja duro para proteger la seguridad de su información durante la "
+"transmisión usando software Secure Sockets Layer (SSL), que encripta la "
+"información que usted ingresa."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:139
+msgid "6.2 Security of your card numbers"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:141
+#, fuzzy
+msgid ""
+"Magpie will only ever reveal only the last four digits of your card numbers "
+"when confirming an order. Of course, Magpie will transmit the entire card "
+"number to the appropriate card company during order processing."
+msgstr ""
+"Urraca sólo revelará jamás sólo los últimos cuatro dígitos de su número de "
+"tarjeta de crédito al confirmar una orden. Por supuesto, la urraca "
+"transmitirá el número de tarjeta de crédito a la compañía de tarjetas de "
+"crédito apropiada durante el procesamiento de pedidos."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:143
+#, fuzzy
+msgid "6.3 Where your information is stored"
+msgstr "4 ¿Con quién compartimos la información con"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:145
+#, fuzzy
+msgid ""
+"Magpie uses your PIB, for the collection & storage of personal information."
+msgstr ""
+"Urraca utiliza la Tecnología de PORT, una tercera parte, para la recogida y "
+"almacenamiento de datos personales. Para obtener más información, visite"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:146
+msgid ""
+"In addition, Magpie maintains electronic and procedural safeguards in "
+"connection with the collection, storage and disclosure of any personally "
+"identifiable customer information. Our security procedures mean that we may "
+"occasionally request proof of identity before we disclose personal "
+"information to you."
+msgstr ""
+"Además, la urraca mantiene protecciones electrónicas y de procedimiento en "
+"relación con la recogida, el almacenamiento y la divulgación de cualquier "
+"información de los clientes de identificación personal. Nuestros "
+"procedimientos de seguridad implican que ocasionalmente podemos solicitar "
+"una prueba de identidad antes de revelar información personal a usted."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:147
+msgid ""
+"It is important for you to protect against unauthorised access to your "
+"password and to your computer. Be sure to sign off when you finish using a "
+"shared computer."
+msgstr ""
+"Es importante para usted protegerse contra el acceso no autorizado a su "
+"contraseña ya su ordenador. Asegúrese de cerrar la sesión cuando termine de "
+"utilizar un ordenador compartido."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:151
+msgid "7 Third party services"
+msgstr "7 Los servicios de terceros"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:153
+#, fuzzy
+msgid ""
+"Magpie may use third party services within its Subscriptions, you will be "
+"presented with their privacy policies when accessing their services for the "
+"first time; please ensure that you read them to find out how they collect "
+"and process your personal information, before using the service."
+msgstr ""
+"Urraca puede utilizar servicios de terceros dentro de sus suscripciones, se "
+"le presentará con sus políticas de privacidad cuando se accede a sus "
+"servicios por primera vez, por favor asegúrese de que las lee para saber "
+"cómo recogen y procesan su información personal, antes de usar el servicio."
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:157
+msgid "8 Contact us"
+msgstr "8 Contacto"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:159
+msgid ""
+"If you have any questions regarding Magpie’s privacy policy then please "
+"contact "
+msgstr ""
+"Si usted tiene alguna pregunta con respecto a la política de privacidad de "
+"Urraca, por favor, póngase en contacto con"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:159
+msgid "support@magpieint.com"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:163
+msgid "9 Changes to the Privacy Policy"
+msgstr "9 Cambios en la política de privacidad"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:165
+msgid ""
+"We may make changes to the privacy policy from time to time, so please visit "
+"this Privacy Policy regularly. If we make any changes which we believe are "
+"material we will inform you through the subscription service. Your continued "
+"use of the subscription thereafter constitutes acceptance of the changes."
+msgstr ""
+"Podemos hacer cambios a la política de privacidad de vez en cuando, así que "
+"por favor visite esta Política de Privacidad periódicamente. Si hacemos "
+"cualquier cambio que creemos son de material se le informará a través del "
+"servicio de suscripción. El uso continuado de la suscripción constituye a "
+"partir de entonces la aceptación de los cambios."
+
+#: WebApp/templates/WebApp/users/activate_bundle_services.html:7
+msgid "Activate Your Bundle Services"
+msgstr "Activar mis servicios del paquete"
+
+#: WebApp/templates/WebApp/users/activate_bundle_services.html:25
+#: WebApp/templates/WebApp/users/change_language.html:20
+#: WebApp/templates/WebApp/users/insurance_claim.html:62
+#: WebApp/templates/WebApp/users/report_lost_card.html:48
+msgid "Submit"
+msgstr "presentar"
+
+#: WebApp/templates/WebApp/users/change_language.html:8
+msgid "Language Setting"
+msgstr "Configuración de idioma"
+
+#: WebApp/templates/WebApp/users/change_language.html:23
+#: WebApp/templates/WebApp/users/edit_personal_info.html:127
+#: WebApp/templates/WebApp/users/insurance_claim.html:65
+#: WebApp/templates/WebApp/users/report_lost_card.html:50
+msgid "Cancel"
+msgstr "cancelar"
+
+#: WebApp/templates/WebApp/users/confirmation_page.html:6
+#: WebApp/templates/WebApp/users/insurance_claim.html:7
+msgid "Insurance Claim"
+msgstr "reclamo de seguro"
+
+#: WebApp/templates/WebApp/users/confirmation_page.html:9
+msgid ""
+"Your claim is being processed. A Magpie representative will contact you "
+"shortly."
+msgstr ""
+"Se está procesando su reclamo. Un representante de la urraca se pondrá en "
+"contacto contigo en breve."
+
+#: WebApp/templates/WebApp/users/confirmation_page.html:11
+msgid "Done"
+msgstr "hecho"
+
+#: WebApp/templates/WebApp/users/edit_personal_info.html:124
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:25
+msgid "Please enter any additional details below:"
+msgstr "Por favor ingrese los detalles adicionales a continuación:"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:30
+msgid "Conditions and Exclusions"
+msgstr "Condiciones y exclusiones"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:43
+msgid "Please attach any relevant document (if applicable)"
+msgstr "Adjunte cualquier documento pertinente (si procede)"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:47
+msgid "Browse..."
+msgstr "Examinar ..."
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:49
+msgid "No file attached..."
+msgstr "No hay ningún archivo adjunto ..."
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:50
+msgid "File size should be less than 2MB"
+msgstr "Tamaño del archivo debe ser inferior a 2 MB"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:73
+msgid "About Mobile Phone Insurance"
+msgstr "Acerca de Mobile Insurance Teléfono"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:77
+#: WebApp/templates/WebApp/users/insurance_claim.html:81
+msgid "Excess Amount"
+msgstr "exceso Monto"
+
+#: WebApp/templates/WebApp/users/need_emergency_cash.html:8
+msgid " Work under progress"
+msgstr "Trabajo en progreso"
+
+#: WebApp/templates/WebApp/users/personal_info.html:19
+msgid "Address Line 1"
+msgstr "Dirección Línea 1"
+
+#: WebApp/templates/WebApp/users/personal_info.html:24
+msgid "Address Line 2"
+msgstr "Dirección Línea 2"
+
+#: WebApp/templates/WebApp/users/personal_info.html:34
+msgid "Address Line 3"
+msgstr "Dirección Línea 3"
+
+#: WebApp/templates/WebApp/users/personal_info.html:50
+msgid "Zipcode"
+msgstr "Código Postal"
+
+#: WebApp/templates/WebApp/users/personal_info.html:76
+msgid "Edit"
+msgstr "editar"
+
+#: WebApp/templates/WebApp/users/report_lost_card.html:7
+msgid "Report Lost Card"
+msgstr "Boleta Perdido"
+
+#: WebApp/templates/WebApp/users/report_lost_card.html:46
+msgid "Call Help Center : 0123456789"
+msgstr "Llame al Centro de Ayuda: 0123456789"
+
+#: WebApp/templates/static_pages/activate_pin.html:29
+msgid "Get a new PIN"
+msgstr "Obtener un Código nuevo"
+
+#: WebApp/templates/static_pages/activate_pin.html:34
+msgid "Check your email for authentication code."
+msgstr ""
+"Revisa tu Correo Electrónico, ahí te enviamos tu Código de Autenticación "
+"(NIP)."
+
+#: WebApp/templates/static_pages/activate_pin.html:37
+msgid "Continue"
+msgstr "Continuar"
+
+#: WebApp/templates/static_pages/activate_pin.html:38
+msgid "You will be authenticated by Magpie."
+msgstr "Magpie autenticará tus Credenciales."
+
+#: WebApp/templates/static_pages/activate_pin.html:44
+msgid "Already have an account?"
+msgstr "¿Ya tienes una Cuenta?"

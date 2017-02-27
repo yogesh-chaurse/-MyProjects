@@ -1,0 +1,169 @@
+{% extends "WebApp/layout.html" %}
+{% load webdesign %}
+{% load i18n %}
+{% block content %}
+<h1 class="noBorder">{% trans "Privacy Policy" %}</h1>
+<!--{% if request.session.is_active  %}
+   <h4><a href="javascript:void(0);" onclick="window.history.back();">{% trans "Back" %}</a></h4>
+{% endif %}-->
+<div class="formWrapper termsCondInfo contentPage">
+    <div class="termsCondBlock firstChild">
+        <h3>{% trans "1 Introduction" %}</h3>
+        <div class="textWrap">
+            <p>{% trans "Magpie (“we”, “us”, “our”) is a Life Management Services (‘LMS’) organisation providing digital solutions that make life easier. The Magpie model is centred on putting you in control of your personal information. Magpie knows that you care how information about you is stored, used and shared, as such Magpie’s company ethos is “Privacy by design”. Information that you provide directly or that is generated through your usage of Magpie products and services, will be stored securely and you will be in control of this data. You can decide with whom you share your data and for how long." %}</p>
+            <p>{% trans "This notice describes our privacy policy, in relation to the information that we collect, what we do with that information and how you can manage and control the use of the information. By downloading this application (“Life Manager App”) you are accepting the practices described within this privacy notice." %}</p>
+        </div>
+    </div>
+    <div class="termsCondBlock">
+        <h3>{% trans "2 The information that we collect" %}</h3>
+        <div class="textWrap">
+            <h4><b>{% trans "2.1 When you subscribe to Magpie services" %}</b></h4>
+            <p>{% trans "In order to subscribe to our services you will be required to submit the following basic information;" %}</p>
+            <ol>
+                <li>{% trans "Your Name; " %}</li>
+
+                <li>{% trans "Your Postal Address;" %}</li>
+
+                <li>{% trans "Your Mobile Telephone Number;" %}</li>
+
+                <li>{% trans "Your E-Mail Address;" %}</li>
+
+                <li>{% trans "Your Card payment details." %}</li>
+
+                <li>{% trans "Information about the smartphone, tablet or other device or any computer you may use to download a copy of the Life Manager App." %}</li>
+            </ol>
+            <p>{% trans "This information will be used by Magpie to administer your membership and ensure suitability of the service." %}</p>
+
+            <p>{% trans "As part of your subscription you will receive access to a Personal Information Bank (“PIB”). This PIB is personal to you, it is at your sole discretion what information you choose to deposit in your PIB, and with whom you choose to share it." %}</p>
+        </div>
+        <div class="textWrap">
+            <h4><b>{% trans "2.2 What other information does Magpie gather" %}</b></h4>
+            <p>{% trans "Some services will require access to additional information in order for them to function correctly and for you to benefit from these services, these may include:" %}</p>
+            <ol>
+                <li>{% trans "Card loss and registration services;" %}</li>
+
+                <li>{% trans "Important document storage;" %}</li>
+
+                <li>{% trans "Bank Account aggregation services." %}</li>
+
+                <li>{% trans "Insurance Services" %}</li>
+            </ol>
+
+            <p>{% trans "The above will require additional information to be collected from you either via our call centres, or via the Life Manager App (available on IOS, Android and Desktop) directly, this may include:" %}</p>
+            <ol>
+                <li>{% trans "Additional contact information e.g. Date of Birth, home phone number or secondary email address;" %}</li>
+
+                <li>{% trans "Additional information required to process an insurance claim;" %}</li>
+
+                <li>{% trans "A list of payment cards, required for loss reporting an re-ordering;" %}</li>
+
+                <li>{% trans "Photo scans of important documents (stored in your PIB) for replacement purposes;" %}</li>
+
+                <li>{% trans "Details of insurance claims made via the Life Manager App;" %}</li>
+
+                <li>{% trans "Mobile phone registration details such as IMEI and proof of purchase." %}</li>
+            </ol>
+        </div>
+        <div class="textWrap">
+            <h4><b>{% trans "2.3 Usage data" %}</b></h4>
+
+            <p>{% trans "Magpie uses Google Analytics and Heatdata, which track your usage of the Life Manager App." %}</p>
+
+            <p>{% trans "We use Google Analytics and Heatdata to collect information about your activity on the Life Manager App. We collect information in an anonymous form about your usage of the Life Manager App, including the number of times you use it and the functions of the Life Manager App that you use. Google Analytics send anonymous non-personally identifiable data to remote servers where the data is aggregated and presented back to us as analytical data about the use of the Life Manager App by our subscribers. We use the information to compile reports and to help us improve the Life Manager App. So for example we may know how many people use a certain function within the Life Manager App, but we would not know if you were one of those people." %}</p>
+
+            <p>{% trans "For more information about the information gathered using Google Analytics, please visit:" %}</p>
+
+            <p><a href="https://support.google.com/analytics/answer/6004245?hl=en-GB" target="_blank">https://support.google.com/analytics/answer/6004245?hl=en-GB</a> {% trans "and" %} <a href="https://support.google.com/analytics/answer/2838718?hl=en-GB&ref_topic=2790009" target="_blank">https://support.google.com/analytics/answer/2838718?hl=en-GB&ref_topic=2790009</a></p>
+
+            <p>{% trans "The information we collect cannot be used by anyone else who has access to your mobile device to find out anything about you. The tracking we perform does not in any way compromise the security of your device." %}</p>
+
+            <p>{% trans "The information we collect cannot be used by anyone else who has access to your mobile device to find out anything about you. The tracking we perform does not in any way compromise the security of your device." %}</p>
+
+            <p>{% trans "We are unable to use the information collected about your usage to identify you personally." %}</p>
+        </div>
+    </div>
+    <div class="termsCondBlock">
+        <h3><b>{% trans "3 How we use the information we collect" %}</b></h3>
+        <div class="textWrap">
+            <p>{% trans "We may use the information we collect, including your personal information:" %}</p>
+            <ol>
+                <li>{% trans "To manage your subscription;" %}</li>
+
+                <li>{% trans "To provide you with the services and features of your subscription;" %}</li>
+
+                <li>{% trans "To collect payments when due;" %}</li>
+
+                <li>{% trans "To maintain internal records;" %}</li>
+
+                <li>{% trans "To communicate with you by e-mail, telephone or post if you have purchased a Subscription from Magpie, either regarding the purchase or other matters regarding transactions between you and Magpie or your customer relationship with Magpie;" %}</li>
+
+                <li>{% trans "To conduct statistical analysis;" %}</li>
+
+                <li>{% trans "To prevent fraud;" %}</li>
+
+                <li>{% trans "To improve your experience with the services and products provided as part of the Subscription;" %}</li>
+
+                <li>{% trans "To ensure the technical functioning of the services and products;" %}</li>
+
+                <li>{% trans "To enforce this Privacy Policy and the Terms and Conditions of Use including to protect the rights, property or safety of Magpie, users or any other person and the copyright-protected content of the Service." %}</li>
+            </ol>
+        </div>
+    </div>
+    <div class="termsCondBlock">
+        <h3><b>{% trans "4 Who do we share information with" %}</b></h3>
+        <div class="textWrap">
+            <h4><b>{% trans "4.1 Your Personal Information" %}</b></h4>
+
+            <p>{% trans "Your personal information will only be made available to Magpie’s authorised service provider’s and third party suppliers which perform certain services on Magpie’s behalf e.g. providing IT support and maintenance, providing hosting services, providing customer service, providing payment processing services and providing features of the subscription. These service providers may have access to personal information needed to perform their functions on Magpie’s behalf but are not permitted to share or to use such information for any other purpose. " %}</p>
+
+            <p><strong>{% trans "Magpie will not share your personal information without your permission to any other third party." %}</strong></p>
+
+            <h4><b>{% trans "4.2 De-identified usage information" %}</b></h4>
+
+            <p>{% trans "Magpie may share de-identified, aggregated usage information, collated as per section 2.3 with third parties, for market insight and statistical analysis purposes." %}</p>
+        </div>
+    </div>
+    <div class="termsCondBlock">
+        <h3><b>{% trans "5 Accessing and updating user information" %}</b></h3>
+        <div class="textWrap">
+            <p>{% trans "You can access and amend your information via your Life Manager App or via your PIB." %}</p>
+        </div>
+    </div>
+    <div class="termsCondBlock">
+        <h3><b>{% trans "6 Data security" %}</b></h3>
+        <div class="textWrap">
+            <h4><b>{% trans "6.1 Security of your information" %}</b></h4>
+
+            <p>{% trans "Magpie works hard to protect the security of your information during transmission by using Secure Sockets Layer (SSL) software, which encrypts information you input." %}</p>
+
+            <h4><b>{% trans "6.2 Security of your card numbers" %}</b></h4>
+
+            <p>{% trans "Magpie will only ever reveal only the last four digits of your card numbers when confirming an order. Of course, Magpie will transmit the entire card number to the appropriate card company during order processing." %}</p>
+
+            <h4><b>{% trans "6.3 Where your information is stored" %}</b></h4>
+
+            <p>{% trans "Magpie uses your PIB, for the collection & storage of personal information." %}</p>
+            <p>{% trans "In addition, Magpie maintains electronic and procedural safeguards in connection with the collection, storage and disclosure of any personally identifiable customer information. Our security procedures mean that we may occasionally request proof of identity before we disclose personal information to you." %}</p>
+            <p>{% trans "It is important for you to protect against unauthorised access to your password and to your computer. Be sure to sign off when you finish using a shared computer." %}</p>
+        </div>
+    </div>
+    <div class="termsCondBlock">
+        <h3><b>{% trans "7 Third party services" %}</b></h3>
+        <div class="textWrap">
+            <p>{% trans "Magpie may use third party services within its Subscriptions, you will be presented with their privacy policies when accessing their services for the first time; please ensure that you read them to find out how they collect and process your personal information, before using the service." %}</p>
+        </div>
+    </div>
+    <div class="termsCondBlock">
+        <h3><b>{% trans "8 Contact us" %}</b></h3>
+        <div class="textWrap">
+            <p>{% trans "If you have any questions regarding Magpie’s privacy policy then please contact " %}<a href="mailto:support@magpieint.com" target="_blank">{% trans "support@magpieint.com" %}</a></p>
+        </div>
+    </div>
+    <div class="termsCondBlock">
+        <h3><b>{% trans "9 Changes to the Privacy Policy" %}</b></h3>
+        <div class="textWrap">
+            <p>{% trans "We may make changes to the privacy policy from time to time, so please visit this Privacy Policy regularly. If we make any changes which we believe are material we will inform you through the subscription service. Your continued use of the subscription thereafter constitutes acceptance of the changes." %}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,113 @@
+{
+    "all_card_details": [
+        {
+            "user_id": 1,
+            "card_details": [
+                {
+                    "cardType": "Debit Card 1",
+                    "cardNumber": "1111"
+                },
+                {
+                    "cardType": "Debit Card 2",
+                    "cardNumber": "1112"
+                },
+                {
+                    "cardType": "Debit Card 3",
+                    "cardNumber": "1113"
+                },
+                {
+                    "cardType": "Debit Card 4",
+                    "cardNumber": "1114"
+                },
+                {
+                    "cardType": "Debit Card 5",
+                    "cardNumber": "1115"
+                },
+                {
+                    "cardType": "Credit Card 1",
+                    "cardNumber": "1116"
+                },
+                {
+                    "cardType": "Credit Card 2",
+                    "cardNumber": "1117"
+                },
+                {
+                    "cardType": "Credit Card 3",
+                    "cardNumber": "1118"
+                },
+                {
+                    "cardType": "Credit Card 4",
+                    "cardNumber": "1119"
+                }
+            ]
+        }
+    ],
+    "all_bank_details": [
+        {
+            "userId": 1,
+            "business_partner_Id": 2,
+            "bank_details": [
+                {
+                    "bank_name": "Bank of Mexico",
+                    "account_no": 13455,
+                    "currency": "USD",
+                    "account_name": "Salary account",
+                    "balance": 12345.23
+                },
+                {
+                    "bank_name": "Bank of America",
+                    "account_no": 23425,
+                    "currency": "USD",
+                    "account_name": "Salary account",
+                    "balance": 46413.23
+                },
+                {
+                    "bank_name": "Swiss Bank",
+                    "account_no": 466556,
+                    "currency": "USD",
+                    "account_name": "Salary account",
+                    "balance": 94651.23
+                },
+                {
+                    "bank_name": "Bank of America",
+                    "account_no": 23425,
+                    "currency": "USD",
+                    "account_name": "Salary account",
+                    "balance": 46413.23
+                }
+            ]
+        }
+    ],
+    "claim_type": [
+        {
+            "": "Select Claim Type"
+        },
+        {
+            "Phone": "Mobile Phone Insurance"
+        }
+    ],
+    "insurance_details": [
+        {
+            "Phone": {
+                "claim_description": "This covers the cost of phone replacement upto $3.",
+                "placeholder": "Enter the type of phone and any details about how it was lost."
+            },
+            "Car": {
+                "claim_description": "This covers the cost of car replacement upto $89.",
+                "placeholder": "Enter the type of car and any details about how it was lost."
+            },
+            "Home": {
+                "claim_description": "This covers the cost for home insurance upto $456.",
+                "placeholder": "Enter about home destruction."
+            },
+            "Education": {
+                "claim_description": "claim upto $654.",
+                "placeholder": "Enter related information required for education insurance."
+            },
+            "Travel": {
+                "claim_description": "This covers the cost for Travel Insurance $45.",
+                "placeholder": "Enter description about your accident."
+            }
+        }
+    ]
+}

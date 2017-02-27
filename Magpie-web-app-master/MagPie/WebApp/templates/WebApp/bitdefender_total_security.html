@@ -1,0 +1,44 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+{% block content %}
+<div class="webAppForm clearfix">
+    <form class="form-horizontal formWrapper " method="post">
+        <h3>{% trans "Do you want to activate this service ? " %}</h3>
+        <fieldset class="loginFields">
+            <h2>{% trans "Even the best anti-malware software is worthless, if it’s hard to use. Bitdefender Total Security 2015 engages security with a single click." %}</h2>
+            <div id="plusFeat" class="col-md-12 noPadding" style="display: block;">
+                <ul>
+                    <li class="col-md-6">
+                        <h3 class="roboto">{% trans "Install and Forget." %}</h3>
+
+                        <p>{% trans "Bitdefender’s OneClick Autopilot automatically makes the best security decisions for you." %}</p>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="roboto">{% trans "Smart Profiles." %}</h3>
+
+                        <p>{% trans "Bitdefender Total Security 2015 automatically detects when you Work, Play or Watch movies, and prevents other apps from slowing you down." %}</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="col-md-6">
+                        <h3 class="roboto">{% trans "Single-Click Tune-Up &amp; Clean-Up. " %}</h3>
+
+                        <p>{% trans "OneClick Optimizer speeds up your system and frees up disk space." %}</p>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="roboto">{% trans "One-Step Online Payments. " %}</h3>
+
+                        <p>{% trans "Wallet simplifies purchases by securely autofilling your credit card details." %}</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="btnLinkWrap clear">
+                <div class="form-group btnLink">
+                    <a href="http://www.bitdefender.com/solutions/total-security.html" target="_blank" class="btn btn-primary btnCancel">{% trans "Yes" %}</a>
+                    <a href="{% url 'dashboard' %}" class="btn btn-primary btnCancel">{% trans "No" %}</a>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+{% endblock %}

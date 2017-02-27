@@ -1,0 +1,33 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+{% load custom_tags %}
+{% block content %}
+    <div class="magpieWrapper clearfix">
+        <h1>{% trans "Billing Details " %}</h1>
+        <div class="formWrapper subscriptionInfo">
+            <div class="dataField subscriptionField firstChild">
+                <h5>{% trans "Subscription Period" %}</h5>
+                {% if subscription.startDate %}
+                <span class="infoData">
+                    <span>{% trans "Start:" %}</span>
+                    <span class="dateInfo">{{ subscription.startDate|date_from_ms }}</span>
+                </span>
+                {% endif %}
+                {%if subscription.endDate %}
+                <span class="infoData">
+                    <span>{% trans "End:" %}</span>
+                    <span class="dateInfo">{{ subscription.endDate|date_from_ms}}</span>
+                </span>
+                {% endif %}
+             </div>
+            <div class="dataField">
+                <h5>{% trans "Billing Amount" %}</h5>
+                <span class="infoData">{{ subscription.annualPrice }}</span>
+            </div>
+            <div class="dataField">
+                <h5>{% trans "Auto Renew Status " %}</h5>
+                <span class="infoData">{{ subscription.autoRenew }}</span>
+            </div>
+        </div>
+    </div>
+{% endblock %}

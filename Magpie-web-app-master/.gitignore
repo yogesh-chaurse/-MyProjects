@@ -1,0 +1,6 @@
+.idea/
+*.pyc
+/MagPie/MagPie/settings.py
+/.env/*
+/MagPie/WebApp/static/WebApp/uploads/*
+webapp.log

@@ -1,0 +1,47 @@
+{% extends "CMS/layout.html" %}
+
+{% block content %}
+<div class="magContainerCover">
+    <h1>{{institution.name}}</h1>
+
+    <div class="institutionDetail">
+        <div class="dataField firstChild">
+            <h5>Institution Name</h5>
+            <div class="infoData">
+                <ul class="institutionLanguage">
+                    <li class="firstChild">{{institution.name}} (In English)</li>
+                    <li>{{contents.content_es}} (In Spanish)</li>
+                    <li>{{contents.content_zh}} (In Chinese)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dataField">
+            <h5>Institution allows direct pay or not?</h5>
+            <div class="infoData">{{institution.direct_claim_allowed|yesno:'Yes,No'}}</div>
+        </div>
+        <div class="dataField">
+            <h5>Contact Phone Number</h5>
+            <div class="infoData">{{institution.contact_no}}</div>
+        </div>
+        <div class="dataField">
+            <h5>Institution Contact Email</h5>
+            <div class="infoData">{{institution.email}}</div>
+        </div>
+        <div class="dataField">
+            <h5>Postal Address</h5>
+            <div class="infoData">{{institution.postal_address|linebreaksbr}}</div>
+        </div>
+        <div class="dataField">
+            <h5>Instructional Text</h5>
+            <div class="infoData">{{institution.instructional_text|linebreaksbr}}</div>
+        </div>
+        <div class="dataField">
+            <h5>Region / Country</h5>
+            <div class="infoData">{{institution.region}}</div>
+        </div>
+        <div class="btnLinkWrap dataField">
+            <a class="linkCancel btnCancel" href="{% url 'institution_list' %}">Back</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

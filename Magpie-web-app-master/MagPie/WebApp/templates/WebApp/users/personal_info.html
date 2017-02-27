@@ -1,0 +1,80 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+    <div class="magpieWrapper clearfix">
+        <h1>{% trans "My Account" %}</h1>
+        <div class="formWrapper personalInfo">
+             <div class="dataField">
+                <h5>{% trans "First Name" %}</h5>
+                <span class="infoData">{{personal_info.forename}}</span>
+             </div >
+
+             <div class="dataField">
+                <h5>{% trans "Last Name" %}</h5>
+                <span class="infoData">{{personal_info.surname}}</span>
+             </div>
+
+             <div class="dataField">
+                <h5>{% trans "Address Line 1" %}</h5>
+                <span class="infoData">{{personal_info.address.addressline1}}</span>
+             </div>
+
+             <div class="dataField">
+                <h5>{% trans "Address Line 2" %}</h5>
+                <span class="infoData">
+                    {% if personal_info.address.addressLine2 %}
+                        {{personal_info.address.addressLine2}}
+                    {% else %}
+                        NA
+                    {% endif %}</span>
+             </div>
+
+             <div class="dataField">
+                <h5>{% trans "Address Line 3" %}</h5>
+                <span class="infoData">
+                    {% if personal_info.address.addressLine3 %}
+                        {{personal_info.address.addressLine3}}
+                    {% else %}
+                        NA
+                    {% endif %}
+                </span>
+             </div>
+
+             <div class="dataField">
+                <h5>{% trans "City" %}</h5>
+                <span class="infoData">{{personal_info.address.city}}</span>
+             </div>
+
+             <div class="dataField">
+                <h5>{% trans "Zipcode" %}</h5>
+                <span class="infoData">{{personal_info.address.postcode}}</span>
+             </div>
+
+             <div class="dataField">
+                <h5>{% trans "Country" %}</h5>
+                <span class="infoData">{{personal_info.address.country}}</span>
+             </div>
+
+             <div class="dataField">
+                <h5>{% trans "Phone Number" %}</h5>
+                <span class="infoData">{{personal_info.mobile}}</span>
+             </div>
+
+             <div class="dataField">
+                <h5>{% trans "Email" %}</h5>
+                <span class="infoData">
+                    {% if personal_info.email %}
+                    {{ personal_info.email }}
+                    {% else %}
+                    test@test.com
+                    {% endif %}
+                </span>
+             </div>
+
+             <div class="btnLink dataField">
+                <a href="{% url 'edit_personal_info' %}" class="btn ">{% trans "Edit" %}</a>
+             </div>
+        </div>
+    </div>
+{% endblock %}

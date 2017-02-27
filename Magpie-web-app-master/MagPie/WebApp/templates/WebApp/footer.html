@@ -1,0 +1,11 @@
+{% load i18n %}
+
+{% block footer %}
+<footer class= "magpieFooter clearfix">
+    <div class="footerInner clearfix">
+        <div class="magpieFooterWrap">
+            <p class="copyRight">&copy; {% now 'Y' %} {% trans "Magpie Intl - All rights reserved." %}</p>
+        </div>
+    </div>
+</footer>
+{% endblock %}

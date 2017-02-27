@@ -1,0 +1,135 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+<div class="magpieWrapper clearfix">
+    <h1>{% trans "My Account" %}</h1>
+
+    <form class="formWrapper editInfoForm" id="personalInfoForm" action="" method="post">
+        {% csrf_token %}
+        <div class="dataField firstChild">
+            <label>{{ form.forename.label }}</label>
+
+            <div class="infoData">
+                {{ form.forename }}
+                {% if form.forename.errors %}
+                <div class="error">{{form.forename.errors}}</div>
+                {% endif %}
+                <div id="first_name-description"></div>
+            </div>
+        </div>
+
+        <div class="dataField">
+            <label>{{ form.surname.label }}</label>
+
+            <div class="infoData">
+                {{ form.surname }}
+                {% if form.surname.errors %}
+                <div class="error">{{form.surname.errors}}</div>
+                {% endif %}
+                <div id="last_name-description"></div>
+            </div>
+        </div>
+        <div class="dataField">
+            <label>{{ form.addressLine1.label }}</label>
+
+            <div class="infoData">
+                {{ form.addressLine1 }}
+                {% if form.addressLine1.errors %}
+                <div class="error">{{form.addressLine1.errors}}</div>
+                {% endif %}
+                <div id="address_line1-description"></div>
+            </div>
+        </div>
+        <div class="dataField">
+            <label>{{ form.addressLine2.label }}</label>
+
+            <div class="infoData">
+                {{ form.addressLine2 }}
+                {% if form.addressLine2.errors %}
+                <div class="error">{{form.addressLine2.errors}}</div>
+                {% endif %}
+                <div id="address_line2-description"></div>
+            </div>
+        </div>
+        <div class="dataField">
+            <label>{{ form.addressLine3.label }}</label>
+
+            <div class="infoData">
+                {{ form.addressLine3 }}
+                {% if form.addressLine3.errors %}
+                <div class="error">{{form.addressLine3.errors}}</div>
+                {% endif %}
+                <div id="address_line3-description"></div>
+            </div>
+        </div>
+        <div class="dataField">
+            <label>{{ form.city.label }}</label>
+
+            <div class="infoData">
+                {{ form.city }}
+                {% if form.city.errors %}
+                <div class="error">{{form.city.errors}}</div>
+                {% endif %}
+                <div id="city-description"></div>
+            </div>
+        </div>
+        <div class="dataField">
+            <label>{{ form.postcode.label }}</label>
+
+            <div class="infoData">
+                {{ form.postcode }}
+                {% if form.postcode.errors %}
+                <div class="error">{{form.postcode.errors}}</div>
+                {% endif %}
+                <div id="zipcode-description"></div>
+            </div>
+        </div>
+        <div class="dataField">
+            <label>{{ form.country.label }}</label>
+
+            <div class="infoData">
+                {{ form.country }}
+                {% if form.country.errors %}
+                <div class="error">{{form.country.errors}}</div>
+                {% endif %}
+                <div id="country-description"></div>
+            </div>
+        </div>
+        <div class="dataField">
+            <label>{{ form.mobile.label }}</label>
+
+            <div class="infoData">
+                {{ form.mobile }}
+                {% if form.mobile.errors %}
+                <div class="error">{{form.mobile.errors}}</div>
+                {% endif %}
+                <div id="phone_number-description"></div>
+            </div>
+        </div>
+
+        <div class="dataField">
+            <label>{{ form.email.label }}</label>
+
+            <div class="infoData">
+                {{ form.email }}
+                {% if form.email.errors %}
+                <div class="error clearfix">{{form.email.errors}}</div>
+                {% endif %}
+                <div id="email-description"></div>
+            </div>
+        </div>
+        <div class="btnLink dataField">
+            <div>
+                <button type="submit" class="btn " data-href="dashboard.html">{% trans "Save Changes" %}
+                </button>
+            </div>
+            <a href="{% url 'personal_info' %}" id="cancelLink" class="linkCancel">{% trans "Cancel" %}</a>
+        </div>
+    </form>
+</div>
+
+<script src="/static/WebApp/js/jquery-validate.js"></script>
+<script type="text/javascript" src="{% url 'django.views.i18n.javascript_catalog' %}"></script>
+<script src="/static/WebApp/js/validations/personal_info.js"></script>
+{% endblock %}

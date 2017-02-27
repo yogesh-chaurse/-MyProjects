@@ -1,0 +1,42 @@
+{% load i18n %}
+{% block header %}
+<header class="magpieHeader clearfix">
+    <div class="headerInner">
+        <div class="container">
+            <div class="magheaderWrap">
+                {% if request.session.is_active  %}
+                    <a href="/" class="magpieLogo"><img id="logo" src="{{ request.session.logo }}" alt="Magpie"/></a>
+                {% else %}
+                    <a href="javascript:void(0);" class="magpieLogo"><img src="/static/WebApp/images/logoMagpie.png" alt="Magpie"/></a>
+                {% endif %}
+            </div>
+
+            {% if request.session.is_active  %}
+                <div class="menuOpecWrap"> </div>
+                <div class="menuSlide">
+                    <a href="#" title="close" class="linkClose icon bgIcon">Close</a>
+                    <ul class="linkDropdown firstLinkDropdown">
+                        <li><a href="{% url 'personal_info'  %}" class="active">{% trans "My Account" %}</a></li>
+                        <li><a href="{% url 'subscription_info'  %}">{% trans "Subscription Information" %}</a></li>
+                        <li><a href="{% url 'settings'  %}">{% trans "Settings" %}</a></li>
+                    </ul>
+                    <ul class="linkDropdown">
+                        <li><a href="{% url 'ethos'  %}">{% trans "Ethos" %}</a></li>
+                        <li><a href="{% url 'terms_and_conditions'  %}">{% trans "Privacy Policy" %}</a></li>
+                        <li><a href="{% url 'help'  %}">{% trans "Help" %}</a></li>
+                        <li><a href="{% url 'logout'  %}">{% trans "Logout" %}</a></li>
+                    </ul>
+                    <ul class="linkDropdown">
+                        <li>
+                            <a href="http://livemore.life/contact/" target="_blank">
+                                {% trans "Leave Feedback" %}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="responsiveMenu bgIcon icon">{% trans "Menu" %}</a>
+    {% endif %}
+    </div>
+</header>
+{% endblock %}

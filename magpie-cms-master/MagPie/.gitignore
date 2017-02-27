@@ -1,0 +1,3 @@
+/.env*
+Magpie-CMS/MagPie/MagPie/settings.py
+*.pyc

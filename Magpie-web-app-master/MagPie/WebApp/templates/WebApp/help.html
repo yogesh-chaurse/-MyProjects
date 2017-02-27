@@ -1,0 +1,24 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+<div class="magpieWrapper clearfix">
+    <h1>{% trans "Need Help? Call or Email us at:" %}</h1>
+
+    <div class="formWrapper subscriptionInfo">
+        {% if contact_phone != None %}
+        <div class="dataField">
+            <h5>{% trans "Contact Number" %}</h5>
+            <span class="infoData">{{contact_phone}}</span>
+        </div>
+        {% endif %}
+        {% if contact_email != None %}
+        <div class="dataField">
+            <h5>{% trans "Email" %}</h5>
+            <span class="infoData">{{contact_email}}</span>
+        </div>
+        {% endif %}
+    </div>
+    <h2 class="faqLink"><a href="https://magpie.desk.com" target="_blank">FAQ's</a></h2>
+</div>
+{% endblock %}

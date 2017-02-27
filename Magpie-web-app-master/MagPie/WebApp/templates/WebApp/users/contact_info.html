@@ -1,0 +1,81 @@
+{% load i18n %}
+
+{% block contact_info %}
+    <div class="dataField">
+        <label>{{ form.addressLine1.label }}</label>
+
+        <div class="infoData">
+            {{ form.addressLine1 }}
+            {% if form.addressLine1.errors %}
+            <div class="error">{{form.addressLine1.errors}}</div>
+            {% endif %}
+            <div id="id_address_line1-description"></div>
+        </div>
+    </div>
+    <div class="dataField">
+        <label>{{ form.addressLine2.label }}</label>
+
+        <div class="infoData">
+            {{ form.addressLine2 }}
+            {% if form.addressLine2.errors %}
+            <div class="error">{{form.addressLine2.errors}}</div>
+            {% endif %}
+            <div id="id_address_line2-description"></div>
+        </div>
+    </div>
+    <div class="dataField">
+        <label>{{ form.addressLine3.label }}</label>
+
+        <div class="infoData">
+            {{ form.addressLine3 }}
+            {% if form.addressLine3.errors %}
+            <div class="error">{{form.addressLine3.errors}}</div>
+            {% endif %}
+            <div id="id_address_line3-description"></div>
+        </div>
+    </div>
+    <div class="dataField">
+        <label>{{ form.city.label }}</label>
+
+        <div class="infoData">
+            {{ form.city }}
+            {% if form.city.errors %}
+            <div class="error">{{form.city.errors}}</div>
+            {% endif %}
+            <div id="id_city-description"></div>
+        </div>
+    </div>
+    <div class="dataField">
+        <label>{{ form.postcode.label }}</label>
+
+        <div class="infoData">
+            {{ form.postcode }}
+            {% if form.postcode.errors %}
+            <div class="error">{{form.postcode.errors}}</div>
+            {% endif %}
+            <div id="id_zipcode-description"></div>
+        </div>
+    </div>
+    <div class="dataField">
+        <label>{{ form.country.label }}</label>
+
+        <div class="infoData">
+            {{ form.country }}
+            {% if form.country.errors %}
+            <div class="error">{{form.country.errors}}</div>
+            {% endif %}
+            <div id="id_country-description"></div>
+        </div>
+    </div>
+    <div class="dataField">
+        <label class="email_label">{{ form.email.label }}</label>
+
+        <div class="infoData editField method_of_contact">
+            {{ form.email }}
+            {% if form.email.errors %}
+            <div class="error">{{form.email.errors}}</div>
+            {% endif %}
+            <div id="email-description" class></div>
+        </div>
+    </div>
+{% endblock %}

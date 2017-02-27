@@ -1,0 +1,30 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+{% block content %}
+    <div class="magpieWrapper clearfix contentPage">
+        <h1>{% trans "Do you want to activate this service ? " %}</h1>
+        <div class="formWrapper parentalControlWrap">
+            <h3>{% trans "Bitdefender Parental Control 2015" %}</h3>
+                 <div class="dataField">
+                    <h5>{% trans "Install and Forget." %}</h5>
+                    <span class="infoData">{% trans "Bitdefender’s OneClick Autopilot automatically makes the best security decisions for you." %}</span>
+                </div>
+                <div class="dataField">
+                    <h5>{% trans "Smart Profiles." %}</h5>
+                    <span class="infoData">{% trans "Bitdefender Total Security 2015 automatically detects when you Work, Play or Watch movies, and prevents other apps from slowing you down." %}</span>
+                </div>
+                 <div class="dataField">
+                    <h5>{% trans "Single-Click Tune-Up &amp; Clean-Up. " %}</h5>
+                    <span class="infoData">{% trans "OneClick Optimizer speeds up your system and frees up disk space." %}</span>
+                </div>
+                <div class="dataField">
+                    <h5>{% trans "One-Step Online Payments. " %}</h5>
+                    <span class="infoData">{% trans "Wallet simplifies purchases by securely autofilling your credit card details." %}</span>
+                </div>
+            </div>
+            <div class="btnLink dataField  btnLinkWrap">
+                <a href="http://www.bitdefender.com/solutions/parental-control.html" target="_blank" class="btn ">{% trans "Yes" %}</a>
+                <a href="{% url 'dashboard' %}" class="btn  leftBtn">{% trans "No" %}</a>
+            </div>
+    </div>
+{% endblock %}

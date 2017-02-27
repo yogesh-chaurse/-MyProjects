@@ -1,0 +1,623 @@
+/* Font Face */
+@font-face {
+	font-family: 'ralewayregular';
+	src: url('../fonts/raleway-regular-webfont.eot');
+	src: url('../fonts/raleway-regular-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+		url('../fonts/raleway-regular-webfont.woff') format('woff'),
+		url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+		url('../fonts/raleway-regular-webfont.svg#ralewayregular')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+input {
+	-webkit-appearance: none;
+}
+/* Font Face End */
+body {
+	font-family: 'PT Sans Regular', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	position: relative;
+	color: #555;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.clearfix:after, .clearfix:before {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+a {
+	color: #02a9d8;
+	text-decoration: none;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+	color: #02a9d8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 30px;
+	font-family: 'PT Sans Bold', sans-serif;
+	margin-bottom: 0;
+	color: #555;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	height: auto;
+}
+
+.noBorder {
+	border: 0 none;
+	padding: 0;
+}
+
+ul {
+	text-align: left;
+}
+
+.error {
+	color: red;
+	display: block;
+	font-size: 14px;
+	margin: 0 0 3px;
+	padding-top: 4px;
+}
+
+input[type="file" i], input[type="file" i]::-webkit-file-upload-button {
+	cursor: pointer !important;
+}
+
+h5 {
+	margin: 0;
+	display: block;
+}
+
+p {
+	margin: 10px 0 0 0;
+}
+
+input[type="text"], textarea, input[type="password"], input[type="number"],
+	input[type="email"], input, select {
+	color: #000;
+	font-size: 16px;
+	border: 1px solid #ebebeb;
+	background-color: #fff;
+	line-height: 20px;
+	border-radius: 5px;
+	font-family: 'PT Sans Regular', sans-serif;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 9px 20px;
+}
+
+::-webkit-input-placeholder {
+	color: #898989;
+}
+
+:-moz-placeholder {
+	color: #898989;
+}
+
+::-moz-placeholder {
+	color: #898989;
+}
+
+:-ms-input-placeholder {
+	color: #898989;
+}
+
+input[type="button"], input[type="submit"], .btn, button {
+	box-shadow: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[readonly], textarea[readonly] {
+	background-color: #E2E2E2;
+	color: #555555;
+}
+
+.btn {
+	background-color: #02a9d8;
+	color: #fff;
+	padding: 10px 5px;
+	min-width: 130px;
+	font-size: 16px;
+	line-height: 18px;
+	display: inline-block;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+	background-color: #0394bd;
+	color: #fff;
+}
+
+.btnLink {
+	text-align: center;
+	font-size: 16px;
+}
+
+.linkCancel, .editLink {
+	text-decoration: underline;
+	margin-top: 18px;
+	display: inline-block;
+}
+
+.linkCancel:hover, .edit:hover {
+	text-decoration: underline;
+}
+/* header css start*/
+.magpieHeader {
+	color: #fff;
+	background-color: #02a9d8;
+	position: relative;
+}
+
+.headerInner {
+	position: relative;
+}
+
+.magheaderWrap {
+	padding: 8px 0;
+	text-align: center;
+}
+
+.magpieLogo {
+	display: inline-block;
+}
+
+#logo {
+	height: 30px;
+	max-width: 109px;
+}
+
+.headerNav {
+	position: relative;
+}
+
+/* header css end*/
+.commonWrap {
+	position: relative;
+}
+
+.magpieContainer {
+	padding: 60px 0;
+}
+
+.formWrapper {
+	width: 100%;
+}
+
+.btnCancel {
+	margin-left: 20px;
+}
+
+.magContainerWrap, .magpieFooterWrap {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.magContainerWrap {
+	margin-bottom: 15px;
+}
+
+/* PersonalInformation */
+.infoData {
+	color: #898989;
+	font-size: 16px;
+	display: block;
+	line-height: 18px;
+	margin-top: 8px;
+}
+
+.dataField, .formWrapper {
+	margin-top: 44px;
+}
+
+.dataField.firstChild, .termsCondBlock.firstChild {
+	margin-top: 0px;
+}
+
+.dataField:first-child {
+	margin-top: 0;
+}
+
+.contentPage  h5 {
+	font-family: 'PT Sans Bold', sans-serif;
+	margin-bottom: 5px;
+}
+
+/* Terms and Conditions */
+.termsCondBlock {
+	margin-top: 14px;
+	color: #898989;
+}
+
+.contentPage {
+	margin: 50px auto 0 auto;
+	width: 620px;
+}
+
+.termsCondBlock {
+	margin-top: 30px;
+}
+
+.termsCondBlock h3 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0;
+}
+
+.termsCondBlock h4 {
+	color: #676464;
+	margin: 0 0 5px 0;
+}
+
+.termsCondBlock ul {
+	padding-left: 30px;
+}
+
+.termsCondBlock a:hover {
+	text-decoration: underline;
+}
+
+.formWrapper a {
+	text-decoration: none;
+}
+
+.connectForm .dataField>label {
+	font-size: 11px;
+	color: #acacac;
+	margin-bottom: 5px;
+}
+
+.personalInfoHead {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.personalInfoHead img {
+	margin-right: 15px;
+}
+
+.connectForm h5 {
+	font-size: 15px;
+	color: #898989;
+	margin-top: 35px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 7px;
+}
+
+.headImages {
+	display: inline-block;
+	height: 78px;
+	width: 78px;
+	border: 1px solid #eee;
+	vertical-align: top;
+}
+
+.headImages:first-child {
+	margin-right: 10px;
+}
+
+.headImages .personalInf {
+	display: block;
+	height: 65px;
+	width: 65px;
+	margin: 7px auto;
+	background-color: #02a9d8;
+	border-radius: 50%;
+	background-image: url('../images/personalInfo@3px.png');
+	background-size: 45%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.headImages .magpieLogo {
+	display: block;
+	height: 65px;
+	width: 65px;
+	background-size: 90%;
+	margin: 7px auto;
+	background-image: url('../images/logo@3px.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.headImages .logo {
+	display: block;
+	height: 65px;
+	width: 65px;
+	background-size: 90%;
+	margin: 7px auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a.linkCancel, a.linkCancel:active {
+	text-decoration: none;
+}
+
+.pibLogo {
+	background: url('../images/pibLogo.png') no-repeat left center;
+	font-size: 24px;
+	color: #acacac;
+	width: 170px;
+	padding-left: 65px;
+	box-sizing: border-box;
+	text-align: left;
+	margin: 0 auto;
+	padding: 10px 0 10px 65px;
+	line-height: 28px;
+	font-family: ralewayregular;
+	margin-bottom: 40px;
+}
+
+.appstoreLogo {
+	width: 150px;
+	margin: 40px auto
+}
+
+.pibPage {
+	text-align: center;
+	max-width: 250px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.pibPage input[type="text"], .pibPage textarea, .pibPage  input[type="password"],
+	.pibPage input[type="number"], .pibPage input[type="email"], .pibPage input,
+	select {
+	font-family: ralewayregular;
+	font-size: 14px;
+}
+
+.pibPage p {
+	margin-bottom: 16px;
+}
+
+.pibPage .dataField {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.pibPage input[type="text"]::-webkit-input-placeholder, .pibPage input[type="email"]::-webkit-input-placeholder,
+	.pibPage input[type="password"]::-webkit-input-placeholder {
+	color: #707070;
+}
+
+.pibPage input[type="text"]:-moz-placeholder, .pibPage input[type="password"]:-moz-placeholder,
+	.pibPage input[type="email"]:-moz-placeholder {
+	color: #707070;
+	opacity: 1;
+}
+
+.pibPage input[type="text"]::-moz-placeholder, .pibPage input[type="password"]::-moz-placeholder,
+	.pibPage input[type="email"]::-moz-placeholder {
+	color: #707070;
+	opacity: 1;
+}
+
+pibPage input[type="text"]:-ms-input-placeholder, .pibPage input[type="password"]:-ms-input-placeholder,
+	.pibPage input[type="email"]:-ms-input-placeholder {
+	color: #707070;
+}
+
+.pibPage input {
+	border: 1px solid #d7d7d7;
+	color: #000000;
+}
+
+.pibPage .btnLink.dataField {
+	margin-top: 40px;
+	padding-left: 0;
+}
+
+.pibPage .btnLink .btn {
+	background: #23c568;
+	font-size: 18px;
+	color: #fff;
+	width: 210px;
+	height: 46px;
+	line-height: 46px;
+	padding: 0;
+	font-family: ralewayregular;
+}
+
+.textOnly {
+	color: #acacac;
+	font-family: ralewayregular;
+	font-size: 24px;
+	line-height: 28px;
+	padding: 0 15%;
+	font-weight: normal;
+}
+
+.headImages .pibIcon {
+	background: url('../images/pibLogo.png') no-repeat center;
+	margin-top: 8px;
+}
+
+.linkIcon {
+	display: inline-block;
+	width: 20px;
+	height: 8px;
+	margin-top: 42px;
+	background: url('../images/linkIcon.png') no-repeat center;
+	margin-right: 10px;
+}
+
+.autoPara {
+	padding: 0 10%;
+}
+
+.activeWrap .mpLogo {
+	background: transparent url("../images/mpLogo.png") center no-repeat;
+	width: 150px;
+	height: 116px;
+	margin: 0 auto 60px;
+}
+
+.activeWrap {
+	width: 360px;
+}
+
+.activeWrap .infoData input {
+	font-family: "ralewayregular";
+	font-size: 18px;
+	line-height: 20px;
+	color: #000;
+	border: none;
+	border-bottom: 1px solid #02a9d8;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-radius: 1px;
+}
+
+.activeWrap .infoData input:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.activeWrap .btnLink .btn {
+	background: #02a9d8;
+	font-size: 14px;
+	width: 100%;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.activeWrap form p {
+	font-size: 14px;
+	line-height: 16px;
+	color: #888;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-family: "ralewayregular";
+}
+
+.activeWrap .pibPage {
+	max-width: 280px;
+}
+
+.linksWrap {
+	font-size: 12px;
+	text-align: center;
+}
+
+.linksWrap a {
+	display: inline-block;
+	color: #555;
+	padding: 0 5px;
+	padding-left: 8px;
+	border-left: 1px solid #ddd;
+	text-decoration: underline;
+	width: auto;
+}
+
+.linksWrap a:first-child {
+	border: none;
+}
+/* Page Loader Image */
+#loader {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.hide {
+	display: none;
+}
+
+#loader.show {
+	display: block;
+}
+
+#loader img {
+	position: absolute;
+	visibility: visible;
+	left: 50%;
+	top: 50%;
+	margin: -28px 0 0 -28px;
+}
+
+.pibPage #resendform a.linkCancel {
+	margin-top: 0;
+}
+
+@media screen and (max-width: 620px) {
+	.contentPage {
+		width: 480px;
+		padding: 0 10px;
+		-ms-word-break: break-word;
+		word-break: break-word;
+		margin-top: 20px;
+	}
+	.magContainerWrap {
+		margin-bottom: 20px;
+	}
+	.termsCondBlock h3 {
+		font-size: 16px;
+	}
+	.termsCondBlock h4 {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.contentPage {
+		width: 300px;
+	}
+	.connectForm .dataField {
+		margin-top: 0;
+		padding-top: 10px;
+		padding-left: 25px;
+	}
+	.connectFormWrap {
+		width: 95%;
+		padding-left: 5%;
+	}
+	.connectbtn {
+		padding: 10px 0;
+		width: 140px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.cancelBtn {
+		margin: 20px auto;
+		width: 100px;
+	}
+	.connectFormWrap .btnLink {
+		border-bottom: 0;
+	}
+}

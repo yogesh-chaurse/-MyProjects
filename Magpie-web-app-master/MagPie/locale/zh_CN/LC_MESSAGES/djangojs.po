@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-11 17:17+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: WebApp/static/WebApp/js/validations/activate_bundle_service.js:14
+msgid "Enter valid email Id"
+msgstr "输入有效的电子邮件标识"
+
+#: WebApp/static/WebApp/js/validations/activate_bundle_service.js:15
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:56
+#: WebApp/static/WebApp/js/validations/personal_info.js:45
+#: WebApp/static/WebApp/js/validations/report_lost_card.js:50
+msgid "Please enter valid email id"
+msgstr "请输入有效的电子邮件ID"
+
+#: WebApp/static/WebApp/js/validations/activate_pin.js:15
+msgid "Please enter the PIN"
+msgstr "请输入PIN码"
+
+#: WebApp/static/WebApp/js/validations/activate_pin.js:16
+msgid "Please input your 8 digit PIN"
+msgstr "请输入你8位数字的PIN码"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:35
+msgid "Please select claim types"
+msgstr "请选择声明类型"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:36
+msgid ""
+"Please read the conditions and exclusions for the selected insurance type."
+msgstr "请阅读条件，排除了选择保险类型。"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:39
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:40
+#: WebApp/static/WebApp/js/validations/personal_info.js:23
+msgid "Please enter address line 1"
+msgstr "请输入地址线1"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:43
+#: WebApp/static/WebApp/js/validations/personal_info.js:26
+msgid "Please enter city"
+msgstr "请输入城市"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:44
+#: WebApp/static/WebApp/js/validations/personal_info.js:27
+msgid "Please enter valid city"
+msgstr "请输入有效的城市"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:47
+#: WebApp/static/WebApp/js/validations/personal_info.js:30
+msgid "Please enter country"
+msgstr "请输入国家"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:48
+#: WebApp/static/WebApp/js/validations/personal_info.js:31
+msgid "Please enter valid country"
+msgstr "请输入有效的国家"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:51
+#: WebApp/static/WebApp/js/validations/personal_info.js:34
+#: WebApp/static/WebApp/js/validations/report_lost_card.js:45
+msgid "Please enter postcode"
+msgstr "请输入邮政编码"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:52
+#: WebApp/static/WebApp/js/validations/personal_info.js:35
+#: WebApp/static/WebApp/js/validations/report_lost_card.js:46
+msgid "Please enter valid postcode"
+msgstr "请输入有效的邮政编码"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:55
+#: WebApp/static/WebApp/js/validations/personal_info.js:44
+#: WebApp/static/WebApp/js/validations/report_lost_card.js:49
+msgid "Please enter email id"
+msgstr "请输入电子邮件ID"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:59
+msgid "Please attach file"
+msgstr "请附上文件"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:86
+msgid "File type should be png jpg only"
+msgstr "文件类型应该只png格式JPG"
+
+#: WebApp/static/WebApp/js/validations/insurance_claim.js:123
+msgid ""
+"We noticed the contact info you submitted is different than your contact "
+"info on file, do you want to update your contact info on file?"
+msgstr ""
+"我们注意到您提交的联系信息比对文件您的联系方式的不同，你要更新的文件您的联系"
+"方式？"
+
+#: WebApp/static/WebApp/js/validations/login.js:14
+msgid "Enter email Id"
+msgstr "输入电子邮件标识"
+
+#: WebApp/static/WebApp/js/validations/login.js:15
+msgid "Enter valid email id"
+msgstr "输入有效电子邮件ID"
+
+#: WebApp/static/WebApp/js/validations/login.js:18
+msgid "Enter password"
+msgstr "输入密码"
+
+#: WebApp/static/WebApp/js/validations/personal_info.js:15
+msgid "Please enter first name"
+msgstr "请输入名字"
+
+#: WebApp/static/WebApp/js/validations/personal_info.js:16
+msgid "Please enter valid first name"
+msgstr "请输入有效的名字"
+
+#: WebApp/static/WebApp/js/validations/personal_info.js:19
+msgid "Please enter last name"
+msgstr "请输入姓氏"
+
+#: WebApp/static/WebApp/js/validations/personal_info.js:20
+msgid "Please enter valid last name"
+msgstr "请输入有效的姓氏"
+
+#: WebApp/static/WebApp/js/validations/personal_info.js:39
+msgid "Please enter phone number"
+msgstr "请输入手机号码"
+
+#: WebApp/static/WebApp/js/validations/personal_info.js:40
+msgid "Please enter valid phone number"
+msgstr "请输入有效的电话号码"
+
+#: WebApp/static/WebApp/js/validations/report_lost_card.js:21
+msgid "Please select at least one card."
+msgstr "请至少选择一个卡。"
+
+#: WebApp/static/WebApp/js/validations/report_lost_card.js:39
+msgid "Please enter address"
+msgstr "请输入地址"
+
+#: WebApp/static/WebApp/js/validations/report_lost_card.js:42
+msgid "Please enter valid data"
+msgstr "请输入有效的数据"
+
+#: WebApp/static/WebApp/js/validations/report_lost_card.js:53
+msgid "Please select date and time"
+msgstr "请选择日期和时间"
+
+#: WebApp/static/WebApp/js/validations/report_lost_card.js:56
+msgid "Please select at least one"
+msgstr "请至少选择一个"

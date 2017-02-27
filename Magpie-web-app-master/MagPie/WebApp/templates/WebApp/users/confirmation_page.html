@@ -1,0 +1,16 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+    <div class="magpieWrapper clearfix">
+        <h1>{% trans "Insurance Claim" %}</h1>
+
+        <div class="formWrapper conformWrap insuranceConform">
+            <p>{% trans "Your claim is being processed. A Magpie representative will contact you shortly." %}</p>
+            <div class="btnLink conformBtn">
+                <a href="{% url 'dashboard' %}" class="btn ">{% trans "Done" %}
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

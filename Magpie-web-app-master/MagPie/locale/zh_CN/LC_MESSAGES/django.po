@@ -1,0 +1,1202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-11 17:16+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: MagPie/settings.py:97 WebApp/forms.py:561
+msgid "English"
+msgstr "English"
+
+#: MagPie/settings.py:98 WebApp/forms.py:561
+msgid "Spanish"
+msgstr "Spanish (Español)"
+
+#: MagPie/settings.py:99 WebApp/forms.py:561
+msgid "Chinese"
+msgstr "Chinese (汉语)"
+
+#: WebApp/forms.py:11 WebApp/forms.py:15 WebApp/forms.py:212
+#: WebApp/forms.py:233 WebApp/forms.py:394 WebApp/forms.py:539
+#: WebApp/forms.py:545 WebApp/forms.py:589
+#: WebApp/templates/WebApp/help.html:17
+#: WebApp/templates/WebApp/users/personal_info.html:65
+msgid "Email"
+msgstr "电子邮件"
+
+#: WebApp/forms.py:27 WebApp/forms.py:31
+msgid "Password"
+msgstr "密码"
+
+#: WebApp/forms.py:47 WebApp/templates/WebApp/users/personal_info.html:9
+msgid "First Name"
+msgstr "名字"
+
+#: WebApp/forms.py:52
+msgid "John"
+msgstr "约翰·"
+
+#: WebApp/forms.py:61
+msgid "Please enter first name"
+msgstr "请输入名字"
+
+#: WebApp/forms.py:65 WebApp/templates/WebApp/users/personal_info.html:14
+msgid "Last Name"
+msgstr "姓"
+
+#: WebApp/forms.py:70
+msgid "Doe"
+msgstr "母鹿"
+
+#: WebApp/forms.py:79
+msgid "Please enter last name"
+msgstr "请输入姓氏"
+
+#: WebApp/forms.py:83
+msgid "Address line 1"
+msgstr "地址第一行"
+
+#: WebApp/forms.py:89 WebApp/forms.py:305
+msgid "1234 Commercial Dr."
+msgstr "1234商业博士"
+
+#: WebApp/forms.py:98 WebApp/forms.py:314
+msgid "Please enter address line 1"
+msgstr "请输入地址线1"
+
+#: WebApp/forms.py:102
+msgid "Address line 2 (Optional)"
+msgstr "地址行2（可选）"
+
+#: WebApp/forms.py:108 WebApp/forms.py:324
+msgid "Apartment 45"
+msgstr "公寓45"
+
+#: WebApp/forms.py:117
+msgid "Address line 3 (Optional)"
+msgstr "地址线3（可选）"
+
+#: WebApp/forms.py:123 WebApp/forms.py:336
+msgid "Main City, PM"
+msgstr "主城，PM"
+
+#: WebApp/forms.py:132 WebApp/templates/WebApp/users/personal_info.html:45
+msgid "City"
+msgstr "城市"
+
+#: WebApp/forms.py:138 WebApp/forms.py:348
+msgid "Main City"
+msgstr "主城"
+
+#: WebApp/forms.py:148
+msgid "Please enter city"
+msgstr "请输入城市"
+
+#: WebApp/forms.py:152 WebApp/templates/WebApp/users/personal_info.html:55
+msgid "Country"
+msgstr "国家"
+
+#: WebApp/forms.py:158 WebApp/forms.py:365
+msgid "PM"
+msgstr ""
+
+#: WebApp/forms.py:168
+msgid "Please enter country"
+msgstr "请输入国家"
+
+#: WebApp/forms.py:172
+msgid "Postcode"
+msgstr "邮政编码"
+
+#: WebApp/forms.py:177 WebApp/forms.py:381
+msgid "44223"
+msgstr ""
+
+#: WebApp/forms.py:186 WebApp/forms.py:390 WebApp/forms.py:535
+msgid "Please enter postcode"
+msgstr "请输入邮政编码"
+
+#: WebApp/forms.py:190 WebApp/templates/WebApp/users/personal_info.html:60
+msgid "Phone Number"
+msgstr "电话号码"
+
+#: WebApp/forms.py:195
+msgid "1 343 222 2222"
+msgstr ""
+
+#: WebApp/forms.py:206
+msgid "Please enter phone number"
+msgstr "请输入手机号码"
+
+#: WebApp/forms.py:207 WebApp/forms.py:208
+msgid "Please enter valid phone number"
+msgstr "请输入有效的电话号码"
+
+#: WebApp/forms.py:217 WebApp/forms.py:399
+msgid "email@mydomain.com"
+msgstr ""
+
+#: WebApp/forms.py:228 WebApp/forms.py:605
+msgid "Please enter email id"
+msgstr "请输入电子邮件ID"
+
+#: WebApp/forms.py:233
+msgid "Phone"
+msgstr "电话"
+
+#: WebApp/forms.py:253
+msgid "What type of claim would you like to file?"
+msgstr "你喜欢什么类型的索赔到文件？"
+
+#: WebApp/forms.py:258
+msgid "Select Claim Type"
+msgstr "选择声明类型"
+
+#: WebApp/forms.py:267
+msgid "Please Select Claim type"
+msgstr "请选择索赔的类型"
+
+#: WebApp/forms.py:279
+msgid "Claim Description"
+msgstr "索赔说明"
+
+#: WebApp/forms.py:284
+msgid "Enter claim description"
+msgstr "进入索赔说明"
+
+#: WebApp/forms.py:290
+msgid "Please attach a proof of purchase"
+msgstr "请附上购买证明"
+
+#: WebApp/forms.py:299
+msgid "Please verify your address line 1 *"
+msgstr "请确认您的地址线1*。"
+
+#: WebApp/forms.py:318
+msgid "Verify address line 2"
+msgstr "确认地址线2"
+
+#: WebApp/forms.py:330
+msgid "Verify address line 3"
+msgstr "确认地址线3"
+
+#: WebApp/forms.py:342
+msgid "Verify city *"
+msgstr "验证城市*"
+
+#: WebApp/forms.py:359
+msgid "Verify country *"
+msgstr "验证国家*"
+
+#: WebApp/forms.py:376 WebApp/forms.py:520
+msgid "Verify Postcode *"
+msgstr "验证邮编*"
+
+#: WebApp/forms.py:410 WebApp/forms.py:556
+msgid "Please enter valid email id"
+msgstr "请输入有效的电子邮件ID"
+
+#: WebApp/forms.py:415
+msgid "Lost"
+msgstr "迷路"
+
+#: WebApp/forms.py:415
+msgid "Stolen"
+msgstr "被盗"
+
+#: WebApp/forms.py:449
+msgid "Cards *"
+msgstr "卡*"
+
+#: WebApp/forms.py:466
+msgid "Please select at least one"
+msgstr "请至少选择一个"
+
+#: WebApp/forms.py:470
+msgid "Select Date & Time *"
+msgstr "选择日期和时间*"
+
+#: WebApp/forms.py:475
+msgid "Date & Time"
+msgstr "日期和时间"
+
+#: WebApp/forms.py:486
+msgid "Please select the date and time"
+msgstr "请选择的日期和时间"
+
+#: WebApp/forms.py:490 WebApp/forms.py:495
+msgid "Describe The Event"
+msgstr "描述事件"
+
+#: WebApp/forms.py:501
+msgid "Verify Address *"
+msgstr "确认地址*"
+
+#: WebApp/forms.py:510
+msgid "Verify Address"
+msgstr "确认地址"
+
+#: WebApp/forms.py:516
+msgid "Please enter address"
+msgstr "请输入地址"
+
+#: WebApp/forms.py:525
+msgid "Verify Postcode"
+msgstr "验证邮编"
+
+#: WebApp/forms.py:569
+msgid "Select Language *"
+msgstr "选择语言*"
+
+#: WebApp/forms.py:573
+msgid "Select Language"
+msgstr "选择语言"
+
+#: WebApp/forms.py:575 WebApp/forms.py:582
+msgid "Please select a language"
+msgstr "请选择一个语言"
+
+#: WebApp/forms.py:579
+msgid "en"
+msgstr ""
+
+#: WebApp/forms.py:594
+msgid "johndoe@doecorp.com"
+msgstr ""
+
+#: WebApp/forms.py:617
+msgid "Please input your 8 digit PIN"
+msgstr "请输入你8位数字的PIN码"
+
+#: WebApp/forms.py:626
+#, fuzzy
+msgid "Please enter the PIN"
+msgstr "请输入PIN码"
+
+#: WebApp/views.py:30
+msgid "You are logged in successfully!"
+msgstr "您登录成功！"
+
+#: WebApp/views.py:69
+msgid "Invalid email id or password"
+msgstr "无效的电子邮件ID或密码"
+
+#: WebApp/views.py:133
+msgid "Your information has been updated with Port."
+msgstr "您的信息已更新端口。"
+
+#: WebApp/views.py:189
+msgid "Please add image with size less than 2MB"
+msgstr "请尺寸小于2MB添加图片"
+
+#: WebApp/views.py:212 WebApp/views.py:216 WebApp/views.py:422
+#: WebApp/views.py:426
+msgid "Something went wrong !!!!"
+msgstr "出事了!!!!"
+
+#: WebApp/views.py:291
+msgid "Your language setting has been changed."
+msgstr "您的语言设置已被更改。"
+
+#: WebApp/views.py:294
+msgid "There is some problem."
+msgstr "有一些问题。"
+
+#: WebApp/views.py:419
+msgid "The request is submitted successfully."
+msgstr "请求被成功提交。"
+
+#: WebApp/views.py:479
+msgid "This PIN has already been used."
+msgstr "该PIN码已被使用"
+
+#: WebApp/views.py:481
+msgid "Invalid 8 digit PIN, please try again!"
+msgstr "8位数字PIN码无效，请再试一下"
+
+#: WebApp/views.py:483 WebApp/views.py:485
+msgid "Error in Magpie user activation"
+msgstr "喜鹊用户激活出错"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:6
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:5
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:5
+#: WebApp/templates/WebApp/bitdefender_total_security.html:6
+msgid "Do you want to activate this service ? "
+msgstr "你想激活这项服务？"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:8
+msgid "Bitdefender Antivirus 2015"
+msgstr "BitDefender反病毒2015年"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:12
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:9
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:9
+#: WebApp/templates/WebApp/bitdefender_total_security.html:12
+msgid "Install and Forget."
+msgstr "安装和忘记。"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:14
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:10
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:10
+#: WebApp/templates/WebApp/bitdefender_total_security.html:14
+msgid ""
+"Bitdefender’s OneClick Autopilot automatically makes the best security "
+"decisions for you."
+msgstr "BitDefender的的自动驾驶仪键式自动进行最佳的安全决定了你。"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:17
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:13
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:13
+#: WebApp/templates/WebApp/bitdefender_total_security.html:17
+msgid "Smart Profiles."
+msgstr "智能配置文件。"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:25
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:17
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:17
+#: WebApp/templates/WebApp/bitdefender_total_security.html:24
+#: WebApp/templates/WebApp/users/insurance_claim.html:85
+msgid "Single-Click Tune-Up &amp; Clean-Up. "
+msgstr "单点击调式和放大器;清理。"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:27
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:18
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:18
+#: WebApp/templates/WebApp/bitdefender_total_security.html:26
+#: WebApp/templates/WebApp/users/insurance_claim.html:86
+msgid "OneClick Optimizer speeds up your system and frees up disk space."
+msgstr "键式优化加速系统并释放磁盘空间。"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:30
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:21
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:21
+#: WebApp/templates/WebApp/bitdefender_total_security.html:29
+#: WebApp/templates/WebApp/users/insurance_claim.html:89
+msgid "One-Step Online Payments. "
+msgstr "一步法网上支付。"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:32
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:22
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:22
+#: WebApp/templates/WebApp/bitdefender_total_security.html:31
+#: WebApp/templates/WebApp/users/insurance_claim.html:90
+msgid ""
+"Wallet simplifies purchases by securely autofilling your credit card details."
+msgstr "钱包被安全地自动填充您的信用卡信息，简化购买。"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:38
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:26
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:26
+#: WebApp/templates/WebApp/bitdefender_total_security.html:37
+msgid "Yes"
+msgstr "是的"
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:39
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:27
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:27
+#: WebApp/templates/WebApp/bitdefender_total_security.html:38
+msgid "No"
+msgstr "没有"
+
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:7
+msgid "Bitdefender Internet Security 2015"
+msgstr "BitDefender互联网安全2015年"
+
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:14
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:14
+#: WebApp/templates/WebApp/bitdefender_total_security.html:19
+#: WebApp/templates/WebApp/users/insurance_claim.html:82
+msgid ""
+"Bitdefender Total Security 2015 automatically detects when you Work, Play or "
+"Watch movies, and prevents other apps from slowing you down."
+msgstr ""
+"BitDefender的总安全2015年，当你工作，游戏或是看电影会自动检测，并防止减缓你失"
+"望其他应用程序。"
+
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:7
+msgid "Bitdefender Parental Control 2015"
+msgstr "BitDefender的家长控制2015年"
+
+#: WebApp/templates/WebApp/bitdefender_total_security.html:8
+msgid ""
+"Even the best anti-malware software is worthless, if it’s hard to use. "
+"Bitdefender Total Security 2015 engages security with a single click."
+msgstr ""
+"即使是最好的反恶意软件是毫无价值的，如果它是很难使用。 BitDefender的总安全"
+"2015年从事安全，只需一次点击。"
+
+#: WebApp/templates/WebApp/ethos.html:5 WebApp/templates/WebApp/header.html:24
+msgid "Ethos"
+msgstr "社会思潮"
+
+#: WebApp/templates/WebApp/ethos.html:8
+msgid "At Magpie, we are passionate about making life easy."
+msgstr "在喜鹊，我们热衷于使生活方便。"
+
+#: WebApp/templates/WebApp/ethos.html:9
+msgid ""
+"We bring everyday life services straight to the palm of your hand, via your "
+"phone."
+msgstr "我们把日常生活中的服务直接到你的手掌，通过您的手机。"
+
+#: WebApp/templates/WebApp/ethos.html:10
+msgid ""
+"We believe in using the power of digital technology to live our lives "
+"efficiently."
+msgstr "我们相信，在采用数字技术的力量来有效地生活我们的生活。"
+
+#: WebApp/templates/WebApp/ethos.html:11
+msgid ""
+"Magpie services are ‘best of breed’, meaning we search the globe for the "
+"best apps and services of their kind that make everyday life easy. If we "
+"can’t find one good enough, we make one ourselves."
+msgstr ""
+"喜鹊服务“同类最佳”，这意味着我们搜索全球为他们的那种使日常生活方便最好的应用"
+"程序和服务。如果我们不能找到一个足够好的，我们做一个自己。"
+
+#: WebApp/templates/WebApp/ethos.html:12
+msgid ""
+"We believe in a connected world, where individuals and organisations share "
+"the information they need at the click of a button."
+msgstr ""
+"我们相信，在连接的世界里，个人和组织的交流，他们需要一个点击按钮的信息。"
+
+#: WebApp/templates/WebApp/ethos.html:13
+msgid ""
+"We’ve sourced smart tech, replaced paper with screens and given you new "
+"digital ways to get in touch (and you can call us) – this is our vision of "
+"the connected world."
+msgstr ""
+"我们采购的智能技术，取代纸屏幕，给你新的数字的方式取得联系（您可以拨打我们的"
+"电话） - 这是我们连接世界的看法。"
+
+#: WebApp/templates/WebApp/ethos.html:14
+msgid ""
+"A connected world is a world where businesses fit around each individual, "
+"their information and their preferences for sharing it."
+msgstr ""
+"互联世界是一个世界里，企业适应周围每一个人，他们的信息和自己的喜好进行分享。"
+
+#: WebApp/templates/WebApp/ethos.html:15
+msgid ""
+"We believe in the value of personal information and the way forward for "
+"consumers and businesses alike is to give back control to the owner – you."
+msgstr ""
+"我们相信，在个人信息和前进的方向，为消费者和企业都为回馈控制权交给业主的价值 "
+"- 你。"
+
+#: WebApp/templates/WebApp/ethos.html:16
+msgid ""
+"At Magpie, we know that personal information is required for both basic and "
+"good customer experience."
+msgstr "在喜鹊，我们知道，所需的基础和良好的客户体验的个人信息。"
+
+#: WebApp/templates/WebApp/ethos.html:17
+msgid ""
+"We know that consumers want personalised service and we know that the only "
+"way to do this is by using personal information. But we also know that too "
+"many organisations have access to personal information they don’t need – "
+"just look at your inbox and see who you receive emails from if you need "
+"proof."
+msgstr ""
+"我们知道，消费者想要的个性化服务，我们知道，要做到这一点的唯一方法是使用个人"
+"信息。但我们也知道，太多的组织获得他们不需要个人信息 - 只需看看你的收件箱，看"
+"看你是否需要证明接收电子邮件谁。"
+
+#: WebApp/templates/WebApp/ethos.html:18
+msgid ""
+"We want a world where we – consumers – can choose which organisations have "
+"access to our personal information, what they access and how long they "
+"access it for. We want a world where we – organisations – spend time talking "
+"to customers who want to hear from us without bothering the ones who don’t."
+msgstr ""
+"我们希望有一个世界里，我们 - 消费者 - 可以选择哪些机构有机会获得我们的个人信"
+"息，他们访问的内容和多久，他们访问它。我们希望有一个世界里，我们 - 组织 - 花"
+"时间谈论谁想要从我们这里听到客户在不打扰那些谁不知道。"
+
+#: WebApp/templates/WebApp/ethos.html:19
+msgid ""
+"This is our Ethos and we have the culture and technology to deliver it. It’s "
+"smart technology on your terms."
+msgstr "这是我们的价值，我们有文化和技术，提供它。它的智能技术，你的条件。"
+
+#: WebApp/templates/WebApp/footer.html:7
+msgid "Magpie Intl - All rights reserved."
+msgstr "喜鹊国际机场 - 保留所有权利。"
+
+#: WebApp/templates/WebApp/header.html:19
+#: WebApp/templates/WebApp/users/edit_personal_info.html:6
+#: WebApp/templates/WebApp/users/personal_info.html:6
+msgid "My Account"
+msgstr "我的账户"
+
+#: WebApp/templates/WebApp/header.html:20
+msgid "Subscription Information"
+msgstr "订阅信息"
+
+#: WebApp/templates/WebApp/header.html:21
+msgid "Settings"
+msgstr "设置"
+
+#: WebApp/templates/WebApp/header.html:25
+#: WebApp/templates/WebApp/terms_and_conditions.html:5
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: WebApp/templates/WebApp/header.html:26
+msgid "Help"
+msgstr "救命"
+
+#: WebApp/templates/WebApp/header.html:27
+msgid "Logout"
+msgstr "注销"
+
+#: WebApp/templates/WebApp/header.html:32
+msgid "Leave Feedback"
+msgstr "留下反馈"
+
+#: WebApp/templates/WebApp/header.html:38
+msgid "Menu"
+msgstr "菜单"
+
+#: WebApp/templates/WebApp/help.html:6
+msgid "Need Help? Call or Email us at:"
+msgstr "需要帮助吗？打电话或发邮件给我们："
+
+#: WebApp/templates/WebApp/help.html:11
+msgid "Contact Number"
+msgstr "联系电话"
+
+#: WebApp/templates/WebApp/subscription_info.html:6
+msgid "Billing Details "
+msgstr "账单明细"
+
+#: WebApp/templates/WebApp/subscription_info.html:9
+msgid "Subscription Period"
+msgstr "认购期"
+
+#: WebApp/templates/WebApp/subscription_info.html:12
+msgid "Start:"
+msgstr "开始："
+
+#: WebApp/templates/WebApp/subscription_info.html:18
+msgid "End:"
+msgstr "结束"
+
+#: WebApp/templates/WebApp/subscription_info.html:24
+msgid "Billing Amount"
+msgstr "开票金额"
+
+#: WebApp/templates/WebApp/subscription_info.html:28
+msgid "Auto Renew Status "
+msgstr "自动续订状态"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:7
+msgid "Back"
+msgstr "背部"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:11
+msgid "1 Introduction"
+msgstr "1引言"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:13
+#, fuzzy
+msgid ""
+"Magpie (“we”, “us”, “our”) is a Life Management Services (‘LMS’) "
+"organisation providing digital solutions that make life easier. The Magpie "
+"model is centred on putting you in control of your personal information. "
+"Magpie knows that you care how information about you is stored, used and "
+"shared, as such Magpie’s company ethos is “Privacy by design”. Information "
+"that you provide directly or that is generated through your usage of Magpie "
+"products and services, will be stored securely and you will be in control of "
+"this data. You can decide with whom you share your data and for how long."
+msgstr ""
+"喜鹊（'我们'，'我们'，'我们的'）是一个生命周期管理服务（'LMS'）的组织提供数字"
+"化解决方案，使生活更轻松。喜鹊模型为中心把你的个人信息的控制。喜鹊知道你在乎"
+"你怎么样的信息存储，使用和共享，因此喜鹊的公司精神是'隐私设计'。您直接提供或"
+"通过您喜鹊的产品和服务的使用所产生的信息将被安全地存储，你会在你的数据的控"
+"制，并决定与您共享您的数据。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:14
+#, fuzzy
+msgid ""
+"This notice describes our privacy policy, in relation to the information "
+"that we collect, what we do with that information and how you can manage and "
+"control the use of the information. By downloading this application (“Life "
+"Manager App”) you are accepting the practices described within this privacy "
+"notice."
+msgstr ""
+"本通知说明我们的隐私政策，在涉及到我们收集的信息，我们用它做以及如何管理和控"
+"制使用您的信息。通过下载这个应用程序（“生活应用程序”），您接受本隐私声明中描"
+"述的惯例。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:18
+#, fuzzy
+msgid "2 The information that we collect"
+msgstr "2，我们收集的信息"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:20
+msgid "2.1 When you subscribe to Magpie services"
+msgstr "2.1当您订阅喜鹊服务"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:21
+msgid ""
+"In order to subscribe to our services you will be required to submit the "
+"following basic information;"
+msgstr "为了订阅我们的服务，您将被要求提交以下基本信息;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:23
+#, fuzzy
+msgid "Your Name; "
+msgstr "名称;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:25
+#, fuzzy
+msgid "Your Postal Address;"
+msgstr "邮政地址;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:27
+#, fuzzy
+msgid "Your Mobile Telephone Number;"
+msgstr "移动电话号码;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:29
+#, fuzzy
+msgid "Your E-Mail Address;"
+msgstr "电子邮件地址;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:31
+#, fuzzy
+msgid "Your Card payment details."
+msgstr "卡支付的详细信息。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:33
+#, fuzzy
+msgid ""
+"Information about the smartphone, tablet or other device or any computer you "
+"may use to download a copy of the Life Manager App."
+msgstr ""
+"信息有关智能手机，平板电脑或其他设备，或者你可以用它来下载应用程序生命的副本"
+"的任何计算机。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:35
+#, fuzzy
+msgid ""
+"This information will be used by Magpie to administer your membership and "
+"ensure suitability of the service."
+msgstr "这些信息将被用于由喜鹊来管理您的会员资格，并保证服务的适用性。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:37
+#, fuzzy
+msgid ""
+"As part of your subscription you will receive access to a Personal "
+"Information Bank (“PIB”). This PIB is personal to you, it is at your sole "
+"discretion what information you choose to deposit in your PIB, and with whom "
+"you choose to share it."
+msgstr ""
+"作为您订阅的一部分，您将收到访问由PORT，第三方供应商提供的个人信息银行"
+"（“PIB”）。这PIB是个人给你，这是你的判断，你选择什么样的信息，在你的PIB存款，"
+"并与您选择分享。欲了解更多信息，请访问"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:40
+#, fuzzy
+msgid "2.2 What other information does Magpie gather"
+msgstr "2.2什么其它信息，喜鹊收集"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:41
+msgid ""
+"Some services will require access to additional information in order for "
+"them to function correctly and for you to benefit from these services, these "
+"may include:"
+msgstr ""
+"有些服务将需要访问更多的信息，以便他们能够正常工作，并为您从这些服务中受益，"
+"这些可能包括："
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:43
+msgid "Card loss and registration services;"
+msgstr "卡丢失和注册服务;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:45
+msgid "Important document storage;"
+msgstr "重要文档存储;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:47
+#, fuzzy
+msgid "Bank Account aggregation services."
+msgstr "帐户聚合服务;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:49
+#, fuzzy
+msgid "Insurance Services"
+msgstr "保险服务。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:52
+#, fuzzy
+msgid ""
+"The above will require additional information to be collected from you "
+"either via our call centres, or via the Life Manager App (available on IOS, "
+"Android and Desktop) directly, this may include:"
+msgstr ""
+"上述将需要额外的信息从你要么通过我们的呼叫中心或通过生活应用（适用于IOS，"
+"Android和桌面）直接收集，这可能包括："
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:54
+msgid ""
+"Additional contact information e.g. Date of Birth, home phone number or "
+"secondary email address;"
+msgstr "附加联系人信息如出生时，家里的电话号码或备用电子邮件地址的日期;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:56
+msgid "Additional information required to process an insurance claim;"
+msgstr "处理保险索赔所需的其他信息;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:58
+msgid "A list of payment cards, required for loss reporting an re-ordering;"
+msgstr "支付卡，需要挂失的重新排序名单;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:60
+msgid ""
+"Photo scans of important documents (stored in your PIB) for replacement "
+"purposes;"
+msgstr "照片扫描的重要文件（存储在您的PIB）更换的目的;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:62
+#, fuzzy
+msgid "Details of insurance claims made via the Life Manager App;"
+msgstr "通过应用程序生命做保险索赔细节;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:64
+msgid "Mobile phone registration details such as IMEI and proof of purchase."
+msgstr "手机注册详细信息，如IMEI和购买证明。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:68
+msgid "2.3 Usage data"
+msgstr "2.3使用数据"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:70
+#, fuzzy
+msgid ""
+"Magpie uses Google Analytics and Heatdata, which track your usage of the "
+"Life Manager App."
+msgstr "喜鹊使用谷歌分析和Heatdata，其中跟踪您的生活应用程序的使用。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:72
+#, fuzzy
+msgid ""
+"We use Google Analytics and Heatdata to collect information about your "
+"activity on the Life Manager App. We collect information in an anonymous "
+"form about your usage of the Life Manager App, including the number of times "
+"you use it and the functions of the Life Manager App that you use. Google "
+"Analytics send anonymous non-personally identifiable data to remote servers "
+"where the data is aggregated and presented back to us as analytical data "
+"about the use of the Life Manager App by our subscribers. We use the "
+"information to compile reports and to help us improve the Life Manager App. "
+"So for example we may know how many people use a certain function within the "
+"Life Manager App, but we would not know if you were one of those people."
+msgstr ""
+"我们使用谷歌分析和Heatdata收集有关您的应用程序生命活动的信息。我们收集有关您"
+"使用的生活应用，包括你使用它的次数和生活应用程序，您使用的功能匿名形式的信"
+"息。谷歌Analytics（分析）和Heatdata发送匿名的非个人身份数据，对数据进行汇总并"
+"提交给我们的关于使用应用程序的生活由我们的用户分析数据的远程服务器。我们利用"
+"这些信息编制报告，并帮助我们改善生活应用程序。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:74
+msgid ""
+"For more information about the information gathered using Google Analytics, "
+"please visit:"
+msgstr "有关使用谷歌分析收集到的信息的更多信息，请访问："
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:76
+msgid "and"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:78
+#: WebApp/templates/WebApp/terms_and_conditions.html:80
+msgid ""
+"The information we collect cannot be used by anyone else who has access to "
+"your mobile device to find out anything about you. The tracking we perform "
+"does not in any way compromise the security of your device."
+msgstr ""
+"我们收集的信息不能被其他人使用谁有权访问您的移动设备，以了解你任何东西。我们"
+"执行的跟踪不会以任何方式危及设备的安全性。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:82
+msgid ""
+"We are unable to use the information collected about your usage to identify "
+"you personally."
+msgstr "我们无法使用收集的有关您的使用情况来识别您的身份信息。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:86
+msgid "3 How we use the information we collect"
+msgstr "3我们如何使用我们收集的信息"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:88
+#, fuzzy
+msgid ""
+"We may use the information we collect, including your personal information:"
+msgstr "我们可能会使用我们收集到的信息，包括您的个人信息："
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:90
+msgid "To manage your subscription;"
+msgstr "要管理您的订阅;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:92
+msgid "To provide you with the services and features of your subscription;"
+msgstr "为您提供的服务和订阅的功能;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:94
+msgid "To collect payments when due;"
+msgstr "要到期时收取款项;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:96
+#, fuzzy
+msgid "To maintain internal records;"
+msgstr "保持内部记录;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:98
+msgid ""
+"To communicate with you by e-mail, telephone or post if you have purchased a "
+"Subscription from Magpie, either regarding the purchase or other matters "
+"regarding transactions between you and Magpie or your customer relationship "
+"with Magpie;"
+msgstr ""
+"你通过电子邮件，电话或邮寄，如果您购买的喜鹊订阅，无论对于购买或有关你和喜鹊"
+"或喜鹊客户关系之间交易的其他事项沟通;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:100
+#, fuzzy
+msgid "To conduct statistical analysis;"
+msgstr "进行统计分析;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:102
+#, fuzzy
+msgid "To prevent fraud;"
+msgstr "防止欺诈行为;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:104
+#, fuzzy
+msgid ""
+"To improve your experience with the services and products provided as part "
+"of the Subscription;"
+msgstr "改善所提供的认购部分的服务和产品的经验;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:106
+#, fuzzy
+msgid "To ensure the technical functioning of the services and products;"
+msgstr "确保服务和产品的技术功能;"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:108
+#, fuzzy
+msgid ""
+"To enforce this Privacy Policy and the Terms and Conditions of Use including "
+"to protect the rights, property or safety of Magpie, users or any other "
+"person and the copyright-protected content of the Service."
+msgstr ""
+"执行本隐私政策和使用条款和条件，包括保护喜鹊，用户或任何其他人的服务的受版权"
+"保护的内容的权利，财产或安全。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:113
+msgid "4 Who do we share information with"
+msgstr "4我们应该向谁与分享信息"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:115
+msgid "4.1 Your Personal Information"
+msgstr "4.1您的个人信息"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:117
+msgid ""
+"Your personal information will only be made available to Magpie’s authorised "
+"service provider’s and third party suppliers which perform certain services "
+"on Magpie’s behalf e.g. providing IT support and maintenance, providing "
+"hosting services, providing customer service, providing payment processing "
+"services and providing features of the subscription. These service providers "
+"may have access to personal information needed to perform their functions on "
+"Magpie’s behalf but are not permitted to share or to use such information "
+"for any other purpose. "
+msgstr ""
+"您的个人信息将只提供给喜鹊的授权服务提供商的以及对喜鹊的代表如执行某些服务的"
+"第三方供应商提供IT支持与维护，提供托管服务，提供客户服务，提供支付处理服务，"
+"并提供订阅功能。这些服务提供商可以访问到代表喜鹊的履行职责所需的个人信息，但"
+"不允许共享或使用这些信息用于任何其他目的。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:119
+msgid ""
+"Magpie will not share your personal information without your permission to "
+"any other third party."
+msgstr "未经您的许可，任何其他第三方喜鹊不会将您的个人信息。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:121
+msgid "4.2 De-identified usage information"
+msgstr "4.2-确定德使用信息"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:123
+#, fuzzy
+msgid ""
+"Magpie may share de-identified, aggregated usage information, collated as "
+"per section 2.3 with third parties, for market insight and statistical "
+"analysis purposes."
+msgstr ""
+"喜鹊可以共享整理按2.3节与第三方去认定汇总使用信息，对市场的洞察力和统计分析的"
+"目的。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:127
+msgid "5 Accessing and updating user information"
+msgstr "5访问和更新用户信息"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:129
+#, fuzzy
+msgid ""
+"You can access and amend your information via your Life Manager App or via "
+"your PIB."
+msgstr ""
+"您可以访问，并通过您的生活应用程序或通过通过端口提供您的PIB修改您的信息。欲了"
+"解更多信息，请访问"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:133
+msgid "6 Data security"
+msgstr "6数据安全"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:135
+#, fuzzy
+msgid "6.1 Security of your information"
+msgstr "订阅信息"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:137
+msgid ""
+"Magpie works hard to protect the security of your information during "
+"transmission by using Secure Sockets Layer (SSL) software, which encrypts "
+"information you input."
+msgstr ""
+"喜鹊努力工作，通过使用安全套接字层（SSL）软件，该软件加密您输入的信息，以保护"
+"您的信息安全传输过程中。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:139
+msgid "6.2 Security of your card numbers"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:141
+#, fuzzy
+msgid ""
+"Magpie will only ever reveal only the last four digits of your card numbers "
+"when confirming an order. Of course, Magpie will transmit the entire card "
+"number to the appropriate card company during order processing."
+msgstr ""
+"在确认订单时，喜鹊将只显示你的信用卡号码只有最后四位数字。当然，喜鹊将订单处"
+"理过程中传输完整的信用卡号码到相应的信用卡公司。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:143
+#, fuzzy
+msgid "6.3 Where your information is stored"
+msgstr "4我们应该向谁与分享信息"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:145
+#, fuzzy
+msgid ""
+"Magpie uses your PIB, for the collection & storage of personal information."
+msgstr ""
+"喜鹊利用端口技术，第三方，用于收集和储存的个人信息。欲了解更多信息，请访问"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:146
+msgid ""
+"In addition, Magpie maintains electronic and procedural safeguards in "
+"connection with the collection, storage and disclosure of any personally "
+"identifiable customer information. Our security procedures mean that we may "
+"occasionally request proof of identity before we disclose personal "
+"information to you."
+msgstr ""
+"此外，喜鹊保持电子和程序保障与任何个人身份客户信息的收集，储存和披露的连接。"
+"我们的安全程序意味着我们偶尔会要求出示身份证明，才透露个人信息给你。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:147
+msgid ""
+"It is important for you to protect against unauthorised access to your "
+"password and to your computer. Be sure to sign off when you finish using a "
+"shared computer."
+msgstr ""
+"它为您防止未经授权的访问您的密码和你的电脑是非常重要的。一定要签字，当你使用"
+"完共享计算机。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:151
+msgid "7 Third party services"
+msgstr "7第三方服务"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:153
+#, fuzzy
+msgid ""
+"Magpie may use third party services within its Subscriptions, you will be "
+"presented with their privacy policies when accessing their services for the "
+"first time; please ensure that you read them to find out how they collect "
+"and process your personal information, before using the service."
+msgstr ""
+"喜鹊可能的订阅范围内使用第三方服务，您的第一次，请确保你读给他们，看看他们是"
+"如何收集和处理您的个人信息，使用该服务访问之前，他们的服务时，可以呈现他们的"
+"隐私政策。"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:157
+msgid "8 Contact us"
+msgstr "联系电话"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:159
+msgid ""
+"If you have any questions regarding Magpie’s privacy policy then please "
+"contact "
+msgstr "如果您对喜鹊的隐私政策有任何疑问，那么请联系"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:159
+msgid "support@magpieint.com"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:163
+msgid "9 Changes to the Privacy Policy"
+msgstr "9更改隐私政策"
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:165
+msgid ""
+"We may make changes to the privacy policy from time to time, so please visit "
+"this Privacy Policy regularly. If we make any changes which we believe are "
+"material we will inform you through the subscription service. Your continued "
+"use of the subscription thereafter constitutes acceptance of the changes."
+msgstr ""
+"我们可能会更改隐私政策，不时，所以请定期查看本隐私权政策。如果我们做，我们相"
+"信这些材料的任何变化，我们会通知您通过订阅服务。如果您继续使用该认购后必须接"
+"受的变化。"
+
+#: WebApp/templates/WebApp/users/activate_bundle_services.html:7
+msgid "Activate Your Bundle Services"
+msgstr "激活您的捆绑服务"
+
+#: WebApp/templates/WebApp/users/activate_bundle_services.html:25
+#: WebApp/templates/WebApp/users/change_language.html:20
+#: WebApp/templates/WebApp/users/insurance_claim.html:62
+#: WebApp/templates/WebApp/users/report_lost_card.html:48
+msgid "Submit"
+msgstr "提交"
+
+#: WebApp/templates/WebApp/users/change_language.html:8
+msgid "Language Setting"
+msgstr "语言设置"
+
+#: WebApp/templates/WebApp/users/change_language.html:23
+#: WebApp/templates/WebApp/users/edit_personal_info.html:127
+#: WebApp/templates/WebApp/users/insurance_claim.html:65
+#: WebApp/templates/WebApp/users/report_lost_card.html:50
+msgid "Cancel"
+msgstr "取消"
+
+#: WebApp/templates/WebApp/users/confirmation_page.html:6
+#: WebApp/templates/WebApp/users/insurance_claim.html:7
+msgid "Insurance Claim"
+msgstr "保险理赔"
+
+#: WebApp/templates/WebApp/users/confirmation_page.html:9
+msgid ""
+"Your claim is being processed. A Magpie representative will contact you "
+"shortly."
+msgstr "您的申请正在处理中。喜鹊代表将尽快与您联系。"
+
+#: WebApp/templates/WebApp/users/confirmation_page.html:11
+msgid "Done"
+msgstr "DONE"
+
+#: WebApp/templates/WebApp/users/edit_personal_info.html:124
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:25
+msgid "Please enter any additional details below:"
+msgstr "请在下面输入任何其他详细信息："
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:30
+msgid "Conditions and Exclusions"
+msgstr "条件及排除"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:43
+msgid "Please attach any relevant document (if applicable)"
+msgstr "请附上所有相关文件（如适用）"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:47
+msgid "Browse..."
+msgstr "浏览..."
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:49
+msgid "No file attached..."
+msgstr "没有文件附..."
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:50
+msgid "File size should be less than 2MB"
+msgstr "文件大小应小于2MB"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:73
+msgid "About Mobile Phone Insurance"
+msgstr "关于移动电话保险"
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:77
+#: WebApp/templates/WebApp/users/insurance_claim.html:81
+msgid "Excess Amount"
+msgstr "过量"
+
+#: WebApp/templates/WebApp/users/need_emergency_cash.html:8
+msgid " Work under progress"
+msgstr "根据工作进展情况"
+
+#: WebApp/templates/WebApp/users/personal_info.html:19
+msgid "Address Line 1"
+msgstr "地址第一行"
+
+#: WebApp/templates/WebApp/users/personal_info.html:24
+msgid "Address Line 2"
+msgstr "地址行2"
+
+#: WebApp/templates/WebApp/users/personal_info.html:34
+msgid "Address Line 3"
+msgstr "地址线3"
+
+#: WebApp/templates/WebApp/users/personal_info.html:50
+msgid "Zipcode"
+msgstr "邮政编码"
+
+#: WebApp/templates/WebApp/users/personal_info.html:76
+msgid "Edit"
+msgstr "编辑"
+
+#: WebApp/templates/WebApp/users/report_lost_card.html:7
+msgid "Report Lost Card"
+msgstr "报告失卡"
+
+#: WebApp/templates/WebApp/users/report_lost_card.html:46
+msgid "Call Help Center : 0123456789"
+msgstr "呼叫支持中心：0123456789"
+
+#: WebApp/templates/static_pages/activate_pin.html:29
+msgid "Get a new PIN"
+msgstr "获得一个新的PIN码"
+
+#: WebApp/templates/static_pages/activate_pin.html:34
+msgid "Check your email for authentication code."
+msgstr "检查你邮箱来得到授权码"
+
+#: WebApp/templates/static_pages/activate_pin.html:37
+msgid "Continue"
+msgstr "继续"
+
+#: WebApp/templates/static_pages/activate_pin.html:38
+msgid "You will be authenticated by Magpie."
+msgstr "你将的到喜鹊公司的授权"
+
+#: WebApp/templates/static_pages/activate_pin.html:44
+msgid "Already have an account?"
+msgstr "已有帐号？"

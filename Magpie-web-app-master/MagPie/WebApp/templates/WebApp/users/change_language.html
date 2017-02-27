@@ -1,0 +1,28 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+<div class="magpieWrapper clearfix">
+    <form class="formWrapper insuranceForm" action="" method="post">
+        {% csrf_token %}
+        <h1>{% trans "Language Setting" %}</h1>
+
+        <div class="dataField claim">
+            <label>{{ form.language.label }}</label>
+
+            <div class="infoData">
+                {{ form.language }}
+                {{ form.language.errors }}
+            </div>
+        </div>
+        <div class="btnLink dataField">
+            <div>
+                <button type="submit" class="btn " data-href="dashboard.html">{% trans "Submit" %}
+                </button>
+            </div>
+            <a href="{% url 'dashboard' %}" class="linkCancel">{% trans "Cancel" %}</a>
+        </div>
+    </form>
+</div>
+<script src="/static/WebApp/js/jquery.form-validator.min.js"></script>
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends "CMS/layout.html" %}
+
+{% block content %}
+<div class="magContainerCover">
+    <form id="change_versions" action="" method="post">
+        <h1>Change Version of {{os_type|upper}}</h1>
+        {% csrf_token %}
+            <div class="dataField firstChild">
+                <label>{{ form.latest_version.label }}</label>
+                <div class="infoData">
+                    {{ form.latest_version }}
+                    {% if form.latest_version.errors %}
+                            <div class="error">{{form.latest_version.errors}}</div>
+                            {% endif %}
+                    <div id="latest_version-description"></div>
+                </div>
+            </div>
+
+            <div class="dataField">
+                <label>{{ form.minimum_version.label }}</label>
+                <div class="infoData">
+                    {{ form.minimum_version }}
+                    {% if form.minimum_version.errors %}
+                            <div class="error">{{form.minimum_version.errors}}</div>
+                            {% endif %}
+                    <div id="minimum_version-description"></div>
+                </div>
+            </div>
+
+            <div class="btnLinkWrap dataField">
+               <div> <button type="submit" class="btn btnSubmit" data-href="dashboard.html">Submit</button></div>
+                <a href="{% url 'dashboard' %}" class="linkCancel btnCancel">Cancel</a>
+            </div>
+    </form>
+</div>
+<script src="/static/CMS/js/jquery-validate.js"></script>
+<script>
+
+$('#change_versions').validate({
+        onKeyup:true,
+        onChange:true,
+        onBlur:true,
+        onSubmit:true,
+        eachValidField : function() {
+            $(this).closest('.inpField').removeClass('has-error').addClass('has-success');
+
+        },
+        eachInvalidField : function() {
+            $(this).closest('.inpField').removeClass('has-success').addClass('has-error');
+        },
+        description :{
+            minimum_version:{
+                required:'<div class="error">Please enter minimum version</div>',
+            },
+            latest_version:{
+                required:'<div class="error">Please enter latest version</div>',
+            }
+        }
+    });
+
+</script>
+{% endblock %}

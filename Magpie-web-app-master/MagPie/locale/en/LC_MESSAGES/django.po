@@ -1,0 +1,1100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-11 17:16+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: MagPie/settings.py:97 WebApp/forms.py:561
+msgid "English"
+msgstr ""
+
+#: MagPie/settings.py:98 WebApp/forms.py:561
+msgid "Spanish"
+msgstr "Spanish (Español)"
+
+#: MagPie/settings.py:99 WebApp/forms.py:561
+msgid "Chinese"
+msgstr "Chinese (汉语)"
+
+#: WebApp/forms.py:11 WebApp/forms.py:15 WebApp/forms.py:212
+#: WebApp/forms.py:233 WebApp/forms.py:394 WebApp/forms.py:539
+#: WebApp/forms.py:545 WebApp/forms.py:589
+#: WebApp/templates/WebApp/help.html:17
+#: WebApp/templates/WebApp/users/personal_info.html:65
+msgid "Email"
+msgstr ""
+
+#: WebApp/forms.py:27 WebApp/forms.py:31
+msgid "Password"
+msgstr ""
+
+#: WebApp/forms.py:47 WebApp/templates/WebApp/users/personal_info.html:9
+msgid "First Name"
+msgstr ""
+
+#: WebApp/forms.py:52
+msgid "John"
+msgstr ""
+
+#: WebApp/forms.py:61
+msgid "Please enter first name"
+msgstr ""
+
+#: WebApp/forms.py:65 WebApp/templates/WebApp/users/personal_info.html:14
+msgid "Last Name"
+msgstr ""
+
+#: WebApp/forms.py:70
+msgid "Doe"
+msgstr ""
+
+#: WebApp/forms.py:79
+msgid "Please enter last name"
+msgstr ""
+
+#: WebApp/forms.py:83
+msgid "Address line 1"
+msgstr ""
+
+#: WebApp/forms.py:89 WebApp/forms.py:305
+msgid "1234 Commercial Dr."
+msgstr ""
+
+#: WebApp/forms.py:98 WebApp/forms.py:314
+msgid "Please enter address line 1"
+msgstr ""
+
+#: WebApp/forms.py:102
+msgid "Address line 2 (Optional)"
+msgstr ""
+
+#: WebApp/forms.py:108 WebApp/forms.py:324
+msgid "Apartment 45"
+msgstr ""
+
+#: WebApp/forms.py:117
+msgid "Address line 3 (Optional)"
+msgstr ""
+
+#: WebApp/forms.py:123 WebApp/forms.py:336
+msgid "Main City, PM"
+msgstr ""
+
+#: WebApp/forms.py:132 WebApp/templates/WebApp/users/personal_info.html:45
+msgid "City"
+msgstr ""
+
+#: WebApp/forms.py:138 WebApp/forms.py:348
+msgid "Main City"
+msgstr ""
+
+#: WebApp/forms.py:148
+msgid "Please enter city"
+msgstr ""
+
+#: WebApp/forms.py:152 WebApp/templates/WebApp/users/personal_info.html:55
+msgid "Country"
+msgstr ""
+
+#: WebApp/forms.py:158 WebApp/forms.py:365
+msgid "PM"
+msgstr ""
+
+#: WebApp/forms.py:168
+msgid "Please enter country"
+msgstr ""
+
+#: WebApp/forms.py:172
+msgid "Postcode"
+msgstr ""
+
+#: WebApp/forms.py:177 WebApp/forms.py:381
+msgid "44223"
+msgstr ""
+
+#: WebApp/forms.py:186 WebApp/forms.py:390 WebApp/forms.py:535
+msgid "Please enter postcode"
+msgstr ""
+
+#: WebApp/forms.py:190 WebApp/templates/WebApp/users/personal_info.html:60
+msgid "Phone Number"
+msgstr ""
+
+#: WebApp/forms.py:195
+msgid "1 343 222 2222"
+msgstr ""
+
+#: WebApp/forms.py:206
+msgid "Please enter phone number"
+msgstr ""
+
+#: WebApp/forms.py:207 WebApp/forms.py:208
+msgid "Please enter valid phone number"
+msgstr ""
+
+#: WebApp/forms.py:217 WebApp/forms.py:399
+msgid "email@mydomain.com"
+msgstr ""
+
+#: WebApp/forms.py:228 WebApp/forms.py:605
+msgid "Please enter email id"
+msgstr ""
+
+#: WebApp/forms.py:233
+msgid "Phone"
+msgstr ""
+
+#: WebApp/forms.py:253
+msgid "What type of claim would you like to file?"
+msgstr ""
+
+#: WebApp/forms.py:258
+msgid "Select Claim Type"
+msgstr ""
+
+#: WebApp/forms.py:267
+msgid "Please Select Claim type"
+msgstr ""
+
+#: WebApp/forms.py:279
+msgid "Claim Description"
+msgstr ""
+
+#: WebApp/forms.py:284
+msgid "Enter claim description"
+msgstr ""
+
+#: WebApp/forms.py:290
+msgid "Please attach a proof of purchase"
+msgstr ""
+
+#: WebApp/forms.py:299
+msgid "Please verify your address line 1 *"
+msgstr ""
+
+#: WebApp/forms.py:318
+msgid "Verify address line 2"
+msgstr ""
+
+#: WebApp/forms.py:330
+msgid "Verify address line 3"
+msgstr ""
+
+#: WebApp/forms.py:342
+msgid "Verify city *"
+msgstr ""
+
+#: WebApp/forms.py:359
+msgid "Verify country *"
+msgstr ""
+
+#: WebApp/forms.py:376 WebApp/forms.py:520
+msgid "Verify Postcode *"
+msgstr ""
+
+#: WebApp/forms.py:410 WebApp/forms.py:556
+msgid "Please enter valid email id"
+msgstr ""
+
+#: WebApp/forms.py:415
+msgid "Lost"
+msgstr ""
+
+#: WebApp/forms.py:415
+msgid "Stolen"
+msgstr ""
+
+#: WebApp/forms.py:449
+msgid "Cards *"
+msgstr ""
+
+#: WebApp/forms.py:466
+msgid "Please select at least one"
+msgstr ""
+
+#: WebApp/forms.py:470
+msgid "Select Date & Time *"
+msgstr ""
+
+#: WebApp/forms.py:475
+msgid "Date & Time"
+msgstr ""
+
+#: WebApp/forms.py:486
+msgid "Please select the date and time"
+msgstr ""
+
+#: WebApp/forms.py:490 WebApp/forms.py:495
+msgid "Describe The Event"
+msgstr ""
+
+#: WebApp/forms.py:501
+msgid "Verify Address *"
+msgstr ""
+
+#: WebApp/forms.py:510
+msgid "Verify Address"
+msgstr ""
+
+#: WebApp/forms.py:516
+msgid "Please enter address"
+msgstr ""
+
+#: WebApp/forms.py:525
+msgid "Verify Postcode"
+msgstr ""
+
+#: WebApp/forms.py:569
+msgid "Select Language *"
+msgstr ""
+
+#: WebApp/forms.py:573
+msgid "Select Language"
+msgstr ""
+
+#: WebApp/forms.py:575 WebApp/forms.py:582
+msgid "Please select a language"
+msgstr ""
+
+#: WebApp/forms.py:579
+msgid "en"
+msgstr ""
+
+#: WebApp/forms.py:594
+msgid "johndoe@doecorp.com"
+msgstr ""
+
+#: WebApp/forms.py:617
+msgid "Please input your 8 digit PIN"
+msgstr ""
+
+#: WebApp/forms.py:626
+msgid "Please enter the PIN"
+msgstr ""
+
+#: WebApp/views.py:30
+msgid "You are logged in successfully!"
+msgstr ""
+
+#: WebApp/views.py:69
+msgid "Invalid email id or password"
+msgstr ""
+
+#: WebApp/views.py:133
+msgid "Your information has been updated with Port."
+msgstr ""
+
+#: WebApp/views.py:189
+msgid "Please add image with size less than 2MB"
+msgstr ""
+
+#: WebApp/views.py:212 WebApp/views.py:216 WebApp/views.py:422
+#: WebApp/views.py:426
+msgid "Something went wrong !!!!"
+msgstr ""
+
+#: WebApp/views.py:291
+msgid "Your language setting has been changed."
+msgstr ""
+
+#: WebApp/views.py:294
+msgid "There is some problem."
+msgstr ""
+
+#: WebApp/views.py:419
+msgid "The request is submitted successfully."
+msgstr ""
+
+#: WebApp/views.py:479
+msgid "This PIN has already been used."
+msgstr ""
+
+#: WebApp/views.py:481
+msgid "Invalid 8 digit PIN, please try again!"
+msgstr ""
+
+#: WebApp/views.py:483 WebApp/views.py:485
+msgid "Error in Magpie user activation"
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:6
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:5
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:5
+#: WebApp/templates/WebApp/bitdefender_total_security.html:6
+msgid "Do you want to activate this service ? "
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:8
+msgid "Bitdefender Antivirus 2015"
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:12
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:9
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:9
+#: WebApp/templates/WebApp/bitdefender_total_security.html:12
+msgid "Install and Forget."
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:14
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:10
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:10
+#: WebApp/templates/WebApp/bitdefender_total_security.html:14
+msgid ""
+"Bitdefender’s OneClick Autopilot automatically makes the best security "
+"decisions for you."
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:17
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:13
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:13
+#: WebApp/templates/WebApp/bitdefender_total_security.html:17
+msgid "Smart Profiles."
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:25
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:17
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:17
+#: WebApp/templates/WebApp/bitdefender_total_security.html:24
+#: WebApp/templates/WebApp/users/insurance_claim.html:85
+msgid "Single-Click Tune-Up &amp; Clean-Up. "
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:27
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:18
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:18
+#: WebApp/templates/WebApp/bitdefender_total_security.html:26
+#: WebApp/templates/WebApp/users/insurance_claim.html:86
+msgid "OneClick Optimizer speeds up your system and frees up disk space."
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:30
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:21
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:21
+#: WebApp/templates/WebApp/bitdefender_total_security.html:29
+#: WebApp/templates/WebApp/users/insurance_claim.html:89
+msgid "One-Step Online Payments. "
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:32
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:22
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:22
+#: WebApp/templates/WebApp/bitdefender_total_security.html:31
+#: WebApp/templates/WebApp/users/insurance_claim.html:90
+msgid ""
+"Wallet simplifies purchases by securely autofilling your credit card details."
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:38
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:26
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:26
+#: WebApp/templates/WebApp/bitdefender_total_security.html:37
+msgid "Yes"
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_antivirus.html:39
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:27
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:27
+#: WebApp/templates/WebApp/bitdefender_total_security.html:38
+msgid "No"
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:7
+msgid "Bitdefender Internet Security 2015"
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_internet_security.html:14
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:14
+#: WebApp/templates/WebApp/bitdefender_total_security.html:19
+#: WebApp/templates/WebApp/users/insurance_claim.html:82
+msgid ""
+"Bitdefender Total Security 2015 automatically detects when you Work, Play or "
+"Watch movies, and prevents other apps from slowing you down."
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_parental_control.html:7
+msgid "Bitdefender Parental Control 2015"
+msgstr ""
+
+#: WebApp/templates/WebApp/bitdefender_total_security.html:8
+msgid ""
+"Even the best anti-malware software is worthless, if it’s hard to use. "
+"Bitdefender Total Security 2015 engages security with a single click."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:5 WebApp/templates/WebApp/header.html:24
+msgid "Ethos"
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:8
+msgid "At Magpie, we are passionate about making life easy."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:9
+msgid ""
+"We bring everyday life services straight to the palm of your hand, via your "
+"phone."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:10
+msgid ""
+"We believe in using the power of digital technology to live our lives "
+"efficiently."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:11
+msgid ""
+"Magpie services are ‘best of breed’, meaning we search the globe for the "
+"best apps and services of their kind that make everyday life easy. If we "
+"can’t find one good enough, we make one ourselves."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:12
+msgid ""
+"We believe in a connected world, where individuals and organisations share "
+"the information they need at the click of a button."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:13
+msgid ""
+"We’ve sourced smart tech, replaced paper with screens and given you new "
+"digital ways to get in touch (and you can call us) – this is our vision of "
+"the connected world."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:14
+msgid ""
+"A connected world is a world where businesses fit around each individual, "
+"their information and their preferences for sharing it."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:15
+msgid ""
+"We believe in the value of personal information and the way forward for "
+"consumers and businesses alike is to give back control to the owner – you."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:16
+msgid ""
+"At Magpie, we know that personal information is required for both basic and "
+"good customer experience."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:17
+msgid ""
+"We know that consumers want personalised service and we know that the only "
+"way to do this is by using personal information. But we also know that too "
+"many organisations have access to personal information they don’t need – "
+"just look at your inbox and see who you receive emails from if you need "
+"proof."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:18
+msgid ""
+"We want a world where we – consumers – can choose which organisations have "
+"access to our personal information, what they access and how long they "
+"access it for. We want a world where we – organisations – spend time talking "
+"to customers who want to hear from us without bothering the ones who don’t."
+msgstr ""
+
+#: WebApp/templates/WebApp/ethos.html:19
+msgid ""
+"This is our Ethos and we have the culture and technology to deliver it. It’s "
+"smart technology on your terms."
+msgstr ""
+
+#: WebApp/templates/WebApp/footer.html:7
+msgid "Magpie Intl - All rights reserved."
+msgstr ""
+
+#: WebApp/templates/WebApp/header.html:19
+#: WebApp/templates/WebApp/users/edit_personal_info.html:6
+#: WebApp/templates/WebApp/users/personal_info.html:6
+msgid "My Account"
+msgstr ""
+
+#: WebApp/templates/WebApp/header.html:20
+msgid "Subscription Information"
+msgstr ""
+
+#: WebApp/templates/WebApp/header.html:21
+msgid "Settings"
+msgstr ""
+
+#: WebApp/templates/WebApp/header.html:25
+#: WebApp/templates/WebApp/terms_and_conditions.html:5
+msgid "Privacy Policy"
+msgstr ""
+
+#: WebApp/templates/WebApp/header.html:26
+msgid "Help"
+msgstr ""
+
+#: WebApp/templates/WebApp/header.html:27
+msgid "Logout"
+msgstr ""
+
+#: WebApp/templates/WebApp/header.html:32
+msgid "Leave Feedback"
+msgstr ""
+
+#: WebApp/templates/WebApp/header.html:38
+msgid "Menu"
+msgstr ""
+
+#: WebApp/templates/WebApp/help.html:6
+msgid "Need Help? Call or Email us at:"
+msgstr ""
+
+#: WebApp/templates/WebApp/help.html:11
+msgid "Contact Number"
+msgstr ""
+
+#: WebApp/templates/WebApp/subscription_info.html:6
+msgid "Billing Details "
+msgstr ""
+
+#: WebApp/templates/WebApp/subscription_info.html:9
+msgid "Subscription Period"
+msgstr ""
+
+#: WebApp/templates/WebApp/subscription_info.html:12
+msgid "Start:"
+msgstr ""
+
+#: WebApp/templates/WebApp/subscription_info.html:18
+msgid "End:"
+msgstr ""
+
+#: WebApp/templates/WebApp/subscription_info.html:24
+msgid "Billing Amount"
+msgstr ""
+
+#: WebApp/templates/WebApp/subscription_info.html:28
+msgid "Auto Renew Status "
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:7
+msgid "Back"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:11
+msgid "1 Introduction"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:13
+msgid ""
+"Magpie (“we”, “us”, “our”) is a Life Management Services (‘LMS’) "
+"organisation providing digital solutions that make life easier. The Magpie "
+"model is centred on putting you in control of your personal information. "
+"Magpie knows that you care how information about you is stored, used and "
+"shared, as such Magpie’s company ethos is “Privacy by design”. Information "
+"that you provide directly or that is generated through your usage of Magpie "
+"products and services, will be stored securely and you will be in control of "
+"this data. You can decide with whom you share your data and for how long."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:14
+msgid ""
+"This notice describes our privacy policy, in relation to the information "
+"that we collect, what we do with that information and how you can manage and "
+"control the use of the information. By downloading this application (“Life "
+"Manager App”) you are accepting the practices described within this privacy "
+"notice."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:18
+msgid "2 The information that we collect"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:20
+msgid "2.1 When you subscribe to Magpie services"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:21
+msgid ""
+"In order to subscribe to our services you will be required to submit the "
+"following basic information;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:23
+msgid "Your Name; "
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:25
+msgid "Your Postal Address;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:27
+msgid "Your Mobile Telephone Number;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:29
+msgid "Your E-Mail Address;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:31
+msgid "Your Card payment details."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:33
+msgid ""
+"Information about the smartphone, tablet or other device or any computer you "
+"may use to download a copy of the Life Manager App."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:35
+msgid ""
+"This information will be used by Magpie to administer your membership and "
+"ensure suitability of the service."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:37
+msgid ""
+"As part of your subscription you will receive access to a Personal "
+"Information Bank (“PIB”). This PIB is personal to you, it is at your sole "
+"discretion what information you choose to deposit in your PIB, and with whom "
+"you choose to share it."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:40
+msgid "2.2 What other information does Magpie gather"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:41
+msgid ""
+"Some services will require access to additional information in order for "
+"them to function correctly and for you to benefit from these services, these "
+"may include:"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:43
+msgid "Card loss and registration services;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:45
+msgid "Important document storage;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:47
+msgid "Bank Account aggregation services."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:49
+msgid "Insurance Services"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:52
+msgid ""
+"The above will require additional information to be collected from you "
+"either via our call centres, or via the Life Manager App (available on IOS, "
+"Android and Desktop) directly, this may include:"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:54
+msgid ""
+"Additional contact information e.g. Date of Birth, home phone number or "
+"secondary email address;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:56
+msgid "Additional information required to process an insurance claim;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:58
+msgid "A list of payment cards, required for loss reporting an re-ordering;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:60
+msgid ""
+"Photo scans of important documents (stored in your PIB) for replacement "
+"purposes;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:62
+msgid "Details of insurance claims made via the Life Manager App;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:64
+msgid "Mobile phone registration details such as IMEI and proof of purchase."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:68
+msgid "2.3 Usage data"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:70
+msgid ""
+"Magpie uses Google Analytics and Heatdata, which track your usage of the "
+"Life Manager App."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:72
+msgid ""
+"We use Google Analytics and Heatdata to collect information about your "
+"activity on the Life Manager App. We collect information in an anonymous "
+"form about your usage of the Life Manager App, including the number of times "
+"you use it and the functions of the Life Manager App that you use. Google "
+"Analytics send anonymous non-personally identifiable data to remote servers "
+"where the data is aggregated and presented back to us as analytical data "
+"about the use of the Life Manager App by our subscribers. We use the "
+"information to compile reports and to help us improve the Life Manager App. "
+"So for example we may know how many people use a certain function within the "
+"Life Manager App, but we would not know if you were one of those people."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:74
+msgid ""
+"For more information about the information gathered using Google Analytics, "
+"please visit:"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:76
+msgid "and"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:78
+#: WebApp/templates/WebApp/terms_and_conditions.html:80
+msgid ""
+"The information we collect cannot be used by anyone else who has access to "
+"your mobile device to find out anything about you. The tracking we perform "
+"does not in any way compromise the security of your device."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:82
+msgid ""
+"We are unable to use the information collected about your usage to identify "
+"you personally."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:86
+msgid "3 How we use the information we collect"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:88
+msgid ""
+"We may use the information we collect, including your personal information:"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:90
+msgid "To manage your subscription;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:92
+msgid "To provide you with the services and features of your subscription;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:94
+msgid "To collect payments when due;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:96
+msgid "To maintain internal records;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:98
+msgid ""
+"To communicate with you by e-mail, telephone or post if you have purchased a "
+"Subscription from Magpie, either regarding the purchase or other matters "
+"regarding transactions between you and Magpie or your customer relationship "
+"with Magpie;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:100
+msgid "To conduct statistical analysis;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:102
+msgid "To prevent fraud;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:104
+msgid ""
+"To improve your experience with the services and products provided as part "
+"of the Subscription;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:106
+msgid "To ensure the technical functioning of the services and products;"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:108
+msgid ""
+"To enforce this Privacy Policy and the Terms and Conditions of Use including "
+"to protect the rights, property or safety of Magpie, users or any other "
+"person and the copyright-protected content of the Service."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:113
+msgid "4 Who do we share information with"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:115
+msgid "4.1 Your Personal Information"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:117
+msgid ""
+"Your personal information will only be made available to Magpie’s authorised "
+"service provider’s and third party suppliers which perform certain services "
+"on Magpie’s behalf e.g. providing IT support and maintenance, providing "
+"hosting services, providing customer service, providing payment processing "
+"services and providing features of the subscription. These service providers "
+"may have access to personal information needed to perform their functions on "
+"Magpie’s behalf but are not permitted to share or to use such information "
+"for any other purpose. "
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:119
+msgid ""
+"Magpie will not share your personal information without your permission to "
+"any other third party."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:121
+msgid "4.2 De-identified usage information"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:123
+msgid ""
+"Magpie may share de-identified, aggregated usage information, collated as "
+"per section 2.3 with third parties, for market insight and statistical "
+"analysis purposes."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:127
+msgid "5 Accessing and updating user information"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:129
+msgid ""
+"You can access and amend your information via your Life Manager App or via "
+"your PIB."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:133
+msgid "6 Data security"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:135
+msgid "6.1 Security of your information"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:137
+msgid ""
+"Magpie works hard to protect the security of your information during "
+"transmission by using Secure Sockets Layer (SSL) software, which encrypts "
+"information you input."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:139
+msgid "6.2 Security of your card numbers"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:141
+msgid ""
+"Magpie will only ever reveal only the last four digits of your card numbers "
+"when confirming an order. Of course, Magpie will transmit the entire card "
+"number to the appropriate card company during order processing."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:143
+msgid "6.3 Where your information is stored"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:145
+msgid ""
+"Magpie uses your PIB, for the collection & storage of personal information."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:146
+msgid ""
+"In addition, Magpie maintains electronic and procedural safeguards in "
+"connection with the collection, storage and disclosure of any personally "
+"identifiable customer information. Our security procedures mean that we may "
+"occasionally request proof of identity before we disclose personal "
+"information to you."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:147
+msgid ""
+"It is important for you to protect against unauthorised access to your "
+"password and to your computer. Be sure to sign off when you finish using a "
+"shared computer."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:151
+msgid "7 Third party services"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:153
+msgid ""
+"Magpie may use third party services within its Subscriptions, you will be "
+"presented with their privacy policies when accessing their services for the "
+"first time; please ensure that you read them to find out how they collect "
+"and process your personal information, before using the service."
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:157
+msgid "8 Contact us"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:159
+msgid ""
+"If you have any questions regarding Magpie’s privacy policy then please "
+"contact "
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:159
+msgid "support@magpieint.com"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:163
+msgid "9 Changes to the Privacy Policy"
+msgstr ""
+
+#: WebApp/templates/WebApp/terms_and_conditions.html:165
+msgid ""
+"We may make changes to the privacy policy from time to time, so please visit "
+"this Privacy Policy regularly. If we make any changes which we believe are "
+"material we will inform you through the subscription service. Your continued "
+"use of the subscription thereafter constitutes acceptance of the changes."
+msgstr ""
+
+#: WebApp/templates/WebApp/users/activate_bundle_services.html:7
+msgid "Activate Your Bundle Services"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/activate_bundle_services.html:25
+#: WebApp/templates/WebApp/users/change_language.html:20
+#: WebApp/templates/WebApp/users/insurance_claim.html:62
+#: WebApp/templates/WebApp/users/report_lost_card.html:48
+msgid "Submit"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/change_language.html:8
+msgid "Language Setting"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/change_language.html:23
+#: WebApp/templates/WebApp/users/edit_personal_info.html:127
+#: WebApp/templates/WebApp/users/insurance_claim.html:65
+#: WebApp/templates/WebApp/users/report_lost_card.html:50
+msgid "Cancel"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/confirmation_page.html:6
+#: WebApp/templates/WebApp/users/insurance_claim.html:7
+msgid "Insurance Claim"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/confirmation_page.html:9
+msgid ""
+"Your claim is being processed. A Magpie representative will contact you "
+"shortly."
+msgstr ""
+
+#: WebApp/templates/WebApp/users/confirmation_page.html:11
+msgid "Done"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/edit_personal_info.html:124
+msgid "Save Changes"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:25
+msgid "Please enter any additional details below:"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:30
+msgid "Conditions and Exclusions"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:43
+msgid "Please attach any relevant document (if applicable)"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:47
+msgid "Browse..."
+msgstr ""
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:49
+msgid "No file attached..."
+msgstr ""
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:50
+msgid "File size should be less than 2MB"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:73
+msgid "About Mobile Phone Insurance"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/insurance_claim.html:77
+#: WebApp/templates/WebApp/users/insurance_claim.html:81
+msgid "Excess Amount"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/need_emergency_cash.html:8
+msgid " Work under progress"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/personal_info.html:19
+msgid "Address Line 1"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/personal_info.html:24
+msgid "Address Line 2"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/personal_info.html:34
+msgid "Address Line 3"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/personal_info.html:50
+msgid "Zipcode"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/personal_info.html:76
+msgid "Edit"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/report_lost_card.html:7
+msgid "Report Lost Card"
+msgstr ""
+
+#: WebApp/templates/WebApp/users/report_lost_card.html:46
+msgid "Call Help Center : 0123456789"
+msgstr ""
+
+#: WebApp/templates/static_pages/activate_pin.html:29
+msgid "Get a new PIN"
+msgstr ""
+
+#: WebApp/templates/static_pages/activate_pin.html:34
+msgid "Check your email for authentication code."
+msgstr ""
+
+#: WebApp/templates/static_pages/activate_pin.html:37
+msgid "Continue"
+msgstr ""
+
+#: WebApp/templates/static_pages/activate_pin.html:38
+msgid "You will be authenticated by Magpie."
+msgstr ""
+
+#: WebApp/templates/static_pages/activate_pin.html:44
+msgid "Already have an account?"
+msgstr ""

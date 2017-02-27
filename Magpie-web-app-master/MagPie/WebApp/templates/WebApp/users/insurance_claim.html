@@ -1,0 +1,98 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+{% load webdesign %}
+
+{% block content %}
+<div class="magpieWrapper clearfix">
+    <h1>{% trans "Insurance Claim" %}</h1>
+
+    <form class="formWrapper insuranceForm" id="insuranceForm" enctype="multipart/form-data" action="" method="post">
+        {% csrf_token %}
+
+        {{ form.save_personal_info }}
+        <div class="dataField claim firstChild">
+            <label>{{ form.claim_types.label }}</label>
+
+            <div class="infoData">
+                {{ form.claim_types }}
+                {% if form.claim_types.errors %}
+                <div class="error">{{form.claim_types.errors}}</div>
+                {% endif %}
+                <div id="id_claim_types-description"></div>
+            </div>
+            <div>
+                <p class='claim_msg  inpField clear'>
+                {% trans "Please enter any additional details below:" %}
+                <p>
+            </div>
+            <p class="moreInfo">
+                <span class="quesIco">?</span>
+                <a href="javascript:void(0);" id="moreInfo">{% trans "Conditions and Exclusions" %}</a>
+            </p>
+        </div>
+
+        <div class="dataField claim_description">
+            <label>{{ form.claim_description.label }}</label>
+
+            <div class="infoData">
+                {{ form.claim_description }}
+                {{ form.claim_description.errors }}
+            </div>
+        </div>
+        <div class="dataField attachFile">
+            <label class="file_description">{% trans "Please attach any relevant document (if applicable)" %}</label>
+
+            <div class="infoData attachFileWrap">
+                <div class="file_upload">
+                    <label for="attach_file" class="btnBrowse  btn">{% trans "Browse..." %}</label>
+                    {{ form.attach_file }}
+                    <span id="inpFile" class="inpFile">{% trans "No file attached..." %}</span>
+                    <span class="noteMsg">{% trans "File size should be less than 2MB" %}</span>
+                    {% if form.attach_file.errors %}
+                    <div class="error">{{form.claim_types.errors}}</div>
+                    {% endif %}
+                </div>
+                <div id="attach_file-description"></div>
+            </div>
+        </div>
+        {% include "WebApp/users/contact_info.html" %}
+        <div class="btnLink dataField">
+            <div>
+                <a href="javascript:void(0);" class="btn " data-href="dashboard.html" onclick="return checkError();">
+                    {% trans "Submit" %}
+                </a>
+            </div>
+            <a href="{% url 'dashboard' %}" class="linkCancel">{% trans "Cancel" %}</a>
+        </div>
+    </form>
+</div>
+<div class="popup">
+    <div class="popupOverlay contentPage">
+        <a href="javascript:void(0);" class="closeLink">Close</a>
+
+        <h3>{% trans "About Mobile Phone Insurance" %}</h3>
+
+        <div class="formWrapper internetSecurityWrap">
+            <div class="dataField firstChild">
+                <h5>{% trans "Excess Amount" %}</h5>
+                <span class="infoData">{% lorem 1 p %}</span>
+            </div>
+            <div class="dataField">
+                <h5>{% trans "Excess Amount" %}</h5>
+                <span class="infoData">{% trans "Bitdefender Total Security 2015 automatically detects when you Work, Play or Watch movies, and prevents other apps from slowing you down." %}</span>
+            </div>
+            <div class="dataField">
+                <h5>{% trans "Single-Click Tune-Up &amp; Clean-Up. " %}</h5>
+                <span class="infoData">{% trans "OneClick Optimizer speeds up your system and frees up disk space." %}</span>
+            </div>
+            <div class="dataField">
+                <h5>{% trans "One-Step Online Payments. " %}</h5>
+                <span class="infoData">{% trans "Wallet simplifies purchases by securely autofilling your credit card details." %}</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/static/WebApp/js/jquery-validate.js"></script>
+<script type="text/javascript" src="{% url 'django.views.i18n.javascript_catalog' %}"></script>
+<script src="/static/WebApp/js/validations/insurance_claim.js"></script>
+{% endblock %}

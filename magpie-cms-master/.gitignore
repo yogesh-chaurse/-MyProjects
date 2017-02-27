@@ -1,0 +1,7 @@
+.idea/
+*.pyc
+/MagPie/MagPie/settings.py
+/.env/*
+/MagPie/CMS/static/CMS/uploads/*
+/MagPie/CMS/static/CMS/edit_theme/*
+cms.log

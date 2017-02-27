@@ -1,0 +1,105 @@
+{% extends "CMS/layout.html" %}
+
+{% block content %}
+<div class="magContainerCover">
+    <form method="post" action="" id="institutionForm" class="addInstitutionForm">
+        {% csrf_token %}
+        <h1>Edit Institution</h1>
+            <div class="dataField firstChild">
+                <label>{{form.name_en.label}}</label>
+                <div class="infoData">
+                    {{form.name_en}}
+                    {% if form.name_en.errors %}
+                    <div class="error">{{form.name_en.errors}}</div>
+                    {% endif %}
+                    <div id="name_en-description"></div>
+                </div>
+            </div>
+             <div class="dataField">
+                <label>{{form.name_es.label}}</label>
+                <div class="infoData">
+                    {{form.name_es}}
+                    {% if form.name_es.errors %}
+                    <div class="error">{{form.name_es.errors}}</div>
+                    {% endif %}
+                    <div id="name_es-description"></div>
+                </div>
+            </div>
+            <div class="dataField">
+                <label>{{form.name_zh.label}}</label>
+                <div class="infoData">
+                    {{form.name_zh}}
+                    {% if form.name_zh.errors %}
+                    <div class="error">{{form.name_zh.errors}}</div>
+                    {% endif %}
+                    <div id="name_zh-description"></div>
+                </div>
+            </div>
+            <div class="dataField">
+            <ul class="radiowrap clearfix">
+                {{ form.allow_reorder_cards }}
+            </ul>
+            {% if form.allow_reorder_cards.errors %}
+            <div class="error">{{form.allow_reorder_cards.errors}}</div>
+            {% endif %}
+            <div id="allow_reorder_cards-description"></div>
+             </div>
+            <div class="dataField">
+                <label>{{form.contact_no.label}}</label>
+                <div class="infoData numberInpDiv">
+                    {{ form.contact_no }}
+                </div>
+                {% if form.contact_no.errors %}
+                <div class="error">{{form.contact_no.errors}}</div>
+                {% endif %}
+                <div id="contact_no-description"></div>
+            </div>
+            <div class="dataField">
+                <label>{{form.email.label}}</label>
+                <div class="infoData">
+                    {{form.email}}
+                    {% if form.email.errors %}
+                    <div class="error">{{form.email.errors}}</div>
+                    {% endif %}
+                    <div id="email-description"></div>
+                </div>
+            </div>
+            <div class="dataField">
+                <label>{{form.postal_address.label}}</label>
+                <div class="infoData">
+                    {{form.postal_address}}
+                    {% if form.postal_address.errors %}
+                    <div class="error">{{form.postal_address.errors}}</div>
+                    {% endif %}
+                    <div id="postal_address-description"></div>
+                </div>
+            </div>
+            <div class="dataField">
+                <label>{{form.instructional_text.label}}</label>
+                <div class="infoData">
+                    {{form.instructional_text}}
+                    {% if form.instructional_text.errors %}
+                    <div class="error">{{form.instructional_text.errors}}</div>
+                    {% endif %}
+                    <div id="instructional_text-description"></div>
+                </div>
+            </div>
+            <div class="dataField">
+                <label>{{form.region.label}}</label>
+                <div class="infoData">
+                   {{form.region}}
+                    {% if form.region.errors %}
+                    <div class="error">{{form.region.errors}}</div>
+                    {% endif %}
+                    <div id="region-description"></div>
+                </div>
+            </div>
+            <div class="btnLinkWrap dataField">
+               <div> <button class="btn " type="submit">Save</button></div>
+                <a class="linkCancel btnCancel" href="{% url 'institution_list' %}">Cancel</a>
+            </div>
+    </form>
+</div>
+<script src="/static/CMS/js/jquery-validate.js"></script>
+<script src="/static/CMS/js/validations/institutions.js"></script>
+{% endblock %}

@@ -1,0 +1,127 @@
+{% extends "CMS/layout.html" %}
+
+{% block content %}
+<div class="fetchBtn">
+    <a href="{% url 'fetch_business_partners' %}" class="btn ">Fetch Business Partners</a>
+
+    <form action="/search_business_partners/" method="POST" class="searchForm">
+        {% csrf_token %}
+        <input type="text" name="search" placeholder="Search Business Partner" id="searchInput"/>
+        <button type="submit" class="topBtn btn searchBtnBP">Search</button>
+        <a href="{% url 'business_partner_list' %}" class="resetLink">Reset</a>
+    </form>
+</div>
+{% if count > 0 %}
+<div class="clearfix">
+    <h5><strong>{{count}}</strong>
+        {% if count == 1 %}
+        Business Partner is found
+        {% else %}
+        Business Partners are found
+        {% endif %}
+    </h5>
+</div>
+{% elif count != -1 and count == 0 %}
+<div class="clearfix">
+    <h5>Result not found</h5>
+</div>
+{% endif %}
+<div class="dataTable">
+    <div class="dataHead">
+        <div class="dataCell">ID</div>
+        <div class="dataCell">Business Partner Name</div>
+        <div class="dataCell">Primary Colour</div>
+        <div class="dataCell">Text Colour</div>
+        <div class="dataCell">Logo</div>
+        <div class="dataCell">Action</div>
+        <!--<div class="dataCell"></div>-->
+        <!--<div class="dataCell"></div>-->
+        <!--<th>Create ZIP</th>-->
+    </div>
+    {% if business_partner_list %}
+    {% for business_partner in business_partner_list %}
+    {# Each "business_partner" is a Business_Partners model object. #}
+    <div class="dataRow">
+        <div class="dataCell">{{ forloop.counter0|add:business_partner_list.start_index}}</div>
+        <div class="dataCell">{{business_partner.name|upper}}</div>
+        <div class="dataCell">
+            {% if business_partner.theme_of %}
+                    <span>
+                        {{business_partner.theme_of.theme_color}}
+                    </span>
+            <span class="colorBox" style="background-color:{{business_partner.theme_of.theme_color}}"></span>
+            {% else %}
+            --
+            {% endif %}
+        </div>
+        <div class="dataCell">
+            {% if business_partner.theme_of %}
+                    <span>
+                        {{business_partner.theme_of.font_color}}
+                    </span>
+            <span class="colorBox" style="background-color:{{business_partner.theme_of.font_color}}"></span>
+            {% else %}
+            --
+            {% endif %}
+        </div>
+        <div class="dataCell">
+            {% if business_partner.theme_of.logo %}
+            <img src="/static/CMS/uploads/{{business_partner.name}}/{{business_partner.theme_of.logo}}"
+                 alt="Magpie" width="50" height="50"/>
+            {% endif %}
+        </div>
+        <div class="dataCell">
+            {% if not business_partner.theme_of.id %}
+            <a href="{% url 'add_theme' business_partner.id %}" class="btn btnAdd">Add Theme</a>
+            {% endif %}
+            {% if business_partner.theme_of.id %}
+            <a href="{% url 'edit_theme' business_partner.id  %}" class="btn btnAdd">Edit Theme</a>
+            {% endif %}
+            {% if business_partner.theme_of.id %}
+            <a href="{% url 'delete_bp_theme' business_partner.id %}" class="btn btnAdd" title="Delete"
+               onclick="return confirm('Are you sure you want to delete {{business_partner.name|upper}} and it\'s theme ?')">Delete</a>
+            {% else %}
+            <a href="{% url 'delete_bp_theme' business_partner.id %}" class="btn btnAdd" title="Delete"
+               onclick="return confirm('Are you sure you want to delete {{business_partner.name|upper}} ?')">Delete</a>
+            {% endif %}
+        </div>
+        <!--<td>-->
+        <!--{% if business_partner.theme_of.id %}-->
+        <!--<a href="{% url 'create_zip' business_partner.id  %}" class="btn btn-primary btnAdd">Download Android-->
+        <!--Zip</a>-->
+        <!--{% else %}-->
+        <!------>
+        <!--{% endif %}-->
+        <!--</td>-->
+
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="partnerListMsg dataRow">
+        <div class="partnerListMsg dataCell">
+            No business partner is added yet. <a href="{% url 'fetch_business_partners' %}">
+            Click here</a> to fetch the list.
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+{% if business_partner_list.paginator.num_pages > 1 %}
+<div class="paginationWrapper">
+    <ul class="pagination pagination-sm">
+        {% if business_partner_list.has_previous %}
+        <li class="previousLink"><a href="?page={{ business_partner_list.previous_page_number }}">Previous</a></li>
+        {% endif %}
+
+        {% for page in business_partner_list.paginator.page_range %}
+        <li class="{% if page == business_partner_list.number %}active{% endif %}">
+            <a href="?page={{ page }}">{{page}}</a></li>
+        {% endfor %}
+
+        {% if business_partner_list.has_next %}
+        <li class="nextLink"><a href="?page={{ business_partner_list.next_page_number }}">Next</a></li>
+        {% endif %}
+    </ul>
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,24 @@
+{% block header %}
+<header class="magpieHeader clearfix">
+    <div class="headerInner">
+        <div class="magheaderWrap">
+            <a href="/" class="magpieLogo"><img src="/static/CMS/images/logoMagpie.png" alt="Magpie"/></a>
+        </div>
+        {% if user.is_authenticated %}
+            <div class="menuOpecWrap"> </div>
+            <div class="dropdown ">
+                <a href="javascript:void(0)"> <span class="dropdownClose">Close</span></a>
+                <ul class="linkDropdown">
+                    <li class="{% if business_partner_list_tab %}active{% endif %}">
+                        <a href="{% url 'business_partner_list' %}">Partners</a>
+                    </li>
+                    <li><a href="{% url 'institution_list' %}">Institution</a></li>
+                    <li><a href="{% url 'change_password' %}">Change Password</a></li>
+                    <li><a href="{% url 'logout' %}">Log Out</a></li>
+                </ul>
+            </div>
+        <a href="javascript:void(0)" class="dropdownToggle">Menu</a>
+        {% endif %}
+    </div>
+</header>
+{% endblock %}

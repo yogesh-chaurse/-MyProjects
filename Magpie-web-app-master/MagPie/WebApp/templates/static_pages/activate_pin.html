@@ -1,0 +1,52 @@
+{% extends "WebApp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+
+<link href="/static/WebApp/css/style_activate_pin.css" media="all" rel="stylesheet"/>
+<div class="clearfix magpieContainer magContainerWrap activeWrap">
+
+    <h1 class="noBorder mpLogo"></h1>
+
+    <div class="formWrapper termsCondInfo contentPage pibPage termsCondBlock firstChild">
+        <div id="loader" class="loaderWrap">
+            <img src="/static/WebApp/images/loader_blue.gif" height="20" width="50"/>
+        </div>
+        <form class="form-horizontal formWrapper" id="activatePinForm" method="POST">
+            {% csrf_token %}
+
+            <div class="dataField">
+                <div class="infoData">
+                    {{ form.pin }}
+                    {% if form.pin.errors %}
+                    <div class="error">{{form.pin.errors}}</div>
+                    {% endif %}
+                    <div id="pin-description"></div>
+
+                    <div class="linksWrap">
+                        <a id="getNewPin"
+                           href="https://magpie.desk.com/customer/portal/articles/2006106-how-do-i-get-a-new-authorisation-code">
+                            {%trans "Get a new PIN" %}
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p>{%trans "Check your email for authentication code." %}</p>
+
+            <div class="btnLink dataField">
+                <button type="submit" id="validateSubmit" class="btn">{%trans "Continue" %}</button>
+                <p>{%trans "You will be authenticated by Magpie." %}</p>
+            </div>
+
+        </form>
+
+        <div class="linksWrap">
+            <a href="/">{%trans "Already have an account?" %}</a>
+        </div>
+    </div>
+</div>
+
+<script src="/static/WebApp/js/jquery-validate.js"></script>
+<script type="text/javascript" src="{% url 'django.views.i18n.javascript_catalog' %}"></script>
+<script src="/static/WebApp/js/validations/activate_pin.js"></script>
+{% endblock %}

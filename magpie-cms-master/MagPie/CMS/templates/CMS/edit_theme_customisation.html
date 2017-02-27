@@ -1,0 +1,652 @@
+{% extends "CMS/layout.html" %}
+{% block content %}
+<h1>{{business_partner.name}} </h1>
+<div id="loader" style="display:none;"><img src="/static/CMS/images/loader.gif" align="Loading..."/></div>
+<div class="contentWrap clearfix">
+<form id="editThemeForm" method="post" enctype="multipart/form-data" action="">
+    {% csrf_token %}
+    <div class="leftSidebar block">
+        <ul class="optionList">
+            <li>
+                <div class="clearfix titleWrap">
+                    <h5 class="editTitle">Logo</h5>
+                    <a href="javascript:void(0);" class="edit_logo editOption">Edit</a>
+                </div>
+
+                <div class="uploadBtn attachFileWrap clearfix">
+                    <div class="themeOptionLeft logo_txt">
+
+                    </div>
+                    {% if form.logo.errors %}
+                    <div class="error">{{form.logo.errors}}</div>
+                    {% endif %}
+                    <div class="tooltipWrap themeOptionRight logoTooltip">
+                        <a href="javascript:void(0)" class="tooltip">&#63;</a>
+
+                        <div class="tooltipText">
+                            <span>Logo size should be at least 280x80 pixels.</span>
+                            <span>Upload and click on "Preview" Button to view.</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="logo-description"></div>
+            </li>
+            <li>
+                <div class="clearfix titleWrap">
+                    <h5 class="editTitle">Splash Screen</h5>
+                    <a href="javascript:void(0);" class="edit_splash editOption">Edit</a>
+                </div>
+                <div class="uploadBtn attachFileWrap clearfix">
+                    <div class="themeOptionLeft splash_txt">
+
+                    </div>
+                    {% if form.splash_screen.errors %}
+                    <div class="error">{{form.splash_screen.errors}}</div>
+                    {% endif %}
+                    <div class="tooltipWrap themeOptionRight splashTooltip">
+                        <a href="javascript:void(0)" class="tooltip">&#63;</a>
+
+                        <div class="tooltipText">
+                            <span>Splash screen size should be at least 1536x2048 pixels.</span>
+                            <span>Upload and click on "Preview" Button to view</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="splash_screen-description"></div>
+            </li>
+            <li>
+                <div class="clearfix titleWrap">
+                    <h5 class="editTitle">Fav Icon</h5>
+                    <a href="javascript:void(0);" class="edit_fav_icon editOption">Edit</a>
+                </div>
+                <div class="uploadBtn attachFileWrap clearfix">
+                    <div class="themeOptionLeft fav_icon_txt">
+
+                    </div>
+                    {% if form.fav_icon.errors %}
+                    <div class="error">{{form.fav_icon.errors}}</div>
+                    {% endif %}
+                    <div class="tooltipWrap themeOptionRight favIconTooltip">
+                        <a href="javascript:void(0)" class="tooltip">&#63;</a>
+                        <div class="tooltipText">
+                            <span>Fav icon must be a file with ".ico" extension.</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="fav_icon-description"></div>
+            </li>
+            <li>
+                <div class="clearfix titleWrap">
+                    <h5 class="editTitle">App Logo</h5>
+                    <a href="javascript:void(0);" class="edit_app_icon editOption">Edit</a>
+                </div>
+                <div class="uploadBtn attachFileWrap clearfix">
+                    <div class="themeOptionLeft app_icon_txt">
+
+                    </div>
+                    {% if form.app_icon.errors %}
+                    <div class="error">{{form.app_icon.errors}}</div>
+                    {% endif %}
+                </div>
+                <div id="app_icon-description"></div>
+            </li>
+
+            <li>
+                <h5>{{ form.theme_color.label }}</h5>
+
+                <div class="inpField clearfix">
+                    <div class="themeOptionLeft">
+                        <div class="themeColor color-box clearfix">
+                            <span class="theme-color"></span><input type="text" id="picker" readonly/>
+                            <span class="colorCode"></span>
+                            {{ form.theme_color }}
+                        </div>
+                    </div>
+                    {% if form.theme_color.errors %}
+                    <div class="error">{{form.theme_color.errors}}</div>
+                    {% endif %}
+                    <div id="theme_color-description"></div>
+                </div>
+            </li>
+
+            <li>
+                <h5>{{ form.font_color.label }}</h5>
+
+                <div class="inpField clearfix radiowrap">
+                    {{ form.font_color }}
+                    {% if form.font_color.errors %}
+                    <div class="error">{{form.font_color.errors}}</div>
+                    {% endif %}
+                    <div id="font_color-description"></div>
+                </div>
+
+            </li>
+            <li><a href="javascript:void(0)" id='previewBtn' class="btn themeComBtn">Preview</a>
+                <a href="{% url 'cancel_edit' business_partner.id %}" class="btn themeComBtn">Cancel</a>
+            </li>
+            <li><input type="submit" value="Done" id="submitBtn" class="btn"></li>
+        </ul>
+    </div>
+</form>
+<div class="rightSidebar block">
+    <ul class="appOptions clearfix">
+        <li><a href="javascript:void(0)" data-href="#splashScreen">Splash</a></li>
+        <li><a href="javascript:void(0)" data-href="#mobileAppScreen">App</a></li>
+        <li><a href="javascript:void(0)" class="active" data-href="#webAppScreen">Web App</a></li>
+    </ul>
+
+    <div class="screens clearfix" id="webAppScreen">
+        <header class="screenHeader clearfix previewColor">
+            <div class="screenHeaderInner">
+                <span class="screenLogo"><img id="webLogo" class="logoImg" src="/static/CMS/images/logoScreen.png"
+                                              alt="Magpie"/></span>
+                <span class="responsiveMenu icon">Menu</span>
+            </div>
+        </header>
+        <div class="magContainerInner dashboardContainer">
+            <ul class="dashboardOpetionUl themeCusDashboard clearfix">
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="menuIcons previewColor">
+                            <span class="iconWrap"><span class="icon lostWalletImg">Lost Wallet</span></span>
+                        </div>
+                        <span class="menuLabel">Lost Wallet</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="menuIcons previewColor">
+                            <span class="iconWrap"><span class=" icon insuranceImg">Insurance</span></span>
+                        </div>
+                        <span class="menuLabel">Insurance</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="menuIcons previewColor">
+                            <span class="iconWrap"><span class="icon accTrackerImg">Account Trackers</span></span>
+                        </div>
+                        <span class="menuLabel">Account Trackers</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="menuIcons previewColor">
+                            <span class="iconWrap"><span class="icon personalSaftyImg">Personal Safty</span></span>
+                        </div>
+                        <span class="menuLabel">Personal Safty</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="menuIcons previewColor">
+                            <span class="iconWrap"><span class="icon antivirusImg">Antivirus</span></span>
+                        </div>
+                        <span class="menuLabel">Antivirus</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="menuIcons previewColor">
+                            <span class="iconWrap"><span class="icon cardDocImg">Anti-theft</span></span>
+                        </div>
+                        <span class="menuLabel">Anti-theft</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="menuIcons previewColor">
+                            <span class="iconWrap active"><span class="icon trackRImg">Track R</span></span>
+                        </div>
+                        <span class="menuLabel">Track R</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="menuIcons previewColor">
+                            <span class="iconWrap"><span class=" icon personalInfoImg">Urban Angel</span></span>
+                        </div>
+                        <span class="menuLabel">Urban Angel</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="screens clearfix" id="splashScreen">
+        <header class="splashAppHeader clearfix previewColor">
+            <img src="/static/CMS/images/mobileheader.png" alt="Mobile header"/>
+        </header>
+        <div class="splashWrap">
+            <img id="previewSplash" src="/static/CMS/images/splashBg.png" alt="Mobile header"/>
+        </div>
+    </div>
+    <div class="screens clearfix" id="mobileAppScreen">
+        <header class="mobileAppHeader clearfix previewColor">
+            <img src="/static/CMS/images/mobileheader.png" alt="Mobile header"/>
+
+            <div class="mobScreenHeaderInner clearfix">
+                <a href="javascript:void(0);"><img id='mobileLogo' class='logoImg'
+                                                   src="/static/CMS/images/logoScreen.png" alt="Magpie"/></a>
+                <a href="javascript:void(0);" class="responsiveMenu mobileResponsiveMenu icon">Menu</a>
+            </div>
+        </header>
+        <div class="magContainerInner dashboardContainer">
+            <ul class="mobileDashboard clearfix">
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="mobileMenuIcon previewColor">
+                            <span class="iconWrap"><span class="icon personalInfoImg">Personal Info</span></span>
+                        </div>
+                        <span class="menuLabel">Personal Info</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="mobileMenuIcon previewColor">
+                            <span class="iconWrap"><span class="icon cardDocImg">Card and Document</span></span>
+                        </div>
+                        <span class="menuLabel">Insurance</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="mobileMenuIcon previewColor">
+                            <span class="iconWrap">><span class="icon lostWalletImg">Lost Wallet</span></span>
+                        </div>
+                        <span class="menuLabel">Lost Wallet</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="mobileMenuIcon previewColor">
+                            <span class="iconWrap"><span class="icon insuranceImg">Insurance</span></span>
+                        </div>
+                        <span class="menuLabel">Insurance</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="mobileMenuIcon previewColor">
+                            <span class="iconWrap"><span class="icon smartMoneyImg">Smart Money</span></span>
+                        </div>
+                        <span class="menuLabel">Smart Money</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="mobileMenuIcon previewColor">
+                            <span class="iconWrap"><span class="icon personalSaftyImg">Personal Safty</span></span>
+                        </div>
+                        <span class="menuLabel">Personal Safty</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="mobileMenuIcon previewColor">
+                            <span class="iconWrap"><span class="icon antivirusImg">Antivirus</span></span>
+                        </div>
+                        <span class="menuLabel">Antivirus</span>
+                    </div>
+                </li>
+                <li class="magpieMenu">
+                    <div class="magpieOptionsWrap">
+                        <div class="mobileMenuIcon previewColor">
+                            <span class="iconWrap"><span class="icon trackRImg">Track R</span></span>
+                        </div>
+                        <span class="menuLabel">Track R</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="mobButtonWrapper">
+                <span class="btn mobBlueBtn previewColor previewFontColor">Recommended Apps</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<link rel="stylesheet" href="/static/CMS/css/colpick.css" type="text/css"/>
+<script src="/static/CMS/js/colorpicker.js"></script>
+<script src="/static/CMS/js/jquery-validate.js"></script>
+<script src="/static/CMS/js/jquery.form.js"></script>
+<script>
+$(document).ready(function(){
+
+    $('.theme-color').colpick({
+        layout:'hex',
+        color:'{{business_partner.theme_of.theme_color}}',
+        onChange:function (hsb, hex, rgb, el,bySetColor) {
+            $(".theme-color").css('background-color', '#' + hex);
+            $('#themeColor').val('#' + hex)
+            $('#picker').val('#' + hex)
+        },
+        onSubmit: function(hsb, hex, rgb, el, parent) {
+                 $(el).val(hex);
+                 $(el).colpickHide();
+        },
+    })
+
+    $(".themeColor").on("click",function(e){
+            e.preventDefault();
+    });
+
+    $(".theme-color").css('background-color', '#2525b8');
+    $('#picker').val('#' + '2525b8');
+
+
+
+/* Theme Preview functionality */
+
+    $('#webLogo').attr('src','/static/CMS/uploads/{{business_partner.name}}/{{business_partner.theme_of.logo}}');
+    $('#mobileLogo').attr('src','/static/CMS/uploads/{{business_partner.name}}/{{business_partner.theme_of.logo}}');
+    $('#previewSplash').attr('src','/static/CMS/uploads/{{business_partner.name}}/{{business_partner.theme_of.splash_screen}}');
+    $('.previewColor').css('background-color','{{business_partner.theme_of.theme_color}}');
+    $('#picker').val('{{business_partner.theme_of.theme_color}}');
+    $('.previewFontColor').css('color','{{business_partner.theme_of.font_color}}');
+    $('#previewBtn').on('click',submit_form);
+
+
+/* Prepopulating Data while edit*/
+
+    var theme = '{{business_partner.theme_of.logo}}'
+    var logo_html = $('.logo_txt').html();
+    var splash_html = $('.splash_txt').html();
+    var fav_icon_html = $('.fav_icon_txt').html();
+    var app_icon_html = $('.app_icon_txt').html();
+
+    var logo_name = "{{ form.fields.logo.initial }}";
+    var splash_screen = "{{ form.fields.splash_screen.initial }}";
+    var fav_icon = "{{ form.fields.fav_icon.initial }}";
+    var app_icon = "{{ form.fields.app_icon.initial }}";
+    var edit_color = "{{ form.fields.theme_color.initial }}";
+
+    $('.logo_txt').prepend('<label>' + logo_name + '</label>');
+    $('.splash_txt').prepend('<label>' + splash_screen + '</label>');
+    $('.fav_icon_txt').prepend('<label>' + fav_icon + '</label>');
+    $('.app_icon_txt').prepend('<label>' + app_icon + '</label>');
+    $(".theme-color").css('background-color', edit_color);
+
+    $(document).on('click', '.edit_logo', function () {
+       $('.logo_txt').empty();
+       $('.logo_txt').append('<label class="inpFile logoInputFile" for="logo"></label>' +
+                        '{{ form.logo }}'+
+                        '<a href="javascript:void(0);" class="cancel_logo">Cancel</a>'
+       );
+    });
+
+    $(document).on('click', '.cancel_logo', function () {
+        $('#logo-description').empty();
+        $('.logo_txt').empty();
+        $('.logo_txt').append(logo_html);
+        $('.logo_txt').prepend('<label>' + logo_name + '</label>');
+
+    });
+
+    $(document).on('click', '.edit_splash', function () {
+       $('.splash_txt').empty();
+       $('.splash_txt').append('<label class="inpFile splash_screenInputFile" for="splash_screen"></label>' +
+                        '{{ form.splash_screen }}'+
+                        '<a href="javascript:void(0);" class="cancel_splash">Cancel</a>'
+       );
+    });
+
+    $(document).on('click', '.cancel_splash', function () {
+        $('#splash_screen-description').empty();
+        $('.splash_txt').empty();
+        $('.splash_txt').append(splash_html);
+        $('.splash_txt').prepend('<label>' + splash_screen + '</label>');
+    });
+
+    $(document).on('click', '.edit_fav_icon', function () {
+       $('.fav_icon_txt').empty();
+       $('.fav_icon_txt').append('<label class="inpFile fav_iconInputFile" for="fav_icon"></label>' +
+                        '{{ form.fav_icon }}'+
+                        '<a href="javascript:void(0);" class="cancel_fav_icon">Cancel</a>'
+       );
+    });
+
+    $(document).on('click', '.cancel_fav_icon', function () {
+        $('#fav_icon-description').empty();
+        $('.fav_icon_txt').empty();
+        $('.fav_icon_txt').append(fav_icon_html);
+        $('.fav_icon_txt').prepend('<label>' + fav_icon + '</label>');
+    });
+
+    $(document).on('click', '.edit_app_icon', function () {
+       $('.app_icon_txt').empty();
+       $('.app_icon_txt').append('<label class="inpFile app_iconInputFile" for="app_icon"></label>' +
+                        '{{ form.app_icon }}'+
+                        '<a href="javascript:void(0);" class="cancel_app_icon">Cancel</a>'
+       );
+    });
+
+    $(document).on('click', '.cancel_app_icon', function () {
+        $('#app_icon-description').empty();
+        $('.app_icon_txt').empty();
+        $('.app_icon_txt').append(app_icon_html);
+        $('.app_icon_txt').prepend('<label>' + app_icon + '</label>');
+    });
+
+    var check  = 0;
+    var valid_logo= false;
+    var valid_splash = false;
+    var valid_fav_icon = false;
+    var valid_app_icon = false;
+
+    $(document).on('change', "#logo", function () {
+        valid_logo = check_valid_data('logo');
+    });
+
+    $(document).on('change', "#splash_screen", function () {
+        valid_splash = check_valid_data('splash_screen');
+    });
+
+    $(document).on('change', "#fav_icon", function () {
+        if($('#fav_icon').val()){
+            valid_fav_icon = check_valid_data('fav_icon');
+        }
+    });
+
+    $(document).on('change', "#app_icon", function () {
+        valid_app_icon = check_valid_data('app_icon');
+    });
+
+    function check_valid_data(type) {
+        check = 0;
+        if ($('#' + type).val() != "undefined" | $('#' + type).val() != "") {
+            $('#' + type + '-description').html('');
+            var currentValue = $('#' + type).val();
+            $('.'+type+'InputFile').text(currentValue);
+            if (currentValue !== '') {
+                if(type === 'fav_icon') {
+                    var valid = validate_upload_ico(currentValue);
+                    var errMsg = 'File type should be ico only';
+                } else {
+                    var valid = validate_upload(currentValue);
+                    var errMsg = 'File type should be png only';
+                }
+                if (valid == false) {
+                    check=check+1;
+                    e = $('<div class="error">' + errMsg + '</div>');
+                    $('#' + type + '-description').append(e);
+                }
+                else {
+                    $('#' + type + '-description').html('');
+                }
+            }
+            else {
+                check = check + 1;
+                e = $('<div class="error">Please select an image</div>');
+                $('#' + type + '-description').append(e);
+            }
+        }
+        else {
+            check=check+1;
+            e = $('<div class="error">Please select an Image</div>');
+            $('#' + type + '-description').append(e);
+        }
+        if (check>0){
+            return true;
+        }
+        else {
+         return false;
+        }
+    }
+
+    function validate_upload(value) {
+        var file_extn = ['png'];
+        filename_extn = value.split('\\').pop().split('.').splice(-1, 1);
+        return $.inArray(value.split('\\').pop().split('.').splice(-1, 1)[0], file_extn) >= 0;
+    }
+
+    function validate_upload_ico(value) {
+        if(value) {
+            var file_extn = ['ico'];
+            filename_extn = value.split('\\').pop().split('.').splice(-1, 1);
+            return $.inArray(value.split('\\').pop().split('.').splice(-1, 1)[0], file_extn) >= 0;
+        }
+        return true;
+    }
+
+
+
+    function submit_form(event)
+    {
+      var business_partner_id = {{ business_partner.id }}
+      if(valid_logo==false && valid_splash==false && valid_fav_icon==false && valid_app_icon==false){
+
+      /*Validation for dynamically Added logo, splash screen, fav icon and app logo*/
+        var logo_value = true;
+        if($('#logo').length == 1){
+            if($('#logo').val() == 'undefined' || $('#logo').val() == "")
+            {
+                logo_value = false;
+                e = $('<div class="error">Please select an imageshow</div>');
+                $('#logo-description').append(e);
+            }
+        }
+
+        var splash_value = true
+        if($('#logo').length == 1){
+            if($('#splash_screen').val() == 'undefined' || $('#splash_screen').val() == "")
+            {
+                splash_value=false;
+                e = $('<div class="error">Please select an image</div>');
+                $('#splash_screen-description').append(e);
+            }
+        }
+
+        var app_icon = true
+        if($('#app_icon').length == 1){
+            if($('#app_icon').val() == 'undefined' || $('#app_icon').val() == "")
+            {
+                app_icon_value=false;
+                e = $('<div class="error">Please select an image</div>');
+                $('#app_icon-description').append(e);
+            }
+        }
+
+        if(logo_value && splash_value && app_icon) {
+            $("#loader").show('slow');
+            var options={
+                    url : "/edit_preview/",
+                    dataType :"json",
+                    data:{'business_partner_id': business_partner_id},
+                    success:function(data){
+                        var webAppImg=document.getElementById('webLogo');
+                        var logoImg=document.getElementById('mobileLogo');
+                        var splashScreenImg=document.getElementById('previewSplash');
+                        if(webAppImg.complete && logoImg.complete && splashScreenImg.complete){
+                            console.log('all loaded');
+                            $("#loader").hide('slow');
+                        }
+                        if(data.hasOwnProperty('Error-dimension-logo')){
+                            $('#logo-description').empty();
+                            $('#logo-description').append('<div class="error">Please check image Dimensions</div>');
+                        }
+                        if(data.hasOwnProperty('Error-dimension-splash')){
+                            $('#splash_screen-description').empty();
+                            $('#splash_screen-description').append('<div class="error">Please check image Dimensions</div>');
+                        }
+                        if(data.hasOwnProperty('Error-dimension-fav_icon')){
+                            $('#fav_icon-description').empty();
+                            $('#fav_icon-description').append('<div class="error">Please check image Dimensions</div>');
+                        }
+                        if(data.hasOwnProperty('Error-dimension-app_icon')){
+                            $('#app_icon-description').empty();
+                            $('#app_icon-description').append('<div class="error">Please check image Dimensions</div>');
+                        }
+                        if(data.hasOwnProperty('Error-dimension')){
+                            $('#logo-description').empty();
+                            $('#logo-description').append('<div class="error">Please check image Dimensions</div>');
+                            $('#splash_screen-description').empty();
+                            $('#splash_screen-description').append('<div class="error">Please check image Dimensions</div>');
+                            $('#fav_icon-description').empty();
+                            $('#fav_icon-description').append('<div class="error">Please check image Dimensions</div>');
+                            $('#app_icon-description').empty();
+                            $('#app_icon-description').append('<div class="error">Please check image Dimensions</div>');
+                        }
+                        $('#webLogo').attr('src',data.logo_path);
+                        $('#mobileLogo').attr('src',data.logo_path);
+                        $('#previewSplash').attr('src',data.splash_screen_path);
+                        $('.previewColor').css('background-color',data.theme_color);
+                        $('.previewFontColor').css('color',data.font_color);
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.log("error");
+                    }
+            };
+            $('#editThemeForm').ajaxSubmit(options);
+        }
+      }
+
+    }
+
+    $(document).on('click', "#submitBtn, #previewBtn", function () {
+        var logo_value = true;
+        if($('#logo').length == 1){
+            if($('#logo').val() == 'undefined' || $('#logo').val() == "")
+            {
+                logo_value = false;
+                e = $('<div class="error">Please select an image</div>');
+                $('#logo-description').empty();
+                $('#logo-description').append(e);
+            }
+        }
+
+        var splash_value = true
+        if($('#splash_screen').length == 1){
+            if($('#splash_screen').val() == 'undefined' || $('#splash_screen').val() == "")
+            {
+                splash_value=false;
+                e = $('<div class="error">Please select an image</div>');
+                $('#splash_screen-description').empty();
+                $('#splash_screen-description').append(e);
+            }
+        }
+
+        var app_icon = true
+        if($('#app_icon').length == 1){
+            if($('#app_icon').val() == 'undefined' || $('#app_icon').val() == "")
+            {
+                app_icon_value=false;
+                e = $('<div class="error">Please select an image</div>');
+                $('#app_icon-description').empty();
+                $('#app_icon-description').append(e);
+            }
+        }
+        if( logo_value== false && splash_value== false && app_icon_value== false){
+                $('#editThemeForm').one('submit', function (event) {
+                    event.preventDefault();
+            });
+        }
+
+        if( valid_logo || valid_splash  || valid_fav_icon || valid_app_icon){
+            $('#editThemeForm').one('submit', function (event) {
+                    event.preventDefault();
+            });
+        }
+    });
+});
+
+</script>
+{% endblock %}
